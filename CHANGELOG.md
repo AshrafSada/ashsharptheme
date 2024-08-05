@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "ash-sharp-theme" extension will be documented in this file.
+## 0.1.5 | 2023-08-29
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- First release of Ash Sharp Theme
 
-## [Unreleased]
+## 0.1.6 | 2024-08-06
 
-- Initial release
+- Changed extension name to Ash Sharp Theme
+- Updated colors for better readability
+- Added support for more languages
+- Enhanced UI elements colors for better visibility

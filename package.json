@@ -2,7 +2,15 @@
   "name": "ash-sharp-theme",
   "displayName": "Ash Sharp Theme",
   "description": "Dark Theme for better syntax colorization for C# ASP.Net, razor, blazor, in addiotion to javascript, html, css, and json",
-  "version": "0.0.1",
+  "version": "0.1.6",
+  "license": "Apache-2.0",
+  "icon": "icon.png",
+  "author": {
+    "email": "ashraf.sada@outlook.com",
+    "name": "Ashraf Sada",
+    "url": "https://github.com/AshrafSada/"
+  },
+  "publisher": "Ashraf Sada",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -17,5 +25,26 @@
         "path": "./themes/Ash Sharp-color-theme.json"
       }
     ]
-  }
+  },
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshrafSada/ashsharptheme"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "csharp",
+    "asp.net",
+    "razor",
+    "blazor",
+    "javascript",
+    "html",
+    "cshtml",
+    "css",
+    "json"
+  ]
 }
