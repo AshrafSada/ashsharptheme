@@ -561,6 +561,7 @@
 			}
 		},
 		{
+			"name": "Numeric types keyword",
 			"scope": [
 				"keyword.type.int",
 				"keyword.type.short",
@@ -568,17 +569,33 @@
 				"keyword.type.decimal",
 				"constant.numeric",
 				"constant.numeric.decimal",
-				"constant.language.null",
-				"constant.language.boolean"
+				"keyword.type.int.cs",
+				"keyword.type.short.cs",
+				"keyword.type.long.cs",
+				"keyword.type.decimal.cs",
+				"constant.numeric.cs",
+				"constant.numeric.decimal.cs",
+				"constant.language.null.cs",
+				"constant.language.boolean.cs",
 			],
 			"settings": {
-				"foreground": "#bd4857",
+				"foreground": "#534896",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": [
 				"keyword.other.unit",
+			],
+			"settings": {
+				"foreground": "#36a970",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.language.null",
+				"constant.language.boolean",
 			],
 			"settings": {
 				"foreground": "#36a970",
@@ -634,7 +651,7 @@
 				"keyword.operator.new",
 			],
 			"settings": {
-				"foreground": "#ba76c9",
+				"foreground": "#8D6D9F",
 				"fontStyle": ""
 			}
 		},
@@ -651,10 +668,11 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.arrow"
+				"keyword.operator.arrow",
+				"keyword.operator.arrow.cs",
 			],
 			"settings": {
-				"foreground": "#7e3094",
+				"foreground": "#777FC6",
 				"fontStyle": ""
 			}
 		},
@@ -671,11 +689,6 @@
 			"scope": [
 				"keyword.control.conditional.if",
 				"keyword.control.conditional.switch",
-				"keyword.control.conditional.when",
-				"keyword.control.conditional",
-				"keyword.control.loop.for",
-				"keyword.control.loop.foreach",
-				"keyword.control.loop.in",
 				"keyword.control.trycatch",
 				"keyword.control.exception.try",
 				"keyword.control.exception.catch",
@@ -685,12 +698,7 @@
 				"keyword.operator.conditional.colon",
 				"keyword.operator.conditional.question-mark",
 				"keyword.operator.decrement",
-				"keyword.operator.expression.pattern.combinator.not",
-				"keyword.operator.expression.pattern.is",
 				"keyword.operator.increment",
-				"keyword.operator.logical",
-				"keyword.operator.null-coalescing",
-				"keyword.operator.null-conditional",
 				"keyword.operator.range.exclusive",
 				"keyword.operator.range.inclusive",
 				"keyword.operator.range",
@@ -704,7 +712,42 @@
 				"storage.modifier.const.cs"
 			],
 			"settings": {
-				"foreground": "#C63676",
+				"foreground": "#904B7B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.logical",
+				"keyword.operator.logical.cs",
+				"keyword.operator.comparison",
+				"keyword.operator.comparison.cs",
+				"keyword.control.loop.in",
+				"keyword.control.conditional.when",
+				"keyword.control.conditional",
+				"keyword.operator.null-coalescing",
+				"keyword.operator.null-conditional",
+				"keyword.operator.expression.pattern.combinator.not",
+				"keyword.operator.expression.pattern.is",
+			],
+			"settings": {
+				"foreground": "#AB3961",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.loop.for",
+				"keyword.control.loop.foreach",
+				"keyword.control.loop.while",
+				"keyword.control.loop.for.cs",
+				"keyword.control.loop.foreach.cs",
+				"keyword.control.loop.while.cs",
+				"keyword.control.loop.do",
+				"keyword.control.loop.do.cs"
+			],
+			"settings": {
+				"foreground": "#56BA6D",
 				"fontStyle": ""
 			}
 		},
