@@ -73,20 +73,20 @@
 		"debugConsole.sourceForeground": "#DBDBDB",
 		"debugConsole.warningForeground": "#FFCC00",
 		"debugConsoleInputIcon.foreground": "#DBDBDB",
-		"debugIcon.breakpointCurrentStackframeForeground": "#FFCC00",
-		"debugIcon.breakpointDisabledForeground": "#FFCC00",
-		"debugIcon.breakpointForeground": "#FFCC00",
-		"debugIcon.breakpointUnverifiedForeground": "#FFCC00",
-		"debugIcon.continueForeground": "#FFCC00",
-		"debugIcon.disconnectForeground": "#E5423F",
-		"debugIcon.pauseForeground": "#FFCC00",
-		"debugIcon.restartForeground": "#FFCC00",
-		"debugIcon.startForeground": "#19C230",
-		"debugIcon.stepBackForeground": "#FFCC00",
-		"debugIcon.stepIntoForeground": "#FFCC00",
-		"debugIcon.stepOutForeground": "#FFCC00",
-		"debugIcon.stepOverForeground": "#FFCC00",
-		"debugIcon.stopForeground": "#E5423F",
+		"debugIcon.breakpointCurrentStackframeForeground": "#ffcc00",
+		"debugIcon.breakpointDisabledForeground": "#A8A495",
+		"debugIcon.breakpointForeground": "#CD004A",
+		"debugIcon.breakpointUnverifiedForeground": "#ff0080",
+		"debugIcon.continueForeground": "#2078D7",
+		"debugIcon.disconnectForeground": "#CD004A",
+		"debugIcon.pauseForeground": "#2078D7",
+		"debugIcon.restartForeground": "#2AB272",
+		"debugIcon.startForeground": "#2AB272",
+		"debugIcon.stepBackForeground": "#9D9189",
+		"debugIcon.stepIntoForeground": "#c557a0",
+		"debugIcon.stepOutForeground": "#9D9189",
+		"debugIcon.stepOverForeground": "#d17653",
+		"debugIcon.stopForeground": "#CD004A",
 		"debugToolBar.background": "#09070D",
 		"debugToolBar.border": "#383251",
 		"debugView.valueChangedHighlight": "#0E66AD",
@@ -718,11 +718,12 @@
 				"punctuation.separator.question-mark",
 				"punctuation.statement.terminator",
 				"punctuation.terminator",
+				"punctuation.terminator.statement",
 				"punctuation.terminator.rule",
 				"keyword.control.razor.optionalSemicolon"
 			],
 			"settings": {
-				"foreground": "#009d25",
+				"foreground": "#728AAE",
 				"fontStyle": ""
 			}
 		},
@@ -946,13 +947,17 @@
 				"keyword.control.loop.in",
 				"keyword.control.conditional.when",
 				"keyword.control.conditional",
+				"keyword.control.loop",
+				"keyword.control.loop.cs",
 				"keyword.operator.null-coalescing",
+				"keyword.operator.null-coalescing.cs",
 				"keyword.operator.null-conditional",
+				"keyword.operator.null-conditional.cs",
 				"keyword.operator.expression.pattern.combinator.not",
 				"keyword.operator.expression.pattern.is",
 			],
 			"settings": {
-				"foreground": "#AB3961",
+				"foreground": "#b95a7b",
 				"fontStyle": ""
 			}
 		},
@@ -968,7 +973,7 @@
 				"keyword.control.loop.do.cs"
 			],
 			"settings": {
-				"foreground": "#56BA6D",
+				"foreground": "#ad4259",
 				"fontStyle": ""
 			}
 		},
@@ -1042,10 +1047,11 @@
 		},
 		{
 			"scope": [
-				"storage.type"
+				"storage.type",
+				"storage.type.primitive.groovy",
 			],
 			"settings": {
-				"foreground": "#b93758",
+				"foreground": "#ff0000",
 				"fontStyle": ""
 			}
 		},
@@ -1061,11 +1067,18 @@
 		{
 			"scope": [
 				"storage.type.class",
+				"storage.type.class.cs",
 				"storage.type.interface",
-				"storage.type.struct"
+				"storage.type.interface.cs",
+				"storage.type.record",
+				"storage.type.record.cs",
+				"storage.type.struct",
+				"storage.type.struct.cs",
+				"storage.type.enum",
+				"storage.type.enum.cs",
 			],
 			"settings": {
-				"foreground": "#05a071",
+				"foreground": "#3A89B5",
 				"fontStyle": ""
 			}
 		},
@@ -1075,7 +1088,7 @@
 				"storage.modifier.partial"
 			],
 			"settings": {
-				"foreground": "#a08db9",
+				"foreground": "#85679C",
 				"fontStyle": ""
 			}
 		},
@@ -1104,9 +1117,24 @@
 				"entity.name.function.call.cpp",
 				"entity.name.function.call.cs",
 				"entity.name.function",
+				"entity.name.function.ts",
+				"entity.name.function.js",
+				"entity.name.function.python",
+				"entity.name.function.go",
+				"entity.name.function.ruby",
+				"entity.name.function.php",
+				"entity.name.function.shell",
+				"entity.name.function.perl",
+				"entity.name.function.rust",
+				"entity.name.function.haskell",
+				"entity.name.function.clojure",
+				"entity.name.function.fsharp",
+				"entity.name.function.swift",
+				"entity.name.function.cs",
+				"entity.name.function.vb",
 			],
 			"settings": {
-				"foreground": "#00969b",
+				"foreground": "#3478B1",
 				"fontStyle": ""
 			}
 		},
@@ -1116,16 +1144,18 @@
 				"entity.name.type.cs"
 			],
 			"settings": {
-				"foreground": "#5e9e5e",
+				"foreground": "#899689",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": [
-				"entity.name.type.class"
+				"entity.name.type.class",
+				"entity.name.type.class.cs",
+				"entity.name.type.class.vb"
 			],
 			"settings": {
-				"foreground": "#0077b7",
+				"foreground": "#6F68A4",
 				"fontStyle": ""
 			}
 		},
@@ -1167,16 +1197,6 @@
 		},
 		{
 			"scope": [
-				"entity.name.variable.property"
-			],
-			"settings": {
-				"foreground": "#c0c0c0",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "String general color",
-			"scope": [
 				"string.quoted.double",
 				"string.quoted.single",
 				"string.unquoted.attribute-value",
@@ -1185,7 +1205,7 @@
 				"text.aspnetcorerazor"
 			],
 			"settings": {
-				"foreground": "#8A7E6F",
+				"foreground": "#158E5C",
 				"fontStyle": ""
 			}
 		},
@@ -1226,23 +1246,16 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object",
-				"variable.other.object.cs"
-			],
-			"settings": {
-				"foreground": "#999C49",
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "object property",
 			"scope": [
+				"variable.other.object",
+				"variable.other.object.cs",
+				"entity.name.variable.property",
 				"variable.other.object.property",
 				"entity.name.variable.property"
 			],
 			"settings": {
-				"foreground": "#17966a",
+				"foreground": "#72939B",
 				"fontStyle": ""
 			}
 		},
