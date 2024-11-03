@@ -761,7 +761,9 @@
 			}
 		},
 		{
+			"name": "keyword preprocessor directives",
 			"scope": [
+				"keyword.preprocessor",
 				"keyword.preprocessor.elif",
 				"keyword.preprocessor.else",
 				"keyword.preprocessor.endif",
@@ -777,12 +779,19 @@
 				"keyword.preprocessor.line",
 				"keyword.preprocessor.hidden",
 				"keyword.preprocessor.default",
-				"keyword.preprocessor",
+			],
+			"settings": {
+				"foreground": "#9F45B4",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"meta.preprocessor",
 				"meta.preprocessor.cs",
 			],
 			"settings": {
-				"foreground": "#9F45B4",
+				"foreground": "#797979",
 				"fontStyle": ""
 			}
 		},
@@ -820,8 +829,8 @@
 				"keyword.type.decimal.cs",
 				"constant.numeric.cs",
 				"constant.numeric.decimal.cs",
-				"constant.language.null.cs",
 				"constant.language.boolean.cs",
+				"constant.language.boolean",
 			],
 			"settings": {
 				"foreground": "#534896",
@@ -830,17 +839,35 @@
 		},
 		{
 			"scope": [
-				"keyword.other.unit",
+				"constant.language.null.cs",
+				"constant.language.null",
 			],
 			"settings": {
-				"foreground": "#36a970",
+				"foreground": "#b60940",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": [
-				"constant.language.null",
-				"constant.language.boolean",
+				"constant.language.boolean.false.cs",
+			],
+			"settings": {
+				"foreground": "#c66d13",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.language.boolean.true.cs",
+			],
+			"settings": {
+				"foreground": "#07b357",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.unit",
 			],
 			"settings": {
 				"foreground": "#36a970",
@@ -860,7 +887,8 @@
 		{
 			"name": "INI section",
 			"scope": [
-				"source.ini"
+				"source.ini",
+				"source.cs"
 			],
 			"settings": {
 				"foreground": "#3E7D68",
