@@ -596,6 +596,7 @@
 			}
 		},
 		{
+			"name": "JSON punctuation string and comments",
 			"scope": [
 				"punctuation.definition.string.begin.json.comments",
 				"punctuation.definition.string.end.json.comments"
@@ -763,25 +764,27 @@
 		{
 			"name": "keyword preprocessor directives",
 			"scope": [
-				"keyword.preprocessor",
+				"keyword.preprocessor.default",
+				"keyword.preprocessor.define",
 				"keyword.preprocessor.elif",
 				"keyword.preprocessor.else",
 				"keyword.preprocessor.endif",
 				"keyword.preprocessor.endregion.cs",
+				"keyword.preprocessor.pragma.cpp",
+				"keyword.preprocessor.pragma",
 				"keyword.preprocessor.endregion",
+				"keyword.preprocessor.error",
+				"keyword.preprocessor.hidden",
 				"keyword.preprocessor.if",
+				"keyword.preprocessor.line",
 				"keyword.preprocessor.region.cs",
 				"keyword.preprocessor.region",
-				"keyword.preprocessor.define",
 				"keyword.preprocessor.undef",
 				"keyword.preprocessor.warning",
-				"keyword.preprocessor.error",
-				"keyword.preprocessor.line",
-				"keyword.preprocessor.hidden",
-				"keyword.preprocessor.default",
+				"keyword.preprocessor",
 			],
 			"settings": {
-				"foreground": "#9F45B4",
+				"foreground": "#722862",
 				"fontStyle": ""
 			}
 		},
@@ -840,10 +843,12 @@
 		{
 			"scope": [
 				"constant.language.null.cs",
+				"constant.language.null.cpp",
+				"constant.language.nullptr.cpp",
 				"constant.language.null",
 			],
 			"settings": {
-				"foreground": "#b60940",
+				"foreground": "#CF5901",
 				"fontStyle": ""
 			}
 		},
