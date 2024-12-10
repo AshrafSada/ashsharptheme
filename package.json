@@ -1,8 +1,8 @@
 {
-  "name": "ash-sharp",
+  "name": "ash-sharp-theme",
   "displayName": "Ash # Theme",
   "description": "Dark Theme for better syntax colorization for C# ASP.Net, razor, blazor, in addiotion to javascript, html, css, and json",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "license": "Apache-2.0",
   "icon": "icon.png",
   "author": {
@@ -10,7 +10,7 @@
     "name": "Ashraf Sada",
     "url": "https://github.com/AshrafSada/"
   },
-  "publisher": "AshrafSadaVsCodeExts",
+  "publisher": "AshrafSadaVSCodeExtensions",
   "engines": {
     "vscode": "^1.95.3"
   },

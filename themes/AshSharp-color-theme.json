@@ -1544,7 +1544,7 @@
 			],
 			"settings": {
 				"foreground": "#AC5B5B",
-				"fontStyle": ""
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1588,7 +1588,7 @@
 			],
 			"settings": {
 				"foreground": "#3d768d",
-				"fontStyle": ""
+				"fontStyle": "bold"
 			}
 		}
 	],
