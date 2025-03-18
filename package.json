@@ -10,9 +10,9 @@
     "name": "Ashraf Sada",
     "url": "https://github.com/AshrafSada/"
   },
-  "publisher": "AshrafSadaVSCodeExtensions",
+  "publisher": "AshrafSada",
   "engines": {
-    "vscode": "^1.95.3"
+    "vscode": "^1.98.2"
   },
   "categories": [
     "Themes"
@@ -51,6 +51,8 @@
     "html",
     "cshtml",
     "css",
-    "json"
+    "json",
+    "T-SQL",
+    "SQL"
   ]
 }

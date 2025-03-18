@@ -570,7 +570,27 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#08917a",
+				"foreground": "#336C8B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "JSON property string value",
+			"scope": [
+				"string.quoted.double.json"
+			],
+			"settings": {
+				"foreground": "#058179",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "JSON property numeric value",
+			"scope": [
+				"constant.numeric.json"
+			],
+			"settings": {
+				"foreground": "#C98268",
 				"fontStyle": ""
 			}
 		},
@@ -616,6 +636,26 @@
 			],
 			"settings": {
 				"foreground": "#b29008",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "JSON colon",
+			"scope": [
+				"meta.structure.dictionary.value.json",
+			],
+			"settings": {
+				"foreground": "#D3864B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "JSON pair separator",
+			"scope": [
+				"punctuation.separator.dictionary.pair.json",
+			],
+			"settings": {
+				"foreground": "#888579",
 				"fontStyle": ""
 			}
 		},
@@ -689,11 +729,13 @@
 				"comment.block.documentation",
 				"comment.line.double-slash",
 				"keyword.control.razor.comment.star",
-				"comment.line.number-sign.ini"
+				"comment.line.number-sign.ini",
+				"comment.line.double-dash.sql",
+				"punctuation.definition.comment.sql"
 			],
 			"settings": {
-				"foreground": "#475754",
-				"fontStyle": ""
+				"foreground": "#596765",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -834,9 +876,10 @@
 				"constant.numeric.decimal.cs",
 				"constant.language.boolean.cs",
 				"constant.language.boolean",
+				"constant.numeric.sql"
 			],
 			"settings": {
-				"foreground": "#534896",
+				"foreground": "#B8A769",
 				"fontStyle": ""
 			}
 		},
@@ -1533,7 +1576,7 @@
 				"entity.name.tag.html"
 			],
 			"settings": {
-				"foreground": "#AB4747", //"#935774", //"#8c92ac",
+				"foreground": "#AB4747",
 				"fontStyle": ""
 			}
 		},
@@ -1588,6 +1631,246 @@
 			],
 			"settings": {
 				"foreground": "#3d768d",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown punctuation definition",
+			"scope": [
+				"punctuation.definition.heading.markdown",
+				"markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "#C27B8A",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markdown heading 1",
+			"scope": [
+				"heading.1.markdown"
+			],
+			"settings": {
+				"foreground": "#06A454",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown heading 2 3 4 5 6",
+			"scope": [
+				"heading.2.markdown",
+				"heading.3.markdown",
+				"heading.4.markdown",
+				"heading.5.markdown",
+				"heading.6.markdown",
+			],
+			"settings": {
+				"foreground": "#05934B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown paragraph",
+			"scope": [
+				"meta.paragraph.markdown",
+				"text.html.markdown"
+			],
+			"settings": {
+				"foreground": "#99959F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markdown numbered list",
+			"scope": [
+				"markup.list.numbered.markdown",
+			],
+			"settings": {
+				"foreground": "#AD9261",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown numbered list",
+			"scope": [
+				"markup.list.unnumbered.markdown",
+			],
+			"settings": {
+				"foreground": "#B8993F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown code block language",
+			"scope": [
+				"fenced_code.block.language.markdown",
+			],
+			"settings": {
+				"foreground": "#4D6DB1",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown table",
+			"scope": [
+				"punctuation.definition.table.markdown",
+			],
+			"settings": {
+				"foreground": "#92659D",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markdown table",
+			"scope": [
+				"markup.table.markdown",
+			],
+			"settings": {
+				"foreground": "#736EAE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SQL source and keyword",
+			"scope": [
+				"keyword.other.sql",
+				"keyword.other.LUW.sql",
+				"source.sql"
+			],
+			"settings": {
+				"foreground": "#1888A3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SQL support function metadata",
+			"scope": [
+				"support.function.metadata.sql",
+				"keyword.other.DML.sql"
+			],
+			"settings": {
+				"foreground": "#DAAB41",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL string quoted single",
+			"scope": [
+				"string.quoted.single.sql"
+			],
+			"settings": {
+				"foreground": "#C94C69",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL keyword other DDL create II",
+			"scope": [
+				"keyword.other.DDL.create.II.sql"
+			],
+			"settings": {
+				"foreground": "#8cb256",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL create",
+			"scope": [
+				"meta.create.sql"
+			],
+			"settings": {
+				"foreground": "#21a22c",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL meta alter",
+			"scope": [
+				"meta.alter.sql"
+			],
+			"settings": {
+				"foreground": "#a29cf6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL meta drop",
+			"scope": [
+				"meta.drop.sql"
+			],
+			"settings": {
+				"foreground": "#f6808b",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL entity name function",
+			"scope": [
+				"entity.name.function.sql"
+			],
+			"settings": {
+				"foreground": "#A5A292",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL storage modifier",
+			"scope": [
+				"storage.modifier.sql"
+			],
+			"settings": {
+				"foreground": "#984D81",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SQL function",
+			"scope": [
+				"support.function.system.sql",
+				"support.function.datetime.sql"
+			],
+			"settings": {
+				"foreground": "#D8675B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SQL database-name",
+			"scope": [
+				"constant.other.database-name.sql"
+			],
+			"settings": {
+				"foreground": "#7297A8",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "SQL table-name",
+			"scope": [
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"foreground": "#86999D",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "SQL table-name",
+			"scope": [
+				"keyword.other.alias.sql"
+			],
+			"settings": {
+				"foreground": "#A24572",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SQL table-name",
+			"scope": [
+				"keyword.operator.star.sql"
+			],
+			"settings": {
+				"foreground": "#FA40E3",
 				"fontStyle": "bold"
 			}
 		}
