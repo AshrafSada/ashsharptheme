@@ -1,8 +1,8 @@
 {
-  "name": "ash-sharp-theme",
-  "displayName": "Ash # Theme",
+  "name": "ash-sharp-vs-theme",
+  "displayName": "Ash# Sharp Theme",
   "description": "Dark Theme for better syntax colorization for C# ASP.Net, razor, blazor, in addiotion to javascript, html, css, and json",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "license": "Apache-2.0",
   "icon": "icon.png",
   "author": {
