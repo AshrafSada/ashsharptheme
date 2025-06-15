@@ -16,6 +16,22 @@
 4. Click **Reload**
 5. File > Preferences > Color Theme > **Ash Sharp Theme**
 
+## Features
+
+- Dark theme with a focus on readability and aesthetics
+- Designed for a comfortable coding experience
+- Supports a wide range of languages and file types
+- Custom syntax highlighting for popular languages
+- Optimized for dark backgrounds
+
+## Supported Languages
+
+The following table shows the support covearege for the languages in this theme:
+
+| Language        | Support Level | File Type |
+|------------------|---------------|-----------|
+| Batch File       | High          | `.bat`     |
+
 ## Feedback and Issues
 
 For any feedback or issues you can contact me on [GitHub](https://github.com/AshrafSada/ashtheme/issues)
