@@ -151,7 +151,6 @@
         "editorActionList.focusBackground": "#322D48",
         "editorActionList.focusForeground": "#FDFDFD",
         "editorActionList.foreground": "#C0C0C0",
-        "editorBracketHighlight.foreground1": "#AE4BA4",
         "editorBracketMatch.background": "#2b3c50",
         "editorBracketMatch.border": "#490065",
         "editorCodeLens.foreground": "#7A7A7A",
@@ -170,13 +169,13 @@
         "editorGroupHeader.tabsBorder": "#322D48",
         "editorGutter.addedBackground": "#0f8049",
         "editorGutter.background": "#140923",
-        "editorGutter.commentGlyphForeground": "#490065",
+        "editorGutter.commentGlyphForeground": "#490065FF",
         "editorGutter.commentRangeForeground": "#490065",
-        "editorGutter.commentUnresolvedGlyphForeground": "#490065",
+        "editorGutter.commentUnresolvedGlyphForeground": "#490065FF",
         "editorGutter.deletedBackground": "#FB8B39",
         "editorGutter.foldingControlForeground": "#C0C0C0",
-        "editorGutter.modifiedBackground": "#0f62a4",
-        "editorHoverWidget.background": "#490065D9",
+        "editorGutter.modifiedBackground": "#0F62A4",
+        "editorHoverWidget.background": "#461E42FF",
         "editorHoverWidget.border": "#490065",
         "editorHoverWidget.foreground": "#C0C0C0",
         "editorIndentGuide.activeBackground1": "#575158",
@@ -188,9 +187,9 @@
         "editorInlayHint.parameterBackground": "#231850FF",
         "editorLightBulb.foreground": "#FFCC00",
         "editorLightBulbAutoFix.foreground": "#FFCC00",
-        "editorLineNumber.activeForeground": "#854e86",
+        "editorLineNumber.activeForeground": "#854E86",
         "editorLineNumber.foreground": "#615a63",
-        "editorLink.activeForeground": "#0e66ad",
+        "editorLink.activeForeground": "#0E66AD",
         "editorMarkerNavigation.background": "#18151D",
         "editorMarkerNavigationError.background": "#E5423F",
         "editorMarkerNavigationError.headerBackground": "#E5423F",
@@ -573,21 +572,11 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "arguments",
-            "scope": [
-                "args.mixin.pug",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "anonymous",
+            "name": "anything else",
             "scope": [
                 "everything.else.c",
                 "everything.else.objc",
@@ -604,13 +593,23 @@
             }
         },
         {
+            "name": "arguments",
+            "scope": [
+                "args.mixin.pug",
+            ],
+            "settings": {
+                "foreground": "#DEDEDE",
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "binding",
             "scope": [
                 "binding.fsharp",
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -640,7 +639,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -653,7 +652,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -665,7 +664,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -881,7 +880,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -1056,7 +1055,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -1318,7 +1317,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -1402,7 +1401,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -1427,7 +1426,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -3812,7 +3811,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -3824,7 +3823,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -3841,7 +3840,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -3918,7 +3917,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -5477,7 +5476,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -5489,7 +5488,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -5502,7 +5501,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -6558,7 +6557,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -7326,7 +7325,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -7337,7 +7336,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -7628,7 +7627,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -7851,7 +7850,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8096,7 +8095,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8165,7 +8164,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8219,7 +8218,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8233,7 +8232,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8694,7 +8693,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8883,7 +8882,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8894,7 +8893,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8928,7 +8927,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -8955,7 +8954,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -9156,7 +9155,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -9273,7 +9272,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -9330,7 +9329,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -9348,7 +9347,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
@@ -9374,7 +9373,7 @@
             ],
             "settings": {
                 "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
     ]
