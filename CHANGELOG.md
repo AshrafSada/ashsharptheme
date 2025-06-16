@@ -1,12 +1,11 @@
 # Change Log
 
-## 0.1.5 | 2023-08-29
+## 0.2.0 | 2025-06-18
 
-- First release of Ash Sharp Theme
-
-## 0.1.6 | 2024-08-06
-
-- Changed extension name to Ash Sharp Theme
-- Updated colors for better readability
-- Added support for more languages
-- Enhanced UI elements colors for better visibility
+### Added or Updated
+- Updated release of Ash Sharp Theme
+- Complete rewrite of the theme
+- Added support for all vs code supported programming languages
+- Added support for all vs code supported file types based on TextMate grammars
+- Updated UI colors
+- Updated syntax colors

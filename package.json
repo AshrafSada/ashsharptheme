@@ -1,8 +1,8 @@
 {
   "name": "ash-sharp-vs-theme",
   "displayName": "Ash# Sharp Theme",
-  "description": "Dark Theme for better syntax colorization for C# ASP.Net, razor, in addiotion to other popular languages.",
-  "version": "0.1.12",
+  "description": "Special dark theme designed to enhance code syntax for C#, ASP.NET Core, and Razor, in addition to popular other languages.",
+  "version": "0.2.0",
   "license": "Apache-2.0",
   "icon": "icon.png",
   "author": {
@@ -12,7 +12,7 @@
   },
   "publisher": "AshrafSada",
   "engines": {
-    "vscode": "^1.100.2"
+    "vscode": "^1.101.0"
   },
   "categories": [
     "Themes"
