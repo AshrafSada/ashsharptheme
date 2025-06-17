@@ -485,7 +485,7 @@
     },
     "tokenColors": [
         {
-            "name": "all supported languages source",
+            "name": "all supported languages sources",
             "scope": [
                 "other.source.dart",
                 "source.asp.vb.net",
@@ -571,12 +571,12 @@
                 "source.yaml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#e8e7f2",
                 "fontStyle": ""
             }
         },
         {
-            "name": "anything else",
+            "name": "anything uncategorized and ambiguous",
             "scope": [
                 "everything.else.c",
                 "everything.else.objc",
@@ -586,84 +586,21 @@
                 "js.embedded.control.flow.pug",
                 "js.when.control.flow.pug",
                 "template.definition.objcpp",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "arguments",
-            "scope": [
                 "args.mixin.pug",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "binding",
-            "scope": [
                 "binding.fsharp",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "bracket",
-            "scope": [
                 "bracket.end.julia",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "byte",
-            "scope": [
                 "byte-order-mark.yaml",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "casting",
-            "scope": [
                 "cast.expr.ts",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "case-clause expr",
-            "scope": [
                 "case-clause.expr.js.jsx",
                 "case-clause.expr.js",
                 "case-clause.expr.ts",
                 "case-clause.expr.tsx",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "char",
-            "scope": [
                 "cexpr.fsharp",
                 "char.fsharp",
                 "du_declaration.fsharp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#e8e7f2",
                 "fontStyle": ""
             }
         },
