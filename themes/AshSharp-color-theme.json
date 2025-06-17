@@ -169,7 +169,7 @@
         "editorGroupHeader.tabsBorder": "#322D48",
         "editorGutter.addedBackground": "#0f8049",
         "editorGutter.background": "#140923",
-        "editorGutter.commentGlyphForeground": "#490065FF",
+        "editorGutter.commentGlyphForeground": "#490065",
         "editorGutter.commentRangeForeground": "#490065",
         "editorGutter.commentUnresolvedGlyphForeground": "#490065FF",
         "editorGutter.deletedBackground": "#FB8B39",
@@ -472,9 +472,9 @@
         "toolbar.hoverOutline": "#490065",
         "tree.inactiveIndentGuidesStroke": "#9C4393",
         "tree.indentGuidesStroke": "#322D48",
-        "welcomePage.background": "#18151D",
-        "welcomePage.progress.background": "#490065",
-        "welcomePage.progress.foreground": "#490065",
+        "welcomePage.background": "#21002D00",
+        "welcomePage.progress.background": "#49006577",
+        "welcomePage.progress.foreground": "#49006577",
         "welcomePage.tileBackground": "#490065",
         "welcomePage.tileBorder": "#490065",
         "welcomePage.tileHoverBackground": "#9C4393",
@@ -8231,8 +8231,8 @@
                 "support.unicode-range.less",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "bold"
+                "foreground": "#24476A",
+                "fontStyle": ""
             }
         },
         {
@@ -8865,7 +8865,7 @@
             }
         },
         {
-            "name": "switch expr",
+            "name": "switch expr js ts",
             "scope": [
                 "switch-block.expr.js.jsx",
                 "switch-block.expr.js",
