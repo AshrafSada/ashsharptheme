@@ -12,7 +12,7 @@
         "activityBar.foreground": "#FDFDFD",
         "activityBar.inactiveForeground": "#C0C0C0",
         "activityBarBadge.background": "#AE4BA4",
-        "activityBarBadge.foreground": "#FFFFFF",
+        "activityBarBadge.foreground": "#FDFDFD",
         "activityBarTop.activeBackground": "#2B2138",
         "activityBarTop.activeBorder": "#AE4BA4",
         "activityBarTop.background": "#140923",
@@ -156,7 +156,7 @@
         "editorCodeLens.foreground": "#7A7A7A",
         "editorCommentsWidget.rangeActiveBackground": "#AE4BA44D",
         "editorCursor.background": "#140923",
-        "editorCursor.foreground": "#CE008B",
+        "editorCursor.foreground": "#E0DF65",
         "editorError.background": "#14092300",
         "editorError.foreground": "#E5423F",
         "editorGhostText.background": "#140923E0",
@@ -238,7 +238,7 @@
         "extensionIcon.starForeground": "#9C4393FF",
         "extensionIcon.verifiedForeground": "#3dd90ed8",
         "focusBorder": "#490065",
-        "icon.foreground": "#DEDEDE",
+        "icon.foreground": "#FDFDFD",
         "inlineChatInput.placeholderForeground": "#A6A2A7",
         "input.background": "#140923",
         "input.border": "#490065",
@@ -253,7 +253,7 @@
         "list.activeSelectionIconForeground": "#C0C0C0",
         "list.deemphasizedForeground": "#C0C0C0",
         "list.dropBackground": "#140923",
-        "list.dropBetweenBackground": "#ff0",
+        "list.dropBetweenBackground": "#ae5ba4",
         "list.errorForeground": "#E5423F",
         "list.filterMatchBackground": "#490065",
         "list.filterMatchBorder": "#490065",
@@ -262,7 +262,7 @@
         "list.focusForeground": "#FDFDFD",
         "list.focusHighlightForeground": "#C0C0C0",
         "list.focusOutline": "#490065",
-        "list.highlightForeground": "#FDFDFD",
+        "list.highlightForeground": "#D5D5D5",
         "list.hoverBackground": "#AE4BA44D",
         "list.hoverForeground": "#FDFDFD",
         "list.inactiveFocusBackground": "#140923",
@@ -405,7 +405,7 @@
         "statusBarItem.focusBorder": "#490065",
         "statusBarItem.hoverBackground": "#AE4BA44D",
         "statusBarItem.offlineHoverBackground": "#d4ad0ee0",
-        "statusBarItem.prominentBackground": "#ff0",
+        "statusBarItem.prominentBackground": "#8c3c84",
         "statusBarItem.prominentForeground": "#C0C0C0",
         "statusBarItem.warningHoverBackground": "#FFCC006A",
         "tab.activeBackground": "#461E42",
@@ -423,7 +423,7 @@
         "tab.selectedForeground": "#EBEAEB",
         "tab.unfocusedActiveBackground": "#1d282b",
         "tab.unfocusedActiveBorder": "#490065",
-        "tab.unfocusedActiveForeground": "#ff0",
+        "tab.unfocusedActiveForeground": "#DADADA",
         "tab.unfocusedHoverBackground": "#9C4393",
         "terminal.background": "#140923",
         "terminal.border": "#322D48",
@@ -576,7 +576,7 @@
             }
         },
         {
-            "name": "anything uncategorized and ambiguous",
+            "name": "anything uncategorized ambiguous arbitrary",
             "scope": [
                 "everything.else.c",
                 "everything.else.objc",
@@ -600,12 +600,12 @@
                 "du_declaration.fsharp",
             ],
             "settings": {
-                "foreground": "#e8e7f2",
+                "foreground": "#62105c",
                 "fontStyle": ""
             }
         },
         {
-            "name": "comment block",
+            "name": "comments all",
             "scope": [
                 "comment.block.at-sign.bibtex",
                 "comment.block.banner.c",
@@ -674,36 +674,8 @@
                 "comment.block.tsx",
                 "comment.block.xml",
                 "comment.block",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "comment misc",
-            "scope": [
                 "comment.documentation.embedded.powershell",
                 "comment.frontmatter",
-                "comment.literate.command.fsharp",
-                "comment.log.date",
-                "comment.log.verbose",
-                "comment.regexp",
-                "comment.typehint.directive.notation.python",
-                "comment.typehint.ignore.notation.python",
-                "comment.typehint.punctuation.notation.python",
-                "comment.typehint.type.notation.python",
-                "comment.typehint.variable.notation.python",
-                "comment.unbuffered.block.pug",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "comment line",
-            "scope": [
                 "comment.line.apostrophe.asp",
                 "comment.line.banner.c",
                 "comment.line.banner.cpp",
@@ -793,10 +765,77 @@
                 "comment.line.triple-slash.directive.tsx",
                 "comment.line.triple-slash.documentation.swift",
                 "comment.line.type.yard.ruby",
+                "comment.literate.command.fsharp",
+                "comment.log.date",
+                "comment.log.verbose",
+                "comment.regexp",
+                "comment.typehint.directive.notation.python",
+                "comment.typehint.ignore.notation.python",
+                "comment.typehint.punctuation.notation.python",
+                "comment.typehint.type.notation.python",
+                "comment.typehint.variable.notation.python",
+                "comment.unbuffered.block.pug",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "italic"
+                "foreground": "#485A73",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "constant language",
+            "scope": [
+                "constant.language.$0.cpp",
+                "constant.language.$0.cuda-cpp",
+                "constant.language.$0.shell",
+                "constant.language.$1.shell",
+                "constant.language.access-type.jsdoc",
+                "constant.language.access-type.sassdoc",
+                "constant.language.all.less",
+                "constant.language.asp",
+                "constant.language.batchfile",
+                "constant.language.c",
+                "constant.language.coffee",
+                "constant.language.dart",
+                "constant.language.groovy",
+                "constant.language.hlsl",
+                "constant.language.iota.go",
+                "constant.language.java",
+                "constant.language.json.comments.snippets",
+                "constant.language.json.comments",
+                "constant.language.json.lines",
+                "constant.language.json",
+                "constant.language.julia",
+                "constant.language.less",
+                "constant.language.lua",
+                "constant.language.merge.yaml",
+                "constant.language.name.coffeescript.filter.pug",
+                "constant.language.name.generic.filter.pug",
+                "constant.language.name.js.filter.pug",
+                "constant.language.name.less.filter.pug",
+                "constant.language.name.sass.filter.pug",
+                "constant.language.name.scss.filter.pug",
+                "constant.language.name.stylus.filter.pug",
+                "constant.language.objc",
+                "constant.language.objcpp",
+                "constant.language.perl",
+                "constant.language.php",
+                "constant.language.powershell",
+                "constant.language.predicate.cocoa.objc",
+                "constant.language.predicate.cocoa.objcpp",
+                "constant.language.python",
+                "constant.language.r",
+                "constant.language.relative.less",
+                "constant.language.symbol-type.jsdoc",
+                "constant.language.symbol.hashkey.ruby",
+                "constant.language.symbol.interpolated.ruby",
+                "constant.language.symbol.ruby",
+                "constant.language.value.yaml",
+                "constant.language.yaml.yaml",
+                "constant.language",
+            ],
+            "settings": {
+                "foreground": "#AD84A7",
+                "fontStyle": ""
             }
         },
         {
@@ -816,8 +855,8 @@
                 "constant.character.entity",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#008bde",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -906,7 +945,7 @@
                 "constant.character.escape",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#00c4ff",
                 "fontStyle": ""
             }
         },
@@ -927,8 +966,8 @@
                 "constant",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#f69333",
+                "fontStyle": "bold"
             }
         },
         {
@@ -949,7 +988,7 @@
                 "constant.variable.groovy",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#9490b4",
                 "fontStyle": ""
             }
         },
@@ -963,7 +1002,7 @@
                 "constant.language.import-export-all.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#00c3ff",
                 "fontStyle": ""
             }
         },
@@ -991,12 +1030,12 @@
                 "constant.language.boolean.yaml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#00A086",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "constant language nullable and undef",
+            "name": "constant language NaN nil null undef",
             "scope": [
                 "constant.language.nan.js.jsx",
                 "constant.language.nan.js",
@@ -1019,12 +1058,12 @@
                 "constant.language.undefined.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#ff6eb6",
                 "fontStyle": ""
             }
         },
         {
-            "name": "constant language numeric",
+            "name": "constant numeric all",
             "scope": [
                 "constant.numeric.arbitrary-radix.clojure",
                 "constant.numeric.asp",
@@ -1196,64 +1235,7 @@
                 "constant.numeric",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "constant language",
-            "scope": [
-                "constant.language.$0.cpp",
-                "constant.language.$0.cuda-cpp",
-                "constant.language.$0.shell",
-                "constant.language.$1.shell",
-                "constant.language.access-type.jsdoc",
-                "constant.language.access-type.sassdoc",
-                "constant.language.all.less",
-                "constant.language.asp",
-                "constant.language.batchfile",
-                "constant.language.c",
-                "constant.language.coffee",
-                "constant.language.dart",
-                "constant.language.groovy",
-                "constant.language.hlsl",
-                "constant.language.iota.go",
-                "constant.language.java",
-                "constant.language.json.comments.snippets",
-                "constant.language.json.comments",
-                "constant.language.json.lines",
-                "constant.language.json",
-                "constant.language.julia",
-                "constant.language.less",
-                "constant.language.lua",
-                "constant.language.merge.yaml",
-                "constant.language.name.coffeescript.filter.pug",
-                "constant.language.name.generic.filter.pug",
-                "constant.language.name.js.filter.pug",
-                "constant.language.name.less.filter.pug",
-                "constant.language.name.sass.filter.pug",
-                "constant.language.name.scss.filter.pug",
-                "constant.language.name.stylus.filter.pug",
-                "constant.language.objc",
-                "constant.language.objcpp",
-                "constant.language.perl",
-                "constant.language.php",
-                "constant.language.powershell",
-                "constant.language.predicate.cocoa.objc",
-                "constant.language.predicate.cocoa.objcpp",
-                "constant.language.python",
-                "constant.language.r",
-                "constant.language.relative.less",
-                "constant.language.symbol-type.jsdoc",
-                "constant.language.symbol.hashkey.ruby",
-                "constant.language.symbol.interpolated.ruby",
-                "constant.language.symbol.ruby",
-                "constant.language.value.yaml",
-                "constant.language.yaml.yaml",
-                "constant.language",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#76A709",
                 "fontStyle": ""
             }
         },
@@ -1306,8 +1288,8 @@
                 "constant.other.variable.mac-classic.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#2b847c",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -1321,7 +1303,7 @@
                 "constant.other.placeholder",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#5cafff",
                 "fontStyle": ""
             }
         },
@@ -1337,7 +1319,7 @@
                 "custom.variable.other.normal.numeric.json.comments.snippets",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#787587",
                 "fontStyle": ""
             }
         },
@@ -1348,12 +1330,12 @@
                 "documentation.injection.ts"
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#ACA9BB",
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "embedded",
+            "name": "embedded julia",
             "scope": [
                 "embed.cxx.julia",
                 "embed.js.julia",
@@ -1362,7 +1344,7 @@
                 "embed.sql.julia",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#ACA7CB",
                 "fontStyle": ""
             }
         },
@@ -1449,7 +1431,7 @@
                 "entity.name.function",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#23a4c7",
                 "fontStyle": ""
             }
         },
@@ -1467,7 +1449,7 @@
                 "entity.name.label.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#E59C41",
                 "fontStyle": ""
             }
         },
@@ -1485,7 +1467,7 @@
                 "entity.name.namespace.wildcard.less",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#B7A6B4",
                 "fontStyle": ""
             }
         },
@@ -1497,7 +1479,7 @@
                 "entity.name.type.namespace.php",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#AD84A7",
                 "fontStyle": ""
             }
         },
@@ -1519,7 +1501,7 @@
                 "entity.name.operator.type.reference.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#84007E",
                 "fontStyle": ""
             }
         },
@@ -1545,7 +1527,7 @@
                 "entity.other.attribute-name.pragma.preprocessor.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#D47B78",
                 "fontStyle": ""
             }
         },
@@ -1584,7 +1566,7 @@
                 "entity.name.scope-resolution.type.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b98885",
                 "fontStyle": ""
             }
         },
@@ -1643,8 +1625,8 @@
                 "entity.name.tag",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#956c94",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1669,28 +1651,12 @@
                 "entity.name.type.class.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#00a6e3",
                 "fontStyle": ""
             }
         },
         {
-            "name": "entity name type alias",
-            "scope": [
-                "entity.name.type.alias.cpp",
-                "entity.name.type.alias.cs",
-                "entity.name.type.alias.cuda-cpp",
-                "entity.name.type.alias.js.jsx",
-                "entity.name.type.alias.js",
-                "entity.name.type.alias.ts",
-                "entity.name.type.alias.tsx",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "entity name type",
+            "name": "entity name type call",
             "scope": [
                 "entity.name.type.$1.swift",
                 "entity.name.type.any.go",
@@ -1707,7 +1673,23 @@
                 "entity.name.type.entry-key.bibtex",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#199AA5",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "entity name type alias",
+            "scope": [
+                "entity.name.type.alias.cpp",
+                "entity.name.type.alias.cs",
+                "entity.name.type.alias.cuda-cpp",
+                "entity.name.type.alias.js.jsx",
+                "entity.name.type.alias.js",
+                "entity.name.type.alias.ts",
+                "entity.name.type.alias.tsx",
+            ],
+            "settings": {
+                "foreground": "#eb767f",
                 "fontStyle": ""
             }
         },
@@ -1728,7 +1710,7 @@
                 "entity.name.type.enum.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#BC6994",
                 "fontStyle": ""
             }
         },
@@ -1743,7 +1725,7 @@
                 "entity.name.type.interface.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#97afb9",
                 "fontStyle": ""
             }
         },
@@ -1757,7 +1739,7 @@
                 "entity.name.type.struct.rust",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#0cb3b4",
                 "fontStyle": ""
             }
         },
@@ -1777,7 +1759,7 @@
                 "entity.name.variable.tuple-element.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#CEA048",
                 "fontStyle": ""
             }
         },
@@ -1791,8 +1773,8 @@
                 "entity.other.attribute-name.namespace.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#5875C4",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1844,12 +1826,58 @@
                 "entity.other.attribute.lua",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#008E80",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "entity name type",
+            "name": "entity other",
+            "scope": [
+                "entity.global.clojure",
+                "entity.name.class.lua",
+                "entity.name.command.shell",
+                "entity.name.constant.counter-name.less",
+                "entity.name.constant.less",
+                "entity.name.constant.namespace-prefix.less",
+                "entity.name.goto-label.php",
+                "entity.name.import.go",
+                "entity.name.module.rust",
+                "entity.name.pragma.name.r",
+                "entity.name.section.fsharp",
+                "entity.name.section.group-title.ini",
+                "entity.name.section.markdown",
+                "entity.other.alias.php",
+                "entity.other.counter-name.less",
+                "entity.other.counter-style-name.css",
+                "entity.other.document.begin.yaml",
+                "entity.other.document.end.yaml",
+                "entity.other.inherited-class.coffee",
+                "entity.other.inherited-class.groovy",
+                "entity.other.inherited-class.java",
+                "entity.other.inherited-class.js.jsx",
+                "entity.other.inherited-class.js",
+                "entity.other.inherited-class.julia",
+                "entity.other.inherited-class.objc",
+                "entity.other.inherited-class.objcpp",
+                "entity.other.inherited-class.php",
+                "entity.other.inherited-class.python",
+                "entity.other.inherited-class.ruby",
+                "entity.other.inherited-class.swift",
+                "entity.other.inherited-class.ts",
+                "entity.other.inherited-class.tsx",
+                "entity.other.keyframe-offset.css",
+                "entity.other.keyframe-offset.percentage.css",
+                "entity.other.namespace-prefix.css",
+                "entity.scope.name.objcpp",
+                "entity.scope.objcpp",
+            ],
+            "settings": {
+                "foreground": "#009E8F",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "entity name type various",
             "scope": [
                 "entity.name.type.format.specifier.fsharp",
                 "entity.name.type.fsharp",
@@ -1904,68 +1932,29 @@
                 "entity.name.type.union.parameter.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#00A8A1",
                 "fontStyle": ""
             }
         },
         {
-            "name": "entity",
+            "name": "invalid various",
             "scope": [
-                "entity.global.clojure",
-                "entity.name.class.lua",
-                "entity.name.command.shell",
-                "entity.name.constant.counter-name.less",
-                "entity.name.constant.less",
-                "entity.name.constant.namespace-prefix.less",
-                "entity.name.goto-label.php",
-                "entity.name.import.go",
-                "entity.name.module.rust",
-                "entity.name.pragma.name.r",
-                "entity.name.section.fsharp",
-                "entity.name.section.group-title.ini",
-                "entity.name.section.markdown",
-                "entity.other.alias.php",
-                "entity.other.counter-name.less",
-                "entity.other.counter-style-name.css",
-                "entity.other.document.begin.yaml",
-                "entity.other.document.end.yaml",
-                "entity.other.inherited-class.coffee",
-                "entity.other.inherited-class.groovy",
-                "entity.other.inherited-class.java",
-                "entity.other.inherited-class.js.jsx",
-                "entity.other.inherited-class.js",
-                "entity.other.inherited-class.julia",
-                "entity.other.inherited-class.objc",
-                "entity.other.inherited-class.objcpp",
-                "entity.other.inherited-class.php",
-                "entity.other.inherited-class.python",
-                "entity.other.inherited-class.ruby",
-                "entity.other.inherited-class.swift",
-                "entity.other.inherited-class.ts",
-                "entity.other.inherited-class.tsx",
-                "entity.other.keyframe-offset.css",
-                "entity.other.keyframe-offset.percentage.css",
-                "entity.other.namespace-prefix.css",
-                "entity.scope.name.objcpp",
-                "entity.scope.objcpp",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "Invalid",
-            "scope": [
-                "invalid.illegal",
-                "invalid.illegal.unrecognized-string-escape.json.comments.snippets",
                 "invalid.character.escape.powershell",
                 "invalid.field.go",
-                "invalid.illegal",
+                "invalid.string.newline",
+            ],
+            "settings": {
+                "foreground": "#b1026a",
+                "fontStyle": "italic bold strikethrough"
+            }
+        },
+        {
+            "name": "Invalid illegal",
+            "scope": [
                 "invalid.illegal.ambiguous-ampersand.html",
                 "invalid.illegal.annotation.python",
-                "invalid.illegal.attribute.js",
                 "invalid.illegal.attribute.js.jsx",
+                "invalid.illegal.attribute.js",
                 "invalid.illegal.attribute.tsx",
                 "invalid.illegal.await-must-precede-throws.swift",
                 "invalid.illegal.bad-ampersand.cs",
@@ -1977,6 +1966,8 @@
                 "invalid.illegal.bad-identifier.css",
                 "invalid.illegal.bom.yaml",
                 "invalid.illegal.brace.python",
+                "invalid.illegal.character_not_allowed_here.groovy",
+                "invalid.illegal.character_not_allowed_here.java",
                 "invalid.illegal.character-not-allowed-here.html",
                 "invalid.illegal.character-not-allowed-here.swift",
                 "invalid.illegal.character.escape.lua",
@@ -1984,28 +1975,26 @@
                 "invalid.illegal.character.uri.yaml",
                 "invalid.illegal.character.yaml",
                 "invalid.illegal.characters-not-allowed-here.html",
-                "invalid.illegal.character_not_allowed_here.groovy",
-                "invalid.illegal.character_not_allowed_here.java",
                 "invalid.illegal.colon.css",
                 "invalid.illegal.combinator.less",
                 "invalid.illegal.comma.css",
                 "invalid.illegal.comment.comment.block.pug",
                 "invalid.illegal.constant.character.escape.unicode.8-bit.yaml",
                 "invalid.illegal.constant.character.escape.yaml",
-                "invalid.illegal.constant.numeric",
                 "invalid.illegal.constant.numeric.cpp",
                 "invalid.illegal.constant.numeric.cs",
                 "invalid.illegal.constant.numeric.cuda-cpp",
                 "invalid.illegal.constant.numeric.go",
                 "invalid.illegal.constant.numeric.objc",
                 "invalid.illegal.constant.numeric.objcpp",
+                "invalid.illegal.constant.numeric",
                 "invalid.illegal.content-after-opening-delimiter.swift",
                 "invalid.illegal.content-before-closing-delimiter.swift",
                 "invalid.illegal.counter-style-name.less",
                 "invalid.illegal.dec.python",
                 "invalid.illegal.decorator.python",
-                "invalid.illegal.delimiter-too-long",
                 "invalid.illegal.delimiter-too-long.objcpp",
+                "invalid.illegal.delimiter-too-long",
                 "invalid.illegal.distinct-labels-not-allowed.swift",
                 "invalid.illegal.dot-not-allowed-here.swift",
                 "invalid.illegal.empty-inheritance-clause.swift",
@@ -2013,14 +2002,14 @@
                 "invalid.illegal.end.tag.pug",
                 "invalid.illegal.entity.other.document.end.yaml",
                 "invalid.illegal.escape-not-recognized",
-                "invalid.illegal.expected-array-separator.json",
-                "invalid.illegal.expected-array-separator.json.comments",
                 "invalid.illegal.expected-array-separator.json.comments.snippets",
+                "invalid.illegal.expected-array-separator.json.comments",
                 "invalid.illegal.expected-array-separator.json.lines",
-                "invalid.illegal.expected-dictionary-separator.json",
-                "invalid.illegal.expected-dictionary-separator.json.comments",
+                "invalid.illegal.expected-array-separator.json",
                 "invalid.illegal.expected-dictionary-separator.json.comments.snippets",
+                "invalid.illegal.expected-dictionary-separator.json.comments",
                 "invalid.illegal.expected-dictionary-separator.json.lines",
+                "invalid.illegal.expected-dictionary-separator.json",
                 "invalid.illegal.expected-indentation.yaml",
                 "invalid.illegal.expected-map-separator.yaml",
                 "invalid.illegal.extra-closing-delimiter.swift",
@@ -2051,8 +2040,8 @@
                 "invalid.illegal.name.tag.pug",
                 "invalid.illegal.newline.batchfile",
                 "invalid.illegal.newline.cs",
-                "invalid.illegal.newline.js",
                 "invalid.illegal.newline.js.jsx",
+                "invalid.illegal.newline.js",
                 "invalid.illegal.newline.less",
                 "invalid.illegal.newline.python",
                 "invalid.illegal.newline.ts",
@@ -2101,29 +2090,31 @@
                 "invalid.illegal.unexpected-equals-sign.html",
                 "invalid.illegal.unexpected.punctuation.definition.comment.end.cpp",
                 "invalid.illegal.unexpected.punctuation.definition.comment.end.cuda-cpp",
-                "invalid.illegal.unknown-escape",
                 "invalid.illegal.unknown-escape.c",
                 "invalid.illegal.unknown-escape.cpp",
                 "invalid.illegal.unknown-escape.cuda-cpp",
                 "invalid.illegal.unknown-escape.go",
                 "invalid.illegal.unknown-escape.objc",
                 "invalid.illegal.unknown-escape.objcpp",
+                "invalid.illegal.unknown-escape",
                 "invalid.illegal.unknown-method.objc",
                 "invalid.illegal.unknown-method.objcpp",
                 "invalid.illegal.unknown-rune.go",
-                "invalid.illegal.unrecognized-string-escape.json",
+                "invalid.illegal.unrecognized-string-escape.json.comments.snippets",
                 "invalid.illegal.unrecognized-string-escape.json.comments",
                 "invalid.illegal.unrecognized-string-escape.json.lines",
+                "invalid.illegal.unrecognized-string-escape.json",
                 "invalid.illegal.unrecognized-tag.html",
                 "invalid.illegal.unrecognized.yaml",
                 "invalid.illegal.whitespace.charset.css",
                 "invalid.illegal.wrong-access-type.phpdoc.php",
                 "invalid.illegal.you-forgot-semicolon.objcpp",
-                "invalid.string.newline",
+                "invalid.illegal",
+                "invalid.illegal",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "italic bold underline"
+                "foreground": "#B1026A",
+                "fontStyle": "italic bold strikethrough"
             }
         },
         {
@@ -2217,8 +2208,8 @@
                 "invalid.deprecated.tba.support.variable.c",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "italic bold underline"
+                "foreground": "#B1026A",
+                "fontStyle": "italic bold strikethrough"
             }
         },
         {
@@ -2371,8 +2362,8 @@
                 "keyword.control",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#834A89",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2385,8 +2376,8 @@
                 "keyword.control.as.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#D75F63",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2400,8 +2391,8 @@
                 "keyword.control.assert.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#2F96CB",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2449,8 +2440,8 @@
                 "keyword.control.at-rule.viewport.css",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#C06CB0",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2464,8 +2455,8 @@
                 "keyword.control.case.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#c16db7",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2491,8 +2482,8 @@
                 "keyword.control.conditional.when.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#A158A3",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2504,7 +2495,7 @@
                 "keyword.control.context.using.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#005b5c",
                 "fontStyle": ""
             }
         },
@@ -2517,8 +2508,8 @@
                 "keyword.control.cshtml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#9B3C4E",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2535,8 +2526,8 @@
                 "keyword.control.default.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#5AABCA",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2592,8 +2583,8 @@
                 "keyword.control.directive.undef.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#5A72AB",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2614,22 +2605,41 @@
                 "keyword.control.exception.when.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#A15577",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "keyword control export",
+            "name": "keyword control export import",
             "scope": [
                 "keyword.control.export.js.jsx",
                 "keyword.control.export.js",
                 "keyword.control.export.julia",
                 "keyword.control.export.ts",
                 "keyword.control.export.tsx",
+                "keyword.control.import.else.objc",
+                "keyword.control.import.else.objcpp",
+                "keyword.control.import.go",
+                "keyword.control.import.if.objc",
+                "keyword.control.import.if.objcpp",
+                "keyword.control.import.include.php",
+                "keyword.control.import.js.jsx",
+                "keyword.control.import.js",
+                "keyword.control.import.julia",
+                "keyword.control.import.objc",
+                "keyword.control.import.objcpp",
+                "keyword.control.import.pragma.objc",
+                "keyword.control.import.pragma.objcpp",
+                "keyword.control.import.preprocessor.conditional.swift",
+                "keyword.control.import.preprocessor.sourcelocation.swift",
+                "keyword.control.import.python",
+                "keyword.control.import.swift",
+                "keyword.control.import.ts",
+                "keyword.control.import.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#AB5676",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2656,36 +2666,8 @@
                 "keyword.control.flowcontrol.perl",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "keyword control import",
-            "scope": [
-                "keyword.control.import.else.objc",
-                "keyword.control.import.else.objcpp",
-                "keyword.control.import.go",
-                "keyword.control.import.if.objc",
-                "keyword.control.import.if.objcpp",
-                "keyword.control.import.include.php",
-                "keyword.control.import.js.jsx",
-                "keyword.control.import.js",
-                "keyword.control.import.julia",
-                "keyword.control.import.objc",
-                "keyword.control.import.objcpp",
-                "keyword.control.import.pragma.objc",
-                "keyword.control.import.pragma.objcpp",
-                "keyword.control.import.preprocessor.conditional.swift",
-                "keyword.control.import.preprocessor.sourcelocation.swift",
-                "keyword.control.import.python",
-                "keyword.control.import.swift",
-                "keyword.control.import.ts",
-                "keyword.control.import.tsx",
-            ],
-            "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#AF4A4C",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2706,8 +2688,8 @@
                 "keyword.control.loop.while.r",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#B14370",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2737,8 +2719,8 @@
                 "keyword.control.razor.singleLineMarkup",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#6562A1",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2757,8 +2739,8 @@
                 "keyword.control.switch.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#CE6F71",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2774,8 +2756,8 @@
                 "keyword.control.trycatch.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#CA785F",
+                "fontStyle": "bold"
             }
         },
         {
@@ -3055,8 +3037,8 @@
                 "keyword.operator.wordlike.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#B452B7",
+                "fontStyle": "bold"
             }
         },
         {
@@ -3088,7 +3070,7 @@
                 "keyword.operator.arithmetic.unary.swift",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#C54591",
                 "fontStyle": ""
             }
         },
@@ -3155,8 +3137,8 @@
                 "keyword.operator.assignment.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#91A61D",
+                "fontStyle": "bold"
             }
         },
         {
@@ -3190,8 +3172,8 @@
                 "keyword.operator.bitwise.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#C865BD",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3230,25 +3212,13 @@
                 "keyword.operator.comparison.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#E57A7A",
+                "fontStyle": "italic bold"
             }
         },
         {
-            "name": "keyword operator decrement increment",
+            "name": "keyword operator increment",
             "scope": [
-                "keyword.operator.decrement.c",
-                "keyword.operator.decrement.coffee",
-                "keyword.operator.decrement.cpp",
-                "keyword.operator.decrement.cs",
-                "keyword.operator.decrement.cuda-cpp",
-                "keyword.operator.decrement.go",
-                "keyword.operator.decrement.js.jsx",
-                "keyword.operator.decrement.js",
-                "keyword.operator.decrement.objc",
-                "keyword.operator.decrement.objcpp",
-                "keyword.operator.decrement.ts",
-                "keyword.operator.decrement.tsx",
                 "keyword.operator.increment-decrement.dart",
                 "keyword.operator.increment-decrement.groovy",
                 "keyword.operator.increment-decrement.java",
@@ -3268,8 +3238,29 @@
                 "keyword.operator.increment.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#19C0DD",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "keyword operator decrement increment",
+            "scope": [
+                "keyword.operator.decrement.c",
+                "keyword.operator.decrement.coffee",
+                "keyword.operator.decrement.cpp",
+                "keyword.operator.decrement.cs",
+                "keyword.operator.decrement.cuda-cpp",
+                "keyword.operator.decrement.go",
+                "keyword.operator.decrement.js.jsx",
+                "keyword.operator.decrement.js",
+                "keyword.operator.decrement.objc",
+                "keyword.operator.decrement.objcpp",
+                "keyword.operator.decrement.ts",
+                "keyword.operator.decrement.tsx",
+            ],
+            "settings": {
+                "foreground": "#E04797",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3342,8 +3333,8 @@
                 "keyword.operator.expression.with.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#3094E1",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3387,7 +3378,7 @@
                 "keyword.operator.logical.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#D37376",
                 "fontStyle": ""
             }
         },
@@ -3401,8 +3392,8 @@
                 "keyword.operator.conditional.regexp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#E58E49",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3434,8 +3425,8 @@
                 "keyword.operator.plus.exponent.hexadecimal.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#EAA46D",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3672,8 +3663,8 @@
                 "keyword.other",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#5D87A8",
+                "fontStyle": "bold"
             }
         },
         {
@@ -3701,8 +3692,8 @@
                 "keyword.preprocessor.warning.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": ""
+                "foreground": "#817292",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3747,7 +3738,7 @@
                 "keyword.var.go",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#3bbeaa",
                 "fontStyle": ""
             }
         },
@@ -3759,7 +3750,7 @@
                 "line.separator.math.tex",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#0080a7",
                 "fontStyle": ""
             }
         },
@@ -3776,7 +3767,7 @@
                 "log.warning",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3797,7 +3788,7 @@
                 "markdown.math.inline",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3853,7 +3844,7 @@
                 "markup.underline.link",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3867,7 +3858,7 @@
                 "meta.arguments.coffee",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3888,7 +3879,7 @@
                 "meta.array.php",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3901,7 +3892,7 @@
                 "meta.arrow.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3914,7 +3905,7 @@
                 "meta.assertion.negative-look-behind.regexp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -3978,7 +3969,7 @@
                 "meta.at-rule.while.scss",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4004,7 +3995,7 @@
                 "meta.attribute.unrecognized.$1.html",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4045,7 +4036,7 @@
                 "meta.block.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4079,7 +4070,7 @@
                 "meta.body.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4099,7 +4090,7 @@
                 "meta.brace.square.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4117,7 +4108,7 @@
                 "meta.bracketed.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4143,7 +4134,7 @@
                 "meta.class.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4163,7 +4154,7 @@
                 "meta.conditional.switch.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4186,7 +4177,7 @@
                 "meta.declaration.type.alias.value.unknown.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4199,7 +4190,7 @@
                 "meta.decorator.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4251,7 +4242,7 @@
                 "meta.definition.variable.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4269,7 +4260,7 @@
                 "meta.diff.range.unified",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4288,7 +4279,7 @@
                 "meta.element.structure.svg.$2.html",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4334,7 +4325,7 @@
                 "meta.embedded.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4353,7 +4344,7 @@
                 "meta.enum.value.groovy",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4367,7 +4358,7 @@
                 "meta.encoding",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4400,7 +4391,7 @@
                 "meta.import.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4416,7 +4407,7 @@
                 "meta.expression.set.batchfile",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4544,7 +4535,7 @@
                 "meta.function.verbatim.latex",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4578,7 +4569,7 @@
                 "meta.head.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4608,7 +4599,7 @@
                 "meta.insertion.variable.transform.json.comments.snippets",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4634,7 +4625,7 @@
                 "meta.method.return-type.java",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4667,7 +4658,7 @@
                 "meta.objectliteral.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4696,7 +4687,7 @@
                 "meta.paramter.array-binding-pattern.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4716,7 +4707,7 @@
                 "meta.parens.preprocessor.conditional.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4762,7 +4753,7 @@
                 "meta.preprocessor.undef.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4785,7 +4776,7 @@
                 "meta.property.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4804,7 +4795,7 @@
                 "meta.return.type.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4832,7 +4823,7 @@
                 "meta.scope.while-loop.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4859,7 +4850,7 @@
                 "meta.statement.while.razor",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4887,7 +4878,7 @@
                 "meta.structure.razor.directive.markblock",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -4983,7 +4974,7 @@
                 "meta.tag.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5017,7 +5008,7 @@
                 "meta.tail.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5041,7 +5032,7 @@
                 "meta.template.operator.ellipsis.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5064,7 +5055,7 @@
                 "meta.toc-list.pragma-mark.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5114,7 +5105,7 @@
                 "meta.type.tuple.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5127,7 +5118,7 @@
                 "meta.1.3.yaml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5412,7 +5403,7 @@
                 "meta.while.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5424,7 +5415,7 @@
                 "namespace.open.fsharp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#5875C4",
                 "fontStyle": ""
             }
         },
@@ -5437,7 +5428,7 @@
                 "new.expr.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#008fff",
                 "fontStyle": ""
             }
         },
@@ -5487,7 +5478,7 @@
                 "punctuation.tilde.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5510,7 +5501,7 @@
                 "punctuation.accessor.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5528,7 +5519,7 @@
                 "punctuation.brackets.square.rust",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5755,7 +5746,7 @@
                 "punctuation.definition.wildcard.scss",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5808,7 +5799,7 @@
                 "punctuation.definition.end.latex",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5825,7 +5816,7 @@
                 "punctuation.decorator.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5853,7 +5844,7 @@
                 "punctuation.definition.arguments.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5876,7 +5867,7 @@
                 "punctuation.definition.array.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5893,7 +5884,7 @@
                 "punctuation.definition.binding-pattern.object.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5912,7 +5903,7 @@
                 "punctuation.definition.block.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -5930,7 +5921,7 @@
                 "punctuation.definition.character-class.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6028,7 +6019,7 @@
                 "punctuation.definition.comment.yaml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#2F4858",
                 "fontStyle": ""
             }
         },
@@ -6048,7 +6039,7 @@
                 "punctuation.definition.constant.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6070,7 +6061,7 @@
                 "punctuation.definition.entity.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6086,7 +6077,7 @@
                 "punctuation.definition.function.tex",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6104,7 +6095,7 @@
                 "punctuation.definition.group.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6118,7 +6109,7 @@
                 "punctuation.definition.interpolation.rust",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6177,7 +6168,7 @@
                 "punctuation.definition.parameters.varargs.java",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6316,7 +6307,7 @@
                 "punctuation.definition.string.template.end.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6350,7 +6341,7 @@
                 "punctuation.definition.tag.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6369,7 +6360,7 @@
                 "punctuation.definition.typeparameters.end.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6396,7 +6387,7 @@
                 "punctuation.parenthesis.open.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6493,7 +6484,7 @@
                 "punctuation.section.vector.end.trailing.clojure",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6512,7 +6503,7 @@
                 "punctuation.section.angle-brackets.start.template.definition.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6592,7 +6583,7 @@
                 "punctuation.section.arguments.end.bracket.round.static-assert.cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6603,7 +6594,7 @@
                 "punctuation.section.arithmetic.single.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6619,7 +6610,7 @@
                 "punctuation.section.array.shell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6632,7 +6623,7 @@
                 "punctuation.section.attribute.end.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6710,7 +6701,7 @@
                 "punctuation.section.block.end.bracket.curly.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6725,7 +6716,7 @@
                 "punctuation.section.braces.end",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6742,7 +6733,7 @@
                 "punctuation.section.brackets.single.end.r",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6775,7 +6766,7 @@
                 "punctuation.section.embedded.substatement.end.powershell",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6795,7 +6786,7 @@
                 "punctuation.section.function.scss",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6832,7 +6823,7 @@
                 "punctuation.section.parameters.end.bracket.round.special.operator-overload.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6886,7 +6877,7 @@
                 "punctuation.section.parens.end.bracket.round.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -6910,7 +6901,7 @@
                 "punctuation.section.scope.ruby",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7144,7 +7135,7 @@
                 "punctuation.separator",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7178,7 +7169,7 @@
                 "punctuation.terminator.statement.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7195,7 +7186,7 @@
                 "punctuation.support.type.property-name.end.json",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7214,7 +7205,7 @@
                 "punctuation.vararg-ellipses.variable.parameter.preprocessor.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7261,7 +7252,7 @@
                 "punctuation.whitespace.trailing.repeat.swift",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7272,7 +7263,7 @@
                 "razor.test.balanced.parenthesis",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7291,7 +7282,7 @@
                 "storage.type.$1.swift",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7311,7 +7302,7 @@
                 "storage.modifier.access-control.groovy",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7388,7 +7379,7 @@
                 "storage.modifier",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7401,7 +7392,7 @@
                 "storage.modifier.array.bracket.square",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7415,7 +7406,7 @@
                 "storage.modifier.async.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7431,7 +7422,7 @@
                 "storage.modifier.specifier.parameter.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7446,7 +7437,7 @@
                 "storage.modifier.specifier.functional.pre-parameters.$0.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7563,7 +7554,7 @@
                 "storage.type.variable.ruby",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7582,7 +7573,7 @@
                 "storage.type.built-in.primitive.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7617,7 +7608,7 @@
                 "storage.type.record.cs",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7641,7 +7632,7 @@
                 "storage.type.enum.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7672,7 +7663,7 @@
                 "storage.type.function.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7687,7 +7678,7 @@
                 "storage.type.interface.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7708,7 +7699,7 @@
                 "storage.type.modifier.virtual.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7731,7 +7722,7 @@
                 "storage.type.namespace.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7748,7 +7739,7 @@
                 "storage.type.structured.hlsl",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7770,7 +7761,7 @@
                 "storage.type.template.objcpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7786,7 +7777,7 @@
                 "string.comment.buffered.block.pug",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7798,7 +7789,7 @@
                 "strong",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7828,7 +7819,7 @@
                 "string.interpolated",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7841,7 +7832,7 @@
                 "string.json",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -7854,7 +7845,7 @@
                 "string.other.quoted.brackets.sql",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8031,7 +8022,7 @@
                 "string.quoted.triple.single.dart",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8100,7 +8091,7 @@
                 "string.regexp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8113,7 +8104,7 @@
                 "string.template.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8154,7 +8145,7 @@
                 "string.unquoted",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8211,7 +8202,7 @@
                 "support.class.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8296,7 +8287,7 @@
                 "support.constant.vendored.property-value.css",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8327,7 +8318,7 @@
                 "support.constant.property-value.texturecombiners.shaderlab",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8608,7 +8599,7 @@
                 "support.function.zlib.php",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8629,7 +8620,7 @@
                 "support.other.variable.less",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8722,7 +8713,7 @@
                 "support.type.vendored.property-name.media.css",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8797,7 +8788,7 @@
                 "support.variable.various.shaderlab",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8818,7 +8809,7 @@
                 "switch-statement.expr.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8829,7 +8820,7 @@
                 "tag.inline.pug",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#b0bcc4",
                 "fontStyle": ""
             }
         },
@@ -8863,12 +8854,12 @@
                 "text.xml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#ff0000",
                 "fontStyle": ""
             }
         },
         {
-            "name": "variable",
+            "name": "variable various",
             "scope": [
                 "variable.argument.css",
                 "variable.assignment.coffee",
@@ -8890,7 +8881,7 @@
                 "variable",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#5cbab3",
                 "fontStyle": ""
             }
         },
@@ -8945,7 +8936,7 @@
                 "variable.language.wildcard.java",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#7c47c8",
                 "fontStyle": ""
             }
         },
@@ -8965,12 +8956,12 @@
                 "variable.language.this.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#BF3789",
                 "fontStyle": ""
             }
         },
         {
-            "name": "variable object",
+            "name": "variable object property call",
             "scope": [
                 "variable.object.c",
                 "variable.object.objc",
@@ -8981,12 +8972,12 @@
                 "variable.object.property.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#79b085",
                 "fontStyle": ""
             }
         },
         {
-            "name": "variable other",
+            "name": "variable other member",
             "scope": [
                 "variable.other.$1.cs",
                 "variable.other.alias.cs",
@@ -9091,12 +9082,12 @@
                 "variable.other.unknown.$8.cpp",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#bba56c",
                 "fontStyle": ""
             }
         },
         {
-            "name": "variable other object",
+            "name": "variable other object instance",
             "scope": [
                 "variable.other.object.access.$4.cpp",
                 "variable.other.object.access.$5.cpp",
@@ -9124,7 +9115,7 @@
                 "variable.other.object",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#c5c5c5",
                 "fontStyle": ""
             }
         },
@@ -9154,7 +9145,7 @@
                 "variable.other.constant.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#57A79C",
                 "fontStyle": ""
             }
         },
@@ -9172,8 +9163,8 @@
                 "variable.other.object.property.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
-                "fontStyle": "italic"
+                "foreground": "#5FA097",
+                "fontStyle": ""
             }
         },
         {
@@ -9208,7 +9199,7 @@
                 "variable.other.readwrite.tsx",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#E5A14A",
                 "fontStyle": ""
             }
         },
@@ -9265,7 +9256,7 @@
                 "variable.parameter",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#B4AA99",
                 "fontStyle": ""
             }
         },
@@ -9283,7 +9274,7 @@
                 "variable.parameter.codeblock.yaml",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#61BAAE",
                 "fontStyle": ""
             }
         },
@@ -9309,7 +9300,7 @@
                 "variable.parameter.function.swift",
             ],
             "settings": {
-                "foreground": "#DEDEDE",
+                "foreground": "#deb222",
                 "fontStyle": ""
             }
         },
