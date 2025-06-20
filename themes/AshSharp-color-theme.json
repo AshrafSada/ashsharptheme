@@ -156,7 +156,7 @@
         "editorCodeLens.foreground": "#7A7A7A",
         "editorCommentsWidget.rangeActiveBackground": "#AE4BA44D",
         "editorCursor.background": "#140923",
-        "editorCursor.foreground": "#E0DF65",
+        "editorCursor.foreground": "#f3f3f3",
         "editorError.background": "#14092300",
         "editorError.foreground": "#E5423F",
         "editorGhostText.background": "#140923E0",
@@ -777,7 +777,7 @@
                 "comment.unbuffered.block.pug",
             ],
             "settings": {
-                "foreground": "#485A73",
+                "foreground": "#565A65",
                 "fontStyle": "italic bold"
             }
         },
@@ -1235,7 +1235,7 @@
                 "constant.numeric",
             ],
             "settings": {
-                "foreground": "#76A709",
+                "foreground": "#22a161",
                 "fontStyle": ""
             }
         },
@@ -1319,7 +1319,7 @@
                 "custom.variable.other.normal.numeric.json.comments.snippets",
             ],
             "settings": {
-                "foreground": "#787587",
+                "foreground": "#565A65",
                 "fontStyle": ""
             }
         },
@@ -3767,7 +3767,7 @@
                 "log.warning",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3788,7 +3788,7 @@
                 "markdown.math.inline",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3844,7 +3844,7 @@
                 "markup.underline.link",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3858,7 +3858,7 @@
                 "meta.arguments.coffee",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3879,7 +3879,7 @@
                 "meta.array.php",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3892,7 +3892,7 @@
                 "meta.arrow.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3905,7 +3905,7 @@
                 "meta.assertion.negative-look-behind.regexp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3969,7 +3969,7 @@
                 "meta.at-rule.while.scss",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -3995,7 +3995,7 @@
                 "meta.attribute.unrecognized.$1.html",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4036,7 +4036,7 @@
                 "meta.block.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4070,7 +4070,7 @@
                 "meta.body.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4090,7 +4090,7 @@
                 "meta.brace.square.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4108,7 +4108,7 @@
                 "meta.bracketed.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4134,7 +4134,7 @@
                 "meta.class.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4154,7 +4154,7 @@
                 "meta.conditional.switch.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4177,7 +4177,7 @@
                 "meta.declaration.type.alias.value.unknown.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4190,7 +4190,7 @@
                 "meta.decorator.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4242,7 +4242,7 @@
                 "meta.definition.variable.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4260,7 +4260,7 @@
                 "meta.diff.range.unified",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4279,7 +4279,7 @@
                 "meta.element.structure.svg.$2.html",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4325,7 +4325,7 @@
                 "meta.embedded.xml",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4344,7 +4344,7 @@
                 "meta.enum.value.groovy",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4358,7 +4358,7 @@
                 "meta.encoding",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4391,7 +4391,7 @@
                 "meta.import.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4407,7 +4407,7 @@
                 "meta.expression.set.batchfile",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4535,7 +4535,7 @@
                 "meta.function.verbatim.latex",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4569,7 +4569,7 @@
                 "meta.head.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4599,7 +4599,7 @@
                 "meta.insertion.variable.transform.json.comments.snippets",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4625,7 +4625,7 @@
                 "meta.method.return-type.java",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4658,7 +4658,7 @@
                 "meta.objectliteral.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4687,7 +4687,7 @@
                 "meta.paramter.array-binding-pattern.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4707,7 +4707,7 @@
                 "meta.parens.preprocessor.conditional.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4753,7 +4753,7 @@
                 "meta.preprocessor.undef.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4776,7 +4776,7 @@
                 "meta.property.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4795,7 +4795,7 @@
                 "meta.return.type.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4823,7 +4823,7 @@
                 "meta.scope.while-loop.shell",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4850,7 +4850,7 @@
                 "meta.statement.while.razor",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4878,7 +4878,7 @@
                 "meta.structure.razor.directive.markblock",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -4974,7 +4974,7 @@
                 "meta.tag.xml",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5008,7 +5008,7 @@
                 "meta.tail.union.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5032,7 +5032,7 @@
                 "meta.template.operator.ellipsis.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5055,7 +5055,7 @@
                 "meta.toc-list.pragma-mark.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5105,7 +5105,7 @@
                 "meta.type.tuple.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5118,7 +5118,7 @@
                 "meta.1.3.yaml",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5403,7 +5403,7 @@
                 "meta.while.shell",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#FFF",
                 "fontStyle": ""
             }
         },
@@ -5433,8 +5433,22 @@
             }
         },
         {
-            "name": "punctuation",
+            "name": "punctuation definition bracket curly curlybrace various",
             "scope": [
+                "punctuation.accessor.attribute.cpp",
+                "punctuation.accessor.attribute.cuda-cpp",
+                "punctuation.accessor.colons.r",
+                "punctuation.accessor.cs",
+                "punctuation.accessor.initializer.cpp",
+                "punctuation.accessor.js.jsx",
+                "punctuation.accessor.js",
+                "punctuation.accessor.optional.js.jsx",
+                "punctuation.accessor.optional.js",
+                "punctuation.accessor.optional.ts",
+                "punctuation.accessor.optional.tsx",
+                "punctuation.accessor.pointer.cs",
+                "punctuation.accessor.ts",
+                "punctuation.accessor.tsx",
                 "punctuation.access.module.scss",
                 "punctuation.catch.separator.java",
                 "punctuation.character.set.begin.regexp",
@@ -5476,38 +5490,6 @@
                 "punctuation.squarebracket.close.cs",
                 "punctuation.squarebracket.open.cs",
                 "punctuation.tilde.cs",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation accessor",
-            "scope": [
-                "punctuation.accessor.attribute.cpp",
-                "punctuation.accessor.attribute.cuda-cpp",
-                "punctuation.accessor.colons.r",
-                "punctuation.accessor.cs",
-                "punctuation.accessor.initializer.cpp",
-                "punctuation.accessor.js.jsx",
-                "punctuation.accessor.js",
-                "punctuation.accessor.optional.js.jsx",
-                "punctuation.accessor.optional.js",
-                "punctuation.accessor.optional.ts",
-                "punctuation.accessor.optional.tsx",
-                "punctuation.accessor.pointer.cs",
-                "punctuation.accessor.ts",
-                "punctuation.accessor.tsx",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation bracket",
-            "scope": [
                 "punctuation.bracket.angle.java",
                 "punctuation.bracket.curly.java",
                 "punctuation.bracket.round.java",
@@ -5517,15 +5499,6 @@
                 "punctuation.brackets.curly.rust",
                 "punctuation.brackets.round.rust",
                 "punctuation.brackets.square.rust",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation definition",
-            "scope": [
                 "punctuation.definition.alias.yaml",
                 "punctuation.definition.anchor.yaml",
                 "punctuation.definition.annotation-arguments.begin.bracket.round.java",
@@ -5538,7 +5511,6 @@
                 "punctuation.definition.arbitrary-repetition.ruby",
                 "punctuation.definition.arbitrary-repetition.shell",
                 "punctuation.definition.arbitrary-repitition.php",
-                "punctuation.definition.arrow.php",
                 "punctuation.definition.assignment.shell",
                 "punctuation.definition.attribute-selector.begin.bracket.square.scss",
                 "punctuation.definition.attribute-selector.end.bracket.square.scss",
@@ -5553,8 +5525,6 @@
                 "punctuation.definition.capture.end.lambda.cuda-cpp",
                 "punctuation.definition.case-terminator.groovy",
                 "punctuation.definition.changed.diff",
-                "punctuation.definition.class.begin.bracket.curly.php",
-                "punctuation.definition.class.end.bracket.curly.php",
                 "punctuation.definition.column-specials.begin.latex",
                 "punctuation.definition.column-specials.end.latex",
                 "punctuation.definition.condition.begin.bracket.round.css",
@@ -5589,8 +5559,6 @@
                 "punctuation.definition.directive.objcpp",
                 "punctuation.definition.emph.begin.latex",
                 "punctuation.definition.emph.end.latex",
-                "punctuation.definition.enum.begin.bracket.curly.php",
-                "punctuation.definition.enum.end.bracket.curly.php",
                 "punctuation.definition.escape.backslash.coffee",
                 "punctuation.definition.evaluation.backticks.shell",
                 "punctuation.definition.expression.less",
@@ -5607,8 +5575,6 @@
                 "punctuation.definition.initializer-list.parameters.objcpp",
                 "punctuation.definition.inline.tag.jsdoc",
                 "punctuation.definition.inserted.diff",
-                "punctuation.definition.interface.begin.bracket.curly.php",
-                "punctuation.definition.interface.end.bracket.curly.php",
                 "punctuation.definition.italic.markdown",
                 "punctuation.definition.keyword.bibtex",
                 "punctuation.definition.keyword.css",
@@ -5638,8 +5604,6 @@
                 "punctuation.definition.marginpar.begin.latex",
                 "punctuation.definition.marginpar.end.latex",
                 "punctuation.definition.markdown",
-                "punctuation.definition.match-expression.begin.bracket.round.php",
-                "punctuation.definition.match-expression.end.bracket.round.php",
                 "punctuation.definition.math.begin.markdown",
                 "punctuation.definition.math.end.markdown",
                 "punctuation.definition.media-query.begin.bracket.round.scss",
@@ -5647,8 +5611,6 @@
                 "punctuation.definition.metadata.markdown",
                 "punctuation.definition.method-parameters.begin.groovy",
                 "punctuation.definition.method-parameters.end.groovy",
-                "punctuation.definition.namespace.begin.bracket.curly.php",
-                "punctuation.definition.namespace.end.bracket.curly.php",
                 "punctuation.definition.operator.begin.swift",
                 "punctuation.definition.operator.end.swift",
                 "punctuation.definition.optional-value.begin.bracket.square.jsdoc",
@@ -5669,38 +5631,29 @@
                 "punctuation.definition.regexp.begin.clojure",
                 "punctuation.definition.regexp.end.clojure",
                 "punctuation.definition.scope.objcpp",
-                "punctuation.definition.section.case-statement.js.jsx",
-                "punctuation.definition.section.case-statement.js",
-                "punctuation.definition.section.case-statement.ts",
-                "punctuation.definition.section.case-statement.tsx",
-                "punctuation.definition.section.match-block.begin.bracket.curly.php",
-                "punctuation.definition.section.match-block.end.bracket.curly.php",
-                "punctuation.definition.section.switch-block.begin.bracket.curly.php",
-                "punctuation.definition.section.switch-block.end.bracket.curly.php",
-                "punctuation.definition.separator.diff",
-                "punctuation.definition.separator.groovy",
-                "punctuation.definition.seperator.groovy",
-                "punctuation.definition.seperator.key-value.groovy",
-                "punctuation.definition.seperator.parameter.groovy",
                 "punctuation.definition.sequence.begin.yaml",
                 "punctuation.definition.sequence.end.yaml",
-                "punctuation.definition.storage-type.begin.bracket.round.php",
-                "punctuation.definition.storage-type.end.bracket.round.php",
-                "punctuation.definition.storage.modifier.objc",
-                "punctuation.definition.storage.modifier.objcpp",
-                "punctuation.definition.storage.type.objc",
-                "punctuation.definition.storage.type.objcpp",
                 "punctuation.definition.strikethrough.markdown",
                 "punctuation.definition.structure.begin.groovy",
                 "punctuation.definition.structure.end.groovy",
                 "punctuation.definition.subexpression.powershell",
                 "punctuation.definition.subshell.single.shell",
                 "punctuation.definition.substatement.powershell",
-                "punctuation.definition.switch-expression.begin.bracket.round.php",
-                "punctuation.definition.switch-expression.end.bracket.round.php",
                 "punctuation.definition.symbol.begin.ruby",
                 "punctuation.definition.symbol.end.ruby",
                 "punctuation.definition.table.markdown",
+                "punctuation.definition.to-file.diff",
+                "punctuation.definition.verb.latex",
+                "punctuation.definition.wildcard.scss",
+            ],
+            "settings": {
+                "foreground": "#D2D2D2",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "punctuation definition template-expression (js)",
+            "scope": [
                 "punctuation.definition.template-expression.begin.js.jsx",
                 "punctuation.definition.template-expression.begin.js",
                 "punctuation.definition.template-expression.begin.ts",
@@ -5709,13 +5662,56 @@
                 "punctuation.definition.template-expression.end.js",
                 "punctuation.definition.template-expression.end.ts",
                 "punctuation.definition.template-expression.end.tsx",
+            ],
+            "settings": {
+                "foreground": "#3685CF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "punctuation definition (textbf texttt latex)",
+            "scope": [
                 "punctuation.definition.textbf.begin.latex",
                 "punctuation.definition.textbf.end.latex",
                 "punctuation.definition.textit.begin.latex",
                 "punctuation.definition.textit.end.latex",
                 "punctuation.definition.texttt.begin.latex",
                 "punctuation.definition.texttt.end.latex",
-                "punctuation.definition.to-file.diff",
+            ],
+            "settings": {
+                "foreground": "#CDC67E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "punctuation definition storage (objc objcpp)",
+            "scope": [
+                "punctuation.definition.storage.modifier.objc",
+                "punctuation.definition.storage.modifier.objcpp",
+                "punctuation.definition.storage.type.objc",
+                "punctuation.definition.storage.type.objcpp",
+            ],
+            "settings": {
+                "foreground": "#C252BB",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "punctuation definition type bracket (php objc objcpp)",
+            "scope": [
+                "punctuation.definition.arrow.php",
+                "punctuation.definition.match-expression.begin.bracket.round.php",
+                "punctuation.definition.match-expression.end.bracket.round.php",
+                "punctuation.definition.namespace.begin.bracket.curly.php",
+                "punctuation.definition.namespace.end.bracket.curly.php",
+                "punctuation.definition.section.match-block.begin.bracket.curly.php",
+                "punctuation.definition.section.match-block.end.bracket.curly.php",
+                "punctuation.definition.section.switch-block.begin.bracket.curly.php",
+                "punctuation.definition.section.switch-block.end.bracket.curly.php",
+                "punctuation.definition.storage-type.begin.bracket.round.php",
+                "punctuation.definition.storage-type.end.bracket.round.php",
+                "punctuation.definition.switch-expression.begin.bracket.round.php",
+                "punctuation.definition.switch-expression.end.bracket.round.php",
                 "punctuation.definition.trait.begin.bracket.curly.php",
                 "punctuation.definition.trait.end.bracket.curly.php",
                 "punctuation.definition.type.begin.bracket.round.php",
@@ -5730,6 +5726,21 @@
                 "punctuation.definition.type.end.swift",
                 "punctuation.definition.use.begin.bracket.curly.php",
                 "punctuation.definition.use.end.bracket.curly.php",
+                "punctuation.definition.interface.begin.bracket.curly.php",
+                "punctuation.definition.interface.end.bracket.curly.php",
+                "punctuation.definition.enum.begin.bracket.curly.php",
+                "punctuation.definition.enum.end.bracket.curly.php",
+                "punctuation.definition.class.begin.bracket.curly.php",
+                "punctuation.definition.class.end.bracket.curly.php",
+            ],
+            "settings": {
+                "foreground": "#A1A5A8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "punctuation definition variable",
+            "scope": [
                 "punctuation.definition.variable.asp",
                 "punctuation.definition.variable.batchfile",
                 "punctuation.definition.variable.begin.batchfile",
@@ -5742,64 +5753,9 @@
                 "punctuation.definition.variable.powershell",
                 "punctuation.definition.variable.ruby",
                 "punctuation.definition.variable.shell",
-                "punctuation.definition.verb.latex",
-                "punctuation.definition.wildcard.scss",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation definition bracket",
-            "scope": [
-                "punctuation.definition.begin.bracket.curly.go",
-                "punctuation.definition.begin.bracket.curly.php",
-                "punctuation.definition.begin.bracket.round.go",
-                "punctuation.definition.begin.bracket.round.php",
-                "punctuation.definition.begin.bracket.round.scss",
-                "punctuation.definition.begin.bracket.square.array.type.cpp",
-                "punctuation.definition.begin.bracket.square.array.type.cuda-cpp",
-                "punctuation.definition.begin.bracket.square.binding.cpp",
-                "punctuation.definition.begin.bracket.square.c",
-                "punctuation.definition.begin.bracket.square.cpp",
-                "punctuation.definition.begin.bracket.square.cuda-cpp",
-                "punctuation.definition.begin.bracket.square.go",
-                "punctuation.definition.begin.bracket.square.objc",
-                "punctuation.definition.begin.bracket.square.objcpp",
-                "punctuation.definition.begin.bracket.square",
-                "punctuation.definition.bracket.angle.begin.jsdoc",
-                "punctuation.definition.bracket.angle.begin.sassdoc",
-                "punctuation.definition.bracket.angle.end.jsdoc",
-                "punctuation.definition.bracket.angle.end.sassdoc",
-                "punctuation.definition.bracket.curly.begin.jsdoc",
-                "punctuation.definition.bracket.curly.begin.sassdoc",
-                "punctuation.definition.bracket.curly.end.jsdoc",
-                "punctuation.definition.bracket.curly.end.sassdoc",
-                "punctuation.definition.bracket.named-array.shell",
-                "punctuation.definition.bracket.square.begin.jsdoc",
-                "punctuation.definition.bracket.square.end.jsdoc",
-                "punctuation.definition.brackets.tex",
-                "punctuation.definition.end.bracket.curly.go",
-                "punctuation.definition.end.bracket.curly.php",
-                "punctuation.definition.end.bracket.round.go",
-                "punctuation.definition.end.bracket.round.php",
-                "punctuation.definition.end.bracket.round.scss",
-                "punctuation.definition.end.bracket.square.array.type.cpp",
-                "punctuation.definition.end.bracket.square.array.type.cuda-cpp",
-                "punctuation.definition.end.bracket.square.binding.cpp",
-                "punctuation.definition.end.bracket.square.c",
-                "punctuation.definition.end.bracket.square.cpp",
-                "punctuation.definition.end.bracket.square.cuda-cpp",
-                "punctuation.definition.end.bracket.square.go",
-                "punctuation.definition.end.bracket.square.objc",
-                "punctuation.definition.end.bracket.square.objcpp",
-                "punctuation.definition.end.bracket.square",
-                "punctuation.definition.end.frontmatter",
-                "punctuation.definition.end.latex",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#18C209",
                 "fontStyle": ""
             }
         },
@@ -5816,12 +5772,12 @@
                 "punctuation.decorator.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#CB4785",
                 "fontStyle": ""
             }
         },
         {
-            "name": "punctuation definition arguments",
+            "name": "punctuation definition arguments binding-pattern block char array brackets section separator",
             "scope": [
                 "punctuation.definition.arguments.begin.bracket.round.coffee",
                 "punctuation.definition.arguments.begin.bracket.round.php",
@@ -5842,15 +5798,6 @@
                 "punctuation.definition.arguments.optional.begin.latex",
                 "punctuation.definition.arguments.optional.end.latex",
                 "punctuation.definition.arguments.shell",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation definition array",
-            "scope": [
                 "punctuation.definition.array.access.shell",
                 "punctuation.definition.array.begin.bracket.round.php",
                 "punctuation.definition.array.begin.bracket.square.coffee",
@@ -5865,15 +5812,21 @@
                 "punctuation.definition.array.end.json.lines",
                 "punctuation.definition.array.end.json",
                 "punctuation.definition.array.shell",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation definition binding-pattern",
-            "scope": [
+                "punctuation.definition.begin.bracket.curly.go",
+                "punctuation.definition.begin.bracket.curly.php",
+                "punctuation.definition.begin.bracket.round.go",
+                "punctuation.definition.begin.bracket.round.php",
+                "punctuation.definition.begin.bracket.round.scss",
+                "punctuation.definition.begin.bracket.square.array.type.cpp",
+                "punctuation.definition.begin.bracket.square.array.type.cuda-cpp",
+                "punctuation.definition.begin.bracket.square.binding.cpp",
+                "punctuation.definition.begin.bracket.square.c",
+                "punctuation.definition.begin.bracket.square.cpp",
+                "punctuation.definition.begin.bracket.square.cuda-cpp",
+                "punctuation.definition.begin.bracket.square.go",
+                "punctuation.definition.begin.bracket.square.objc",
+                "punctuation.definition.begin.bracket.square.objcpp",
+                "punctuation.definition.begin.bracket.square",
                 "punctuation.definition.binding-pattern.array.js.jsx",
                 "punctuation.definition.binding-pattern.array.js",
                 "punctuation.definition.binding-pattern.array.ts",
@@ -5882,15 +5835,6 @@
                 "punctuation.definition.binding-pattern.object.js",
                 "punctuation.definition.binding-pattern.object.ts",
                 "punctuation.definition.binding-pattern.object.tsx",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation definition block",
-            "scope": [
                 "punctuation.definition.block.begin.less",
                 "punctuation.definition.block.end.less",
                 "punctuation.definition.block.js.jsx",
@@ -5901,15 +5845,18 @@
                 "punctuation.definition.block.tag.sassdoc",
                 "punctuation.definition.block.ts",
                 "punctuation.definition.block.tsx",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation definition character",
-            "scope": [
+                "punctuation.definition.bracket.angle.begin.jsdoc",
+                "punctuation.definition.bracket.angle.begin.sassdoc",
+                "punctuation.definition.bracket.angle.end.jsdoc",
+                "punctuation.definition.bracket.angle.end.sassdoc",
+                "punctuation.definition.bracket.curly.begin.jsdoc",
+                "punctuation.definition.bracket.curly.begin.sassdoc",
+                "punctuation.definition.bracket.curly.end.jsdoc",
+                "punctuation.definition.bracket.curly.end.sassdoc",
+                "punctuation.definition.bracket.named-array.shell",
+                "punctuation.definition.bracket.square.begin.jsdoc",
+                "punctuation.definition.bracket.square.end.jsdoc",
+                "punctuation.definition.brackets.tex",
                 "punctuation.definition.char.begin.cs",
                 "punctuation.definition.char.end.cs",
                 "punctuation.definition.char.rust",
@@ -5919,9 +5866,35 @@
                 "punctuation.definition.character-class.regexp",
                 "punctuation.definition.character-class.ruby",
                 "punctuation.definition.character-class.shell",
+                "punctuation.definition.end.bracket.curly.go",
+                "punctuation.definition.end.bracket.curly.php",
+                "punctuation.definition.end.bracket.round.go",
+                "punctuation.definition.end.bracket.round.php",
+                "punctuation.definition.end.bracket.round.scss",
+                "punctuation.definition.end.bracket.square.array.type.cpp",
+                "punctuation.definition.end.bracket.square.array.type.cuda-cpp",
+                "punctuation.definition.end.bracket.square.binding.cpp",
+                "punctuation.definition.end.bracket.square.c",
+                "punctuation.definition.end.bracket.square.cpp",
+                "punctuation.definition.end.bracket.square.cuda-cpp",
+                "punctuation.definition.end.bracket.square.go",
+                "punctuation.definition.end.bracket.square.objc",
+                "punctuation.definition.end.bracket.square.objcpp",
+                "punctuation.definition.end.bracket.square",
+                "punctuation.definition.end.frontmatter",
+                "punctuation.definition.end.latex",
+                "punctuation.definition.section.case-statement.js.jsx",
+                "punctuation.definition.section.case-statement.js",
+                "punctuation.definition.section.case-statement.ts",
+                "punctuation.definition.section.case-statement.tsx",
+                "punctuation.definition.separator.diff",
+                "punctuation.definition.separator.groovy",
+                "punctuation.definition.seperator.groovy",
+                "punctuation.definition.seperator.key-value.groovy",
+                "punctuation.definition.seperator.parameter.groovy",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#B2B5B7",
                 "fontStyle": ""
             }
         },
@@ -6019,7 +5992,7 @@
                 "punctuation.definition.comment.yaml",
             ],
             "settings": {
-                "foreground": "#2F4858",
+                "foreground": "#565A65",
                 "fontStyle": ""
             }
         },
@@ -6039,8 +6012,8 @@
                 "punctuation.definition.constant.xml",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#3BB2D6",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6061,7 +6034,7 @@
                 "punctuation.definition.entity.xml",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#E5E553",
                 "fontStyle": ""
             }
         },
@@ -6077,8 +6050,8 @@
                 "punctuation.definition.function.tex",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#A29541",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6095,7 +6068,7 @@
                 "punctuation.definition.group.shell",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#D7AB64",
                 "fontStyle": ""
             }
         },
@@ -6109,7 +6082,7 @@
                 "punctuation.definition.interpolation.rust",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#DCCF63",
                 "fontStyle": ""
             }
         },
@@ -6168,7 +6141,7 @@
                 "punctuation.definition.parameters.varargs.java",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#ffd35c",
                 "fontStyle": ""
             }
         },
@@ -6307,7 +6280,7 @@
                 "punctuation.definition.string.template.end.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#a1a1a1",
                 "fontStyle": ""
             }
         },
@@ -6341,13 +6314,23 @@
                 "punctuation.definition.tag.xml",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#909090",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "punctuation definition type-parameter",
+            "name": "punctuation section angle-brackets (cpp) type-parameter (cs+js)",
             "scope": [
+                "punctuation.section.angle-brackets.begin.template.call.cpp",
+                "punctuation.section.angle-brackets.begin.template.call.cuda-cpp",
+                "punctuation.section.angle-brackets.begin.template.definition.cpp",
+                "punctuation.section.angle-brackets.end.template.call.cpp",
+                "punctuation.section.angle-brackets.end.template.call.cuda-cpp",
+                "punctuation.section.angle-brackets.end.template.definition.cpp",
+                "punctuation.section.angle-brackets.end.template.definition.cuda-cpp",
+                "punctuation.section.angle-brackets.end.template.definition.objcpp",
+                "punctuation.section.angle-brackets.start.template.definition.cuda-cpp",
+                "punctuation.section.angle-brackets.start.template.definition.objcpp",
                 "punctuation.definition.typeparameters.begin.cs",
                 "punctuation.definition.typeparameters.begin.js.jsx",
                 "punctuation.definition.typeparameters.begin.js",
@@ -6360,8 +6343,8 @@
                 "punctuation.definition.typeparameters.end.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#B7485A",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6387,12 +6370,12 @@
                 "punctuation.parenthesis.open.cs",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#8293A2",
                 "fontStyle": ""
             }
         },
         {
-            "name": "punctuation section",
+            "name": "punctuation section various",
             "scope": [
                 "punctuation.section.catch.begin.bracket.curly.java",
                 "punctuation.section.catch.end.bracket.curly.java",
@@ -6484,31 +6467,12 @@
                 "punctuation.section.vector.end.trailing.clojure",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#939895",
                 "fontStyle": ""
             }
         },
         {
-            "name": "punctuation section angle-brackets",
-            "scope": [
-                "punctuation.section.angle-brackets.begin.template.call.cpp",
-                "punctuation.section.angle-brackets.begin.template.call.cuda-cpp",
-                "punctuation.section.angle-brackets.begin.template.definition.cpp",
-                "punctuation.section.angle-brackets.end.template.call.cpp",
-                "punctuation.section.angle-brackets.end.template.call.cuda-cpp",
-                "punctuation.section.angle-brackets.end.template.definition.cpp",
-                "punctuation.section.angle-brackets.end.template.definition.cuda-cpp",
-                "punctuation.section.angle-brackets.end.template.definition.objcpp",
-                "punctuation.section.angle-brackets.start.template.definition.cuda-cpp",
-                "punctuation.section.angle-brackets.start.template.definition.objcpp",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation section arguments",
+            "name": "punctuation section arguments arithmetic (shell) array",
             "scope": [
                 "punctuation.section.arguments.begin.bracket.curly.initializer.cpp",
                 "punctuation.section.arguments.begin.bracket.curly.initializer.cuda-cpp",
@@ -6581,26 +6545,8 @@
                 "punctuation.section.arguments.end.bracket.round.static_assert.cpp",
                 "punctuation.section.arguments.end.bracket.round.static_assert.cuda-cpp",
                 "punctuation.section.arguments.end.bracket.round.static-assert.cpp",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation section arithmetic",
-            "scope": [
                 "punctuation.section.arithmetic.double.shell",
                 "punctuation.section.arithmetic.single.shell",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation section array",
-            "scope": [
                 "punctuation.section.array-initializer.begin.bracket.curly.java",
                 "punctuation.section.array-initializer.end.bracket.curly.java",
                 "punctuation.section.array.begin.php",
@@ -6610,12 +6556,12 @@
                 "punctuation.section.array.shell",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#7B817D",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "punctuation section attribute",
+            "name": "punctuation section attribute cpp",
             "scope": [
                 "punctuation.section.attribute.begin.cpp",
                 "punctuation.section.attribute.begin.cuda-cpp",
@@ -6623,12 +6569,12 @@
                 "punctuation.section.attribute.end.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#B58955",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "punctuation section block bracket",
+            "name": "punctuation section block braces brackets curly",
             "scope": [
                 "punctuation.section.begin.bracket.curly.css",
                 "punctuation.section.block.begin.bracket.curly.c",
@@ -6699,30 +6645,12 @@
                 "punctuation.section.block.end.bracket.curly.switch.objcpp",
                 "punctuation.section.block.end.bracket.curly.union.cpp",
                 "punctuation.section.block.end.bracket.curly.union.cuda-cpp",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation section braces",
-            "scope": [
                 "punctuation.section.braces.begin.less",
                 "punctuation.section.braces.begin.powershell",
                 "punctuation.section.braces.begin",
                 "punctuation.section.braces.end.less",
                 "punctuation.section.braces.end.powershell",
                 "punctuation.section.braces.end",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "punctuation section bracket",
-            "scope": [
                 "punctuation.section.bracket.begin.powershell",
                 "punctuation.section.bracket.curly.variable.begin.shell",
                 "punctuation.section.bracket.curly.variable.end.shell",
@@ -6733,8 +6661,8 @@
                 "punctuation.section.brackets.single.end.r",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#B6B6B7",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6766,7 +6694,7 @@
                 "punctuation.section.embedded.substatement.end.powershell",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#E5BD52",
                 "fontStyle": ""
             }
         },
@@ -6786,8 +6714,8 @@
                 "punctuation.section.function.scss",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#8A8878",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6823,8 +6751,8 @@
                 "punctuation.section.parameters.end.bracket.round.special.operator-overload.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#9B9982",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6877,8 +6805,8 @@
                 "punctuation.section.parens.end.bracket.round.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#8B8975",
+                "fontStyle": "bold"
             }
         },
         {
@@ -6901,12 +6829,12 @@
                 "punctuation.section.scope.ruby",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#909098",
                 "fontStyle": ""
             }
         },
         {
-            "name": "punctuation separator",
+            "name": "punctuation separators",
             "scope": [
                 "punctuation.separator.annotation.python",
                 "punctuation.separator.annotation.result.python",
@@ -7135,7 +7063,7 @@
                 "punctuation.separator",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#7E9794",
                 "fontStyle": ""
             }
         },
@@ -7169,7 +7097,7 @@
                 "punctuation.terminator.statement.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#5B6F82",
                 "fontStyle": ""
             }
         },
@@ -7186,12 +7114,12 @@
                 "punctuation.support.type.property-name.end.json",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#949BAA",
                 "fontStyle": ""
             }
         },
         {
-            "name": "punctuation vararg ellipses",
+            "name": "punctuation vararg ellipses (...)",
             "scope": [
                 "punctuation.vararg-ellipses.c",
                 "punctuation.vararg-ellipses.cpp",
@@ -7205,7 +7133,7 @@
                 "punctuation.vararg-ellipses.variable.parameter.preprocessor.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#f9f871",
                 "fontStyle": ""
             }
         },
@@ -7252,18 +7180,18 @@
                 "punctuation.whitespace.trailing.repeat.swift",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#B0BEC5",
                 "fontStyle": ""
             }
         },
         {
-            "name": "razor",
+            "name": "razor test balanced",
             "scope": [
                 "razor.test.balanced.brackets",
                 "razor.test.balanced.parenthesis",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#B4B7BA",
                 "fontStyle": ""
             }
         },
@@ -7282,12 +7210,12 @@
                 "storage.type.$1.swift",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#CEAA49",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "storage type modifier",
+            "name": "storage type modifier any",
             "scope": [
                 "storage.modifier.${0:/downcase}.php",
                 "storage.modifier.$0.cs",
@@ -7302,12 +7230,12 @@
                 "storage.modifier.access-control.groovy",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#D19A66",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "storage modifier",
+            "name": "storage modifier various",
             "scope": [
                 "storage.modifier.asp",
                 "storage.modifier.attribute.swift",
@@ -7379,8 +7307,8 @@
                 "storage.modifier",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#B178AC",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7392,8 +7320,8 @@
                 "storage.modifier.array.bracket.square",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#FF8800",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7406,8 +7334,8 @@
                 "storage.modifier.async.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#287CAF",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7420,15 +7348,6 @@
                 "storage.modifier.specifier.extern.cpp",
                 "storage.modifier.specifier.parameter.cpp",
                 "storage.modifier.specifier.parameter.cuda-cpp",
-            ],
-            "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "storage modifier specifier functional",
-            "scope": [
                 "storage.modifier.specifier.functional.post-parameters.$1.objcpp",
                 "storage.modifier.specifier.functional.post-parameters.$10.cpp",
                 "storage.modifier.specifier.functional.post-parameters.$3.cuda-cpp",
@@ -7437,8 +7356,8 @@
                 "storage.modifier.specifier.functional.pre-parameters.$0.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#e24f94",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7554,8 +7473,8 @@
                 "storage.type.variable.ruby",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#CC6B54",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7573,8 +7492,8 @@
                 "storage.type.built-in.primitive.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#328A00",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7608,8 +7527,8 @@
                 "storage.type.record.cs",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#499690",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7632,12 +7551,12 @@
                 "storage.type.enum.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#00a096",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "storage type function",
+            "name": "storage type function script languages",
             "scope": [
                 "storage.type.function.arrow.java",
                 "storage.type.function.arrow.js.jsx",
@@ -7663,8 +7582,8 @@
                 "storage.type.function.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#AC79A6",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7678,12 +7597,12 @@
                 "storage.type.interface.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#778F9A",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "storage type modifier",
+            "name": "storage type modifiers",
             "scope": [
                 "storage.type.modifier.access.$0.cpp",
                 "storage.type.modifier.access.$0.cuda-cpp",
@@ -7699,8 +7618,8 @@
                 "storage.type.modifier.virtual.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#CE5166",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7722,12 +7641,12 @@
                 "storage.type.namespace.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#9D57AE",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "storage type structure",
+            "name": "storage type struct",
             "scope": [
                 "storage.type.struct.cs",
                 "storage.type.struct.declare.cpp",
@@ -7739,8 +7658,8 @@
                 "storage.type.structured.hlsl",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#25beb5",
+                "fontStyle": "bold"
             }
         },
         {
@@ -7761,12 +7680,12 @@
                 "storage.type.template.objcpp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#5075d8",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "string",
+            "name": "string script languages",
             "scope": [
                 "string",
                 "string.tag.lua",
@@ -7777,7 +7696,7 @@
                 "string.comment.buffered.block.pug",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#778B6A",
                 "fontStyle": ""
             }
         },
@@ -7789,12 +7708,12 @@
                 "strong",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#ABC798",
                 "fontStyle": ""
             }
         },
         {
-            "name": "string interpolation",
+            "name": "string interpolation script languages",
             "scope": [
                 "string.interpolated.backtick.julia",
                 "string.interpolated.backtick.shell",
@@ -7819,12 +7738,12 @@
                 "string.interpolated",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#77876C",
                 "fontStyle": ""
             }
         },
         {
-            "name": "string json",
+            "name": "string json snippets",
             "scope": [
                 "string.json.comments.snippets",
                 "string.json.comments",
@@ -7832,7 +7751,7 @@
                 "string.json",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#617D4D",
                 "fontStyle": ""
             }
         },
@@ -7845,8 +7764,8 @@
                 "string.other.quoted.brackets.sql",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#47A0E8",
+                "fontStyle": "italic underline"
             }
         },
         {
@@ -8022,12 +7941,12 @@
                 "string.quoted.triple.single.dart",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#7A9D61",
                 "fontStyle": ""
             }
         },
         {
-            "name": "string regexp",
+            "name": "string regular expression",
             "scope": [
                 "string.regexp.arbitrary-repetition.php",
                 "string.regexp.arbitrary-repetition.ruby",
@@ -8091,12 +8010,12 @@
                 "string.regexp",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#4184CE",
                 "fontStyle": ""
             }
         },
         {
-            "name": "string template",
+            "name": "string template js",
             "scope": [
                 "string.template.js.jsx",
                 "string.template.js",
@@ -8104,7 +8023,7 @@
                 "string.template.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#BAAB8E",
                 "fontStyle": ""
             }
         },
@@ -8145,12 +8064,12 @@
                 "string.unquoted",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#56B6C2",
                 "fontStyle": ""
             }
         },
         {
-            "name": "support",
+            "name": "support various",
             "scope": [
                 "support.attribute.builtin.php",
                 "support.attribute.php",
@@ -8159,12 +8078,12 @@
                 "support.unicode-range.less",
             ],
             "settings": {
-                "foreground": "#24476A",
-                "fontStyle": ""
+                "foreground": "#8A80A9",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "support class",
+            "name": "support class other",
             "scope": [
                 "support.class.asp",
                 "support.class.builtin.php",
@@ -8202,12 +8121,12 @@
                 "support.class.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#6A7D8B",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "support constant",
+            "name": "support constant any",
             "scope": [
                 "support.constant.10.10.c",
                 "support.constant.10.11.c",
@@ -8287,7 +8206,7 @@
                 "support.constant.vendored.property-value.css",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#E7A463",
                 "fontStyle": ""
             }
         },
@@ -8318,12 +8237,12 @@
                 "support.constant.property-value.texturecombiners.shaderlab",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#CEAA49",
                 "fontStyle": ""
             }
         },
         {
-            "name": "support function",
+            "name": "support function any",
             "scope": [
                 "support.function.$1.makefile",
                 "support.function.10.10.c",
@@ -8599,12 +8518,12 @@
                 "support.function.zlib.php",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#0F94B8",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "support other",
+            "name": "support other various",
             "scope": [
                 "support.other.attribute.cpp",
                 "support.other.attribute.cuda-cpp",
@@ -8620,12 +8539,12 @@
                 "support.other.variable.less",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#6f9200",
                 "fontStyle": ""
             }
         },
         {
-            "name": "support type",
+            "name": "support type any",
             "scope": [
                 "support.type.10.10.c",
                 "support.type.10.12.c",
@@ -8713,12 +8632,12 @@
                 "support.type.vendored.property-name.media.css",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#5A8D89",
                 "fontStyle": ""
             }
         },
         {
-            "name": "support variable",
+            "name": "support variable various",
             "scope": [
                 "support.variable.10.10.c",
                 "support.variable.10.11.c",
@@ -8788,8 +8707,8 @@
                 "support.variable.various.shaderlab",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
-                "fontStyle": ""
+                "foreground": "#4670D2",
+                "fontStyle": "bold"
             }
         },
         {
@@ -8809,23 +8728,23 @@
                 "switch-statement.expr.tsx",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#759412",
                 "fontStyle": ""
             }
         },
         {
-            "name": "tag",
+            "name": "tag pug",
             "scope": [
                 "tag.case.control.flow.pug",
                 "tag.inline.pug",
             ],
             "settings": {
-                "foreground": "#b0bcc4",
+                "foreground": "#A79C9F",
                 "fontStyle": ""
             }
         },
         {
-            "name": "text",
+            "name": "text only",
             "scope": [
                 "text.bibtex",
                 "text.block.pipe.pug",
@@ -8854,7 +8773,7 @@
                 "text.xml",
             ],
             "settings": {
-                "foreground": "#ff0000",
+                "foreground": "#9CA7A4",
                 "fontStyle": ""
             }
         },
@@ -8936,8 +8855,8 @@
                 "variable.language.wildcard.java",
             ],
             "settings": {
-                "foreground": "#7c47c8",
-                "fontStyle": ""
+                "foreground": "#3A69C0",
+                "fontStyle": "bold"
             }
         },
         {
