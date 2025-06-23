@@ -1,0 +1,3 @@
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\QReadWrite\"\n\"variable.parameter\"\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Q\"emphasis\": Markdown or markup-like languages, this scope typically applies italic styling.\\E$"}
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q:floppy_disk: Source: All supported languages source, font style (none)\\E$"}
