@@ -121,32 +121,36 @@ To create a well-structured and effective `tokenColors` array in a VS Code theme
     1. "punctuation.section.block.begin / .end"
     1. "punctuation.definition.parameters.begin / .end"
 
-1. :bricks: Meta & Structural: These wrap or describe other scopes
+1. :bricks: **Meta & Structural**: These wrap or describe other scopes
 
     1. "meta.function"
     1. "meta.class"
     1. "meta.block"
     1. "meta.embedded"
 
-1. :surfer: Markup & Markdown: Catch-all, rarely used, invalid, or general, font style (none)
+1. :surfer: **Markup & Markdown**: Catch-all, rarely used, invalid, or general, font style (none)
 
     1. "markup.*" (for Markdown, etc.)
 
-1. :speech_balloon: Plain text & Markup-based Languages: Plain Text general, font style (none)
+1. :speech_balloon: **Plain Text**: Plain Text general, font style (none)
 
     1. "text.*"
 
-1. :exclamation: Fallback and Uncategorized: any other rules not categorized
+1. :speech_balloon: **Log Text**: Log Text general, font style (none)
+
+    1. "log.*"
+
+1. :exclamation: **Fallback and Uncategorized**: any other rules not categorized
 
     1. "switch-*"
     1. "tag.*"
     1. "*.*"
 
-1. :wolf: Wildcards & Invalid: Wildcards, or Invalid, font style (none)
+1. :wolf: **Wildcards & Invalid**: Wildcards, Invalid, or illegal, font style (none)
 
     1. "invalid"
 
-1. :floppy_disk: Source: All supported languages source, font style (none)
+1. :floppy_disk: **Source**: All supported languages source, font style (none)
 
     1. "source"
 

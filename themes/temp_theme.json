@@ -1,4 +1,4 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "tokenColors": []
+    "name": "ash-sharp-theme",
 }
