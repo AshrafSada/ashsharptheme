@@ -1,8 +1,8 @@
 {
   "name": "ash-sharp-vs-theme",
-  "displayName": "Ash# Sharp Theme",
-  "description": "Special dark theme designed to enhance code syntax for C#, ASP.NET Core, and Razor, in addition to popular other languages.",
-  "version": "0.2.0",
+  "displayName": "Ash Sharp Theme",
+  "description": "Visual Studio Code theme designed to enhance code syntax of various supported programming languages.",
+  "version": "0.2.1",
   "license": "Apache-2.0",
   "icon": "icon.png",
   "author": {
@@ -15,7 +15,28 @@
     "vscode": "^1.101.2"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
+  ],
+  "galleryBanner": {
+    "color": "#0C0515",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/AshrafSada/ashsharptheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshrafSada/ashsharptheme"
+  },
+  "bugs": {
+    "url": "https://github.com/AshrafSada/ashsharptheme/issues"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "clean",
+    "constrast",
+    "ash",
+    "sharp"
   ],
   "contributes": {
     "themes": [
@@ -26,35 +47,8 @@
       }
     ]
   },
-  "galleryBanner": {
-    "color": "#000000",
-    "theme": "dark"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AshrafSada/ashsharptheme"
-  },
-  "keywords": [
-    "theme",
-    "dark",
-    "csharp",
-    "cpp",
-    "csharp theme",
-    "c#",
-    "c# theme",
-    "dotnet",
-    "dotnet theme",
-    "asp.net core",
-    "razor",
-    "blazor",
-    "javascript",
-    "html",
-    "cshtml",
-    "css",
-    "json",
-    "T-SQL",
-    "SQL",
-    "Dart",
-    "Flutter"
-  ]
+  "scripts": {
+    "prepack": "vsce package",
+    "publish": "vsce publish"
+  }
 }
