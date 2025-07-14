@@ -1,23 +1,4 @@
-Modify color by assigning unique colors for callers:
-entity.name.type.cs
-entity.name.variable.event.cs
-entity.name.type.delegate.cs
+default keyword color: #b86fcf
+conditional operator keyword color: #d2656e
 
-and for storage types:
-storage.type.delegate.cs
-
-and for storage modifiers:
-storage.modifier.internal.cs
-storage.modifier.private.cs
-storage.modifier.protected.cs
-storage.modifier.public.cs
-
-and variables:
-variable.other.readwrite.cs
-
-and parameter:
-entity.name.variable.parameter.cs
-
-function color: 
-#08A4F1 for arrow and arithmetic functions
-#B43E8F for names function
+note: remove the font style property, to be set by language sepecific style.
