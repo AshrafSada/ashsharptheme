@@ -8,9 +8,6 @@
     ],
     "colors": {
         "actionBar.toggledBackground": "#120816",
-        "activityErrorBadge.background": "#f14c4c",
-        "activityErrorBadge.foreground": "#FDFDFD",
-        "activityWarningBadge.background": "#FFD303",
         "activityBar.activeBackground": "#90144744",
         "activityBar.activeBorder": "#c21e65",
         "activityBar.activeFocusBorder": "#12081600",
@@ -27,6 +24,9 @@
         "activityBarTop.dropBorder": "#12081600",
         "activityBarTop.foreground": "#C0C0C0",
         "activityBarTop.inactiveForeground": "#C0C0C0",
+        "activityErrorBadge.background": "#f14c4c",
+        "activityErrorBadge.foreground": "#FDFDFD",
+        "activityWarningBadge.background": "#FFD303",
         "badge.background": "#9a4c92D0",
         "badge.foreground": "#FDFDFD",
         "banner.background": "#120816",
@@ -224,9 +224,9 @@
         "editorSuggestWidget.background": "#110d1a",
         "editorSuggestWidget.border": "#120816",
         "editorSuggestWidget.focusHighlightForeground": "#C2B28796",
-        "editorSuggestWidget.foreground": "#C2B28766",
+        "editorSuggestWidget.foreground": "#296981", //
         "editorSuggestWidget.highlightForeground": "#C2B28796",
-        "editorSuggestWidget.selectedBackground": "#423A4E",
+        "editorSuggestWidget.selectedBackground": "#9a4c924D",
         "editorSuggestWidget.selectedForeground": "#C0C0C0",
         "editorSuggestWidget.selectedIconForeground": "#9a4c92",
         "editorWhitespace.foreground": "#454545",
@@ -504,6 +504,7 @@
                 "source.coffee.embedded.source",
                 "source.coffee",
                 "source.coffeescript.filter.pug",
+                "source.cmake",
                 "source.cpp.embedded.latex",
                 "source.cpp.embedded.macro",
                 "source.cpp",
@@ -578,19 +579,20 @@
                 "source.yaml",
             ],
             "settings": {
-                "foreground": "#a3a398",
+                "foreground": "#ad0e66",
             }
         },
         {
             "name": "keyword (global)",
             "scope": [
-                "keyword",
+                "keyword.cmake",
                 "keyword.control",
                 "keyword.operator",
                 "keyword.other",
+                "keyword",
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#b367ca",
             }
         },
         {
@@ -1058,7 +1060,7 @@
                 "keyword.control.flowcontrol.perl",
             ],
             "settings": {
-                "foreground": "#02c3bd",
+                "foreground": "#14afe2",
             }
         },
         {
@@ -1725,7 +1727,7 @@
                 "keyword.operator.expression.with.cs",
             ],
             "settings": {
-                "foreground": "#64a4ce",
+                "foreground": "#9f54e6",
             }
         },
         {
@@ -2081,7 +2083,7 @@
                 "keyword.other.directive.static.cs",
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#9FA91F",
             }
         },
         {
@@ -2317,9 +2319,6 @@
                 "storage.modifier.protocol.objcpp",
                 "storage.modifier.readonly.cs",
                 "storage.modifier.ref.cs",
-                "storage.modifier.reference.cpp",
-                "storage.modifier.reference.cuda-cpp",
-                "storage.modifier.reference.php",
                 "storage.modifier.rust",
                 "storage.modifier.scope.powershell",
                 "storage.modifier.shell",
@@ -2332,7 +2331,18 @@
                 "storage.modifier.where.cs",
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#e26ad2",
+            }
+        },
+        {
+            "name": "storage modifier reference",
+            "scope": [
+                "storage.modifier.reference.cpp",
+                "storage.modifier.reference.cuda-cpp",
+                "storage.modifier.reference.php",
+            ],
+            "settings": {
+                "foreground": "#D333BE"
             }
         },
         {
@@ -2388,7 +2398,7 @@
                 "storage.modifier.virtual.cs"
             ],
             "settings": {
-                "foreground": "#0087B3",
+                "foreground": "#9FA91F",
             }
         },
         {
@@ -2614,7 +2624,7 @@
                 "storage.type.built-in.primitive.objcpp",
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#18B7C8",
             }
         },
         {
@@ -2649,7 +2659,7 @@
                 "storage.type.record.cs",
             ],
             "settings": {
-                "foreground": "#28A6AD",
+                "foreground": "#C678DD",
             }
         },
         {
@@ -2716,11 +2726,11 @@
                 "storage.type.interface.tsx",
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#C678DD",
             }
         },
         {
-            "name": "storage type modifiers",
+            "name": "storage type modifier access",
             "scope": [
                 "storage.type.modifier.access.$0.cpp",
                 "storage.type.modifier.access.$0.cuda-cpp",
@@ -2731,6 +2741,14 @@
                 "storage.type.modifier.access.control.public.cpp",
                 "storage.type.modifier.access.public.cpp",
                 "storage.type.modifier.access.objcpp",
+            ],
+            "settings": {
+                "foreground": "#dd78bf",
+            }
+        },
+        {
+            "name": "storage type modifiers",
+            "scope": [
                 "storage.type.modifier.calling-convention.cpp",
                 "storage.type.modifier.calling-convention.cuda-cpp",
                 "storage.type.modifier.final.cpp",
@@ -2739,7 +2757,7 @@
                 "storage.type.modifier.virtual.cuda-cpp",
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#9FA91F",
             }
         },
         {
@@ -3357,6 +3375,14 @@
             }
         },
         {
+            "name": "variable (global)",
+            "scope": "variable",
+            "settings": {
+                "foreground": "#e75095",
+                "fontStyle": ""
+            }
+        },
+        {
             "name": "variable language",
             "scope": [
                 "variable.language.$1.coffee",
@@ -3482,6 +3508,7 @@
                 "variable.other.for.shell",
                 "variable.other.global.php",
                 "variable.other.global.safer.php",
+                "variable.other.global.cpp",
                 "variable.other.go",
                 "variable.other.group-name.regexp",
                 "variable.other.identifier.perl.6",
@@ -3549,9 +3576,10 @@
                 "variable.other.unknown.$5.cpp",
                 "variable.other.unknown.$8.cpp",
                 "variable.other.value.cs",
+                "variable.other.local.cpp",
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#c4ae09",
             }
         },
         {
@@ -3583,7 +3611,7 @@
                 "variable.other.object",
             ],
             "settings": {
-                "foreground": "#b69121",
+                "foreground": "#2196b6",
             }
         },
         {
@@ -3600,7 +3628,7 @@
                 "variable.other.object.property.tsx",
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#8077D1",
             }
         },
         {
@@ -3868,7 +3896,7 @@
                 "entity.name.function",
             ],
             "settings": {
-                "foreground": "#64a4ce",
+                "foreground": "#75a3ff",
             }
         },
         {
@@ -4053,7 +4081,7 @@
                 "entity.name.tag",
             ],
             "settings": {
-                "foreground": "#3aa7a3",
+                "foreground": "#6d9bc3",
             }
         },
         {
@@ -4207,7 +4235,7 @@
             "name": "entity name variable enum-member (CSharp)",
             "scope": "entity.name.variable.enum-member.cs",
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#8077d1",
             }
         },
         {
@@ -4240,22 +4268,21 @@
         },
         {
             "name": "entity name variable property (CSharp)",
-            "scope": [
-                "entity.name.variable.property.cs",
-            ],
+            "scope": "entity.name.variable.property.cs",
             "settings": {
-                "foreground": "#D0D0D0",
+                "foreground": "#7797a0",
             }
         },
         {
             "name": "entity name variable local (CSharp)",
             "scope": [
                 "entity.name.variable.local.cs",
+                "entity.name.variable.local.cs",
                 "entity.name.variable.range-variable.cs",
                 "entity.name.variable.tuple-element.cs",
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#b2b2a8",
             }
         },
         {
@@ -9478,5 +9505,4 @@
             }
         },
     ],
-    "semanticHighlighting": false,
 }
