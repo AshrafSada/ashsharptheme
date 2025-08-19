@@ -579,7 +579,7 @@
                 "source.yaml",
             ],
             "settings": {
-                "foreground": "#ad0e66",
+                "foreground": "#c1bfc0",
             }
         },
         {
@@ -4682,6 +4682,7 @@
                 "support.function.cf.10.8.c",
                 "support.function.cf.10.9.c",
                 "support.function.cf.c",
+                "support.function.cmake",
                 "support.function.classobj.php",
                 "support.function.clib.10.10.c",
                 "support.function.clib.10.12.c",
@@ -4913,7 +4914,7 @@
                 "support.function.zlib.php",
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#238da0",
             }
         },
         {
@@ -4955,6 +4956,7 @@
                 "support.type.builtin.tsx",
                 "support.type.c",
                 "support.type.cf.c",
+                "support.type.change.cmake",
                 "support.type.clib.c",
                 "support.type.cocoa.leopard.objc",
                 "support.type.cocoa.leopard.objcpp",
@@ -4994,6 +4996,7 @@
                 "support.type.primitive.js",
                 "support.type.primitive.ts",
                 "support.type.primitive.tsx",
+                "support.type.provideInfo.cmake",
                 "support.type.pthread.c",
                 "support.type.pthread.objc",
                 "support.type.pthread.objcpp",
@@ -5010,6 +5013,7 @@
                 "support.type.sys-types.c",
                 "support.type.sys-types.objc",
                 "support.type.sys-types.objcpp",
+                "support.type.targetProperty.cmake",
                 "support.type.texture.hlsl",
                 "support.type.texture.legacy.hlsl",
                 "support.type.vb.asp",
@@ -5017,7 +5021,7 @@
                 "support.type.vendored.property-name.media.css",
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#9566a3",
             }
         },
         {
@@ -5418,6 +5422,7 @@
                 "string.template.js",
                 "string.template.ts",
                 "string.template.tsx",
+                "string.unquoted.cmake",
                 "string.unquoted.argument.shell",
                 "string.unquoted.attribute-value.css",
                 "string.unquoted.attribute-value.scss",
@@ -5451,7 +5456,7 @@
                 "string.unquoted",
             ],
             "settings": {
-                "foreground": "#22b573",
+                "foreground": "#ada48b",
             }
         },
         {
@@ -5546,6 +5551,8 @@
                 "comment.documentation.embedded.powershell",
                 "comment.frontmatter",
                 "comment.line.apostrophe.asp",
+                "comment.line.cmake",
+                "comment.line.number-sign.cmake",
                 "comment.line.banner.c",
                 "comment.line.banner.cpp",
                 "comment.line.banner.cuda-cpp",
