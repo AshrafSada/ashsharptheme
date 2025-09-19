@@ -4,7 +4,7 @@
     "author": "Ashraf Sada",
     "type": "dark",
     "maintainters": [
-        "Ash <ashraf.sada@outlook.com>"
+        "Ashraf <ashraf.sada@outlook.com>"
     ],
     "colors": {
         "actionBar.toggledBackground": "#120816",
@@ -27,6 +27,7 @@
         "activityErrorBadge.background": "#f14c4c",
         "activityErrorBadge.foreground": "#FDFDFD",
         "activityWarningBadge.background": "#FFD303",
+        "activityWarningBadge.foreground": "#120816",
         "badge.background": "#9a4c92D0",
         "badge.foreground": "#FDFDFD",
         "banner.background": "#120816",
@@ -84,7 +85,7 @@
         "debugConsole.sourceForeground": "#C0C0C0",
         "debugConsole.warningForeground": "#FFCC00",
         "debugConsoleInputIcon.foreground": "#FDFDFD",
-        "debugIcon.breakpointCurrentStackframeForeground": "#ffcc00",
+        "debugIcon.breakpointCurrentStackframeForeground": "#FFCC00",
         "debugIcon.breakpointDisabledForeground": "#A8A495",
         "debugIcon.breakpointForeground": "#CD004A",
         "debugIcon.breakpointUnverifiedForeground": "#ff0080",
@@ -118,11 +119,11 @@
         "editor.compositionBorder": "#120816",
         "editor.findMatchBackground": "#120816",
         "editor.findMatchBorder": "#120816",
-        "editor.findMatchForeground": "#C0C0C0",
-        "editor.findMatchHighlightBackground": "#9a4c92A0",
+        "editor.findMatchForeground": "#E8BB07",
+        "editor.findMatchHighlightBackground": "#5d525ca0",
         "editor.findMatchHighlightBorder": "#12081699",
-        "editor.findMatchHighlightForeground": "#FDFDFDAF",
-        "editor.findRangeHighlightBackground": "#9a4c924D",
+        "editor.findMatchHighlightForeground": "#fdfdfdaf",
+        "editor.findRangeHighlightBackground": "#5d525ca0",
         "editor.findRangeHighlightBorder": "#120816BC",
         "editor.focusedStackFrameHighlightBackground": "#9a4c924D",
         "editor.foldBackground": "#12081655",
@@ -154,14 +155,14 @@
         "editor.wordHighlightStrongBackground": "#03243677",
         "editor.wordHighlightStrongBorder": "#5c0180",
         "editor.wordHighlightTextBackground": "#032436FE",
-        "editor.wordHighlightTextBorder": "#120816",
+        "editor.wordHighlightTextBorder": "#12081600",
         "editorActionList.background": "#120816",
         "editorActionList.focusBackground": "#322D48",
         "editorActionList.focusForeground": "#FDFDFD",
         "editorActionList.foreground": "#C0C0C0",
         "editorBracketMatch.background": "#2b3c50",
         "editorBracketMatch.border": "#120816",
-        "editorCodeLens.foreground": "#7A7A7A",
+        "editorCodeLens.foreground": "#12081600",
         "editorCommentsWidget.rangeActiveBackground": "#9a4c924D",
         "editorCursor.background": "#120816",
         "editorCursor.foreground": "#f3f3f3",
@@ -256,7 +257,7 @@
         "inputOption.activeBorder": "#120816",
         "inputOption.activeForeground": "#C0C0C0",
         "inputValidation.errorBackground": "#E5423F20",
-        "list.activeSelectionBackground": "#21002DFF",
+        "list.activeSelectionBackground": "#250132",
         "list.activeSelectionForeground": "#C0C0C0",
         "list.activeSelectionIconForeground": "#C0C0C0",
         "list.deemphasizedForeground": "#C0C0C0",
@@ -416,6 +417,7 @@
         "statusBarItem.prominentBackground": "#8c3c84",
         "statusBarItem.prominentForeground": "#FDFDFD",
         "statusBarItem.warningHoverBackground": "#D4AD0EE0",
+        "symbolIcon.fileForeground": "default",
         "tab.activeBackground": "#461E42",
         "tab.activeBorder": "#9a4c92",
         "tab.activeForeground": "#EBEAEB",
@@ -480,6 +482,7 @@
         "toolbar.hoverOutline": "#9a4c924D",
         "tree.inactiveIndentGuidesStroke": "#9C4393",
         "tree.indentGuidesStroke": "#322D48",
+        "tree.tableColumnsBorder": "#CCCCCC20",
         "welcomePage.background": "#21002D00",
         "welcomePage.progress.background": "#12081677",
         "welcomePage.progress.foreground": "#12081677",
@@ -489,11 +492,11 @@
         "widget.border": "#322D48A1",
         "widget.shadow": "#221A2C",
         "window.activeBorder": "#9a4c924D",
-        "window.inactiveBorder": "#120816",
+        "window.inactiveBorder": "#120816"
     },
     "tokenColors": [
         {
-            "name": "supported languages sources (must match punctuation def string begin)",
+            "name": "supported languages sources",
             "scope": [
                 "other.source.dart",
                 "source.asp.vb.net",
@@ -576,10 +579,10 @@
                 "source.yaml.1.2",
                 "source.yaml.1.3",
                 "source.yaml.embedded",
-                "source.yaml",
+                "source.yaml"
             ],
             "settings": {
-                "foreground": "#c1bfc0",
+                "foreground": "#c1bfc0"
             }
         },
         {
@@ -589,10 +592,10 @@
                 "keyword.control",
                 "keyword.operator",
                 "keyword.other",
-                "keyword",
+                "keyword"
             ],
             "settings": {
-                "foreground": "#b367ca",
+                "foreground": "#b367ca"
             }
         },
         {
@@ -771,10 +774,10 @@
                 "keyword.control.with.js",
                 "keyword.control.with.ts",
                 "keyword.control.with.tsx",
-                "keyword.control.yield-from.php",
+                "keyword.control.yield-from.php"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -822,10 +825,10 @@
                 "keyword.control.at-rule.viewport.css",
                 "keyword.control.at-rule.apply.tailwind",
                 "keyword.control.at-rule.layer.tailwind",
-                "keyword.control.at-rule.theme.tailwind",
+                "keyword.control.at-rule.theme.tailwind"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -837,10 +840,10 @@
                 "keyword.control.case.objc",
                 "keyword.control.case.objcpp",
                 "keyword.control.case.shell",
-                "keyword.control.case.php",
+                "keyword.control.case.php"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -863,10 +866,10 @@
                 "keyword.control.conditional.switch.cs",
                 "keyword.control.conditional.ts",
                 "keyword.control.conditional.tsx",
-                "keyword.control.conditional.when.cs",
+                "keyword.control.conditional.when.cs"
             ],
             "settings": {
-                "foreground": "#d2656e",
+                "foreground": "#d2656e"
             }
         },
         {
@@ -875,10 +878,10 @@
                 "keyword.control.context.$1.cs",
                 "keyword.control.context.fixed.cs",
                 "keyword.control.context.lock.cs",
-                "keyword.control.context.using.cs",
+                "keyword.control.context.using.cs"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -887,10 +890,10 @@
                 "keyword.control.cshtml.transition.textTag.close",
                 "keyword.control.cshtml.transition.textTag.open",
                 "keyword.control.cshtml.transition",
-                "keyword.control.cshtml",
+                "keyword.control.cshtml"
             ],
             "settings": {
-                "foreground": "#B45490",
+                "foreground": "#B45490"
             }
         },
         {
@@ -905,10 +908,10 @@
                 "keyword.control.default.objcpp",
                 "keyword.control.default.ts",
                 "keyword.control.default.tsx",
-                "keyword.control.default.php",
+                "keyword.control.default.php"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -975,10 +978,10 @@
                 "keyword.control.directive.undef.cpp",
                 "keyword.control.directive.undef.cuda-cpp",
                 "keyword.control.directive.undef.objc",
-                "keyword.control.directive.undef.objcpp",
+                "keyword.control.directive.undef.objcpp"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -996,10 +999,10 @@
                 "keyword.control.exception.php",
                 "keyword.control.exception.swift",
                 "keyword.control.exception.try.cs",
-                "keyword.control.exception.when.cs",
+                "keyword.control.exception.when.cs"
             ],
             "settings": {
-                "foreground": "#01AF8A",
+                "foreground": "#01AF8A"
             }
         },
         {
@@ -1029,10 +1032,10 @@
                 "keyword.control.import.swift",
                 "keyword.control.import.ts",
                 "keyword.control.import.tsx",
-                "keyword.control.import.reg",
+                "keyword.control.import.reg"
             ],
             "settings": {
-                "foreground": "#ac82fe",
+                "foreground": "#ac82fe"
             }
         },
         {
@@ -1057,10 +1060,10 @@
                 "keyword.control.flow.ts",
                 "keyword.control.flow.tsx",
                 "keyword.control.flow.yield.cs",
-                "keyword.control.flowcontrol.perl",
+                "keyword.control.flowcontrol.perl"
             ],
             "settings": {
-                "foreground": "#14afe2",
+                "foreground": "#14afe2"
             }
         },
         {
@@ -1079,10 +1082,10 @@
                 "keyword.control.loop.tsx",
                 "keyword.control.loop.while.cs",
                 "keyword.control.loop.while.r",
-                "keyword.control.loop",
+                "keyword.control.loop"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -1109,10 +1112,10 @@
                 "keyword.control.razor.directive.tagHelperPrefix",
                 "keyword.control.razor.directive.typeparam",
                 "keyword.control.razor.optionalSemicolon",
-                "keyword.control.razor.singleLineMarkup",
+                "keyword.control.razor.singleLineMarkup"
             ],
             "settings": {
-                "foreground": "#AC4284",
+                "foreground": "#AC4284"
             }
         },
         {
@@ -1128,10 +1131,10 @@
                 "keyword.control.switch.objcpp",
                 "keyword.control.switch.php",
                 "keyword.control.switch.ts",
-                "keyword.control.switch.tsx",
+                "keyword.control.switch.tsx"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -1148,10 +1151,10 @@
                 "keyword.control.trycatch.js.jsx",
                 "keyword.control.trycatch.js",
                 "keyword.control.trycatch.ts",
-                "keyword.control.trycatch.tsx",
+                "keyword.control.trycatch.tsx"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -1456,10 +1459,10 @@
                 "keyword.operator.arithmetic.ts",
                 "keyword.operator.arithmetic.tsx",
                 "keyword.operator.arithmetic.unary.swift",
-                "keyword.operator.arithmetic.colon.reg",
+                "keyword.operator.arithmetic.colon.reg"
             ],
             "settings": {
-                "foreground": "#3b91f4",
+                "foreground": "#3b91f4"
             }
         },
         {
@@ -1498,10 +1501,10 @@
                 "keyword.operator.assignment.shell",
                 "keyword.operator.assignment.swift",
                 "keyword.operator.assignment.ts",
-                "keyword.operator.assignment.tsx",
+                "keyword.operator.assignment.tsx"
             ],
             "settings": {
-                "foreground": "#bfc0c0",
+                "foreground": "#bfc0c0"
             }
         },
         {
@@ -1530,10 +1533,10 @@
                 "keyword.operator.assignment.compound.shell",
                 "keyword.operator.assignment.compound.swift",
                 "keyword.operator.assignment.compound.ts",
-                "keyword.operator.assignment.compound.tsx",
+                "keyword.operator.assignment.compound.tsx"
             ],
             "settings": {
-                "foreground": "#13e7e7",
+                "foreground": "#13e7e7"
             }
         },
         {
@@ -1564,10 +1567,10 @@
                 "keyword.operator.bitwise.shift.tsx",
                 "keyword.operator.bitwise.swift",
                 "keyword.operator.bitwise.ts",
-                "keyword.operator.bitwise.tsx",
+                "keyword.operator.bitwise.tsx"
             ],
             "settings": {
-                "foreground": "#13e7e7",
+                "foreground": "#13e7e7"
             }
         },
         {
@@ -1603,10 +1606,10 @@
                 "keyword.operator.comparison.sql",
                 "keyword.operator.comparison.swift",
                 "keyword.operator.comparison.ts",
-                "keyword.operator.comparison.tsx",
+                "keyword.operator.comparison.tsx"
             ],
             "settings": {
-                "foreground": "#30CCF0",
+                "foreground": "#30CCF0"
             }
         },
         {
@@ -1628,10 +1631,10 @@
                 "keyword.operator.increment-decrement.groovy",
                 "keyword.operator.increment-decrement.java",
                 "keyword.operator.increment-decrement.php",
-                "keyword.operator.increment-or-decrement.swift",
+                "keyword.operator.increment-or-decrement.swift"
             ],
             "settings": {
-                "foreground": "#30CCF0",
+                "foreground": "#30CCF0"
             }
         },
         {
@@ -1648,10 +1651,10 @@
                 "keyword.operator.decrement.objc",
                 "keyword.operator.decrement.objcpp",
                 "keyword.operator.decrement.ts",
-                "keyword.operator.decrement.tsx",
+                "keyword.operator.decrement.tsx"
             ],
             "settings": {
-                "foreground": "#E730A4",
+                "foreground": "#E730A4"
             }
         },
         {
@@ -1724,10 +1727,10 @@
                 "keyword.operator.expression.void.js",
                 "keyword.operator.expression.void.ts",
                 "keyword.operator.expression.void.tsx",
-                "keyword.operator.expression.with.cs",
+                "keyword.operator.expression.with.cs"
             ],
             "settings": {
-                "foreground": "#9f54e6",
+                "foreground": "#9f54e6"
             }
         },
         {
@@ -1768,10 +1771,10 @@
                 "keyword.operator.logical.shell",
                 "keyword.operator.logical.swift",
                 "keyword.operator.logical.ts",
-                "keyword.operator.logical.tsx",
+                "keyword.operator.logical.tsx"
             ],
             "settings": {
-                "foreground": "#4cc9f0",
+                "foreground": "#4cc9f0"
             }
         },
         {
@@ -1781,10 +1784,10 @@
                 "keyword.operator.conditional.colon.cs",
                 "keyword.operator.conditional.negative.regexp",
                 "keyword.operator.conditional.question-mark.cs",
-                "keyword.operator.conditional.regexp",
+                "keyword.operator.conditional.regexp"
             ],
             "settings": {
-                "foreground": "#4cc9f0",
+                "foreground": "#4cc9f0"
             }
         },
         {
@@ -1813,7 +1816,7 @@
                 "keyword.operator.plus.exponent.hexadecimal.cuda-cpp",
                 "keyword.operator.plus.exponent.hexadecimal.go",
                 "keyword.operator.plus.exponent.hexadecimal.objc",
-                "keyword.operator.plus.exponent.hexadecimal.objcpp",
+                "keyword.operator.plus.exponent.hexadecimal.objcpp"
             ],
             "settings": {
                 "foreground": "#c678dd",
@@ -1984,10 +1987,10 @@
                 "keyword.other.typedef.objcpp",
                 "keyword.other.typename.cpp",
                 "keyword.other.typename.cuda-cpp",
-                "keyword.other.var.cs",
+                "keyword.other.var.cs"
             ],
             "settings": {
-                "foreground": "#80b384",
+                "foreground": "#80b384"
             }
         },
         {
@@ -1995,10 +1998,10 @@
             "scope": [
                 "keyword.other.important.css",
                 "keyword.other.important.less",
-                "keyword.other.important.scss",
+                "keyword.other.important.scss"
             ],
             "settings": {
-                "foreground": "#23A3AC",
+                "foreground": "#23A3AC"
             }
         },
         {
@@ -2007,10 +2010,10 @@
                 "keyword.other.import.dart",
                 "keyword.other.import.groovy",
                 "keyword.other.import.java",
-                "keyword.other.import.static.groovy",
+                "keyword.other.import.static.groovy"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2068,10 +2071,10 @@
                 "keyword.other.unit.user-defined.cpp",
                 "keyword.other.unit.user-defined.cuda-cpp",
                 "keyword.other.unit.user-defined.objcpp",
-                "keyword.other.unit",
+                "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#B064C7",
+                "foreground": "#B064C7"
             }
         },
         {
@@ -2080,10 +2083,10 @@
                 "keyword.other.directive.alias.cs",
                 "keyword.other.directive.extern.cs",
                 "keyword.other.directive.global.cs",
-                "keyword.other.directive.static.cs",
+                "keyword.other.directive.static.cs"
             ],
             "settings": {
-                "foreground": "#9FA91F",
+                "foreground": "#9FA91F"
             }
         },
         {
@@ -2099,10 +2102,10 @@
                 "keyword.other.using.directive.cpp",
                 "keyword.other.using.directive.cuda-cpp",
                 "keyword.other.using.directive.objcpp",
-                "keyword.other.directive.yaml.yaml",
+                "keyword.other.directive.yaml.yaml"
             ],
             "settings": {
-                "foreground": "#b86fcf",
+                "foreground": "#b86fcf"
             }
         },
         {
@@ -2127,7 +2130,7 @@
                 "keyword.preprocessor.region.cs",
                 "keyword.preprocessor.restore.cs",
                 "keyword.preprocessor.undef.cs",
-                "keyword.preprocessor.warning.cs",
+                "keyword.preprocessor.warning.cs"
             ],
             "settings": {
                 "foreground": "#7E3FB2",
@@ -2171,10 +2174,10 @@
                 "keyword.symbol.arrow.fsharp",
                 "keyword.symbol.fsharp",
                 "keyword.typealias.hlsl",
-                "keyword.var.go",
+                "keyword.var.go"
             ],
             "settings": {
-                "foreground": "#4893c6",
+                "foreground": "#4893c6"
             }
         },
         {
@@ -2200,17 +2203,17 @@
                 "keyword.type.uint.cs",
                 "keyword.type.ulong.cs",
                 "keyword.type.ushort.cs",
-                "keyword.type.void.cs",
+                "keyword.type.void.cs"
             ],
             "settings": {
-                "foreground": "#43aa8b",
+                "foreground": "#43aa8b"
             }
         },
         {
             "name": "keywrod type other",
             "scope": "keyword.type.go",
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2223,10 +2226,10 @@
                 "storage",
                 "string.other",
                 "string.name.regdata.reg",
-                "string.name",
+                "string.name"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2240,10 +2243,10 @@
                 "storage.type.$1.cuda-cpp",
                 "storage.type.$1.objc",
                 "storage.type.$1.objcpp",
-                "storage.type.$1.swift",
+                "storage.type.$1.swift"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2261,10 +2264,10 @@
                 "storage.modifier.$8.cpp",
                 "storage.modifier.access-control.groovy",
                 "storage.modifier.virtual.cpp",
-                "storage.modifier.this.cs",
+                "storage.modifier.this.cs"
             ],
             "settings": {
-                "foreground": "#1ABD9E",
+                "foreground": "#1ABD9E"
             }
         },
         {
@@ -2328,10 +2331,10 @@
                 "storage.modifier.tsx",
                 "storage.modifier.type.constraints.perl",
                 "storage.modifier.unsafe.cs",
-                "storage.modifier.where.cs",
+                "storage.modifier.where.cs"
             ],
             "settings": {
-                "foreground": "#e26ad2",
+                "foreground": "#e26ad2"
             }
         },
         {
@@ -2339,7 +2342,7 @@
             "scope": [
                 "storage.modifier.reference.cpp",
                 "storage.modifier.reference.cuda-cpp",
-                "storage.modifier.reference.php",
+                "storage.modifier.reference.php"
             ],
             "settings": {
                 "foreground": "#D333BE"
@@ -2348,28 +2351,28 @@
         {
             "name": "storage modifier internal",
             "scope": [
-                "storage.modifier.internal.cs",
+                "storage.modifier.internal.cs"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
             "name": "storage modifier protected",
             "scope": [
-                "storage.modifier.protected.cs",
+                "storage.modifier.protected.cs"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
             "name": "storage modifier public",
             "scope": [
-                "storage.modifier.public.cs",
+                "storage.modifier.public.cs"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2383,10 +2386,10 @@
                 "storage.modifier.export.shell",
                 "storage.modifier.partial.cs",
                 "storage.modifier.private.cs",
-                "storage.modifier.__global__.cuda-cpp",
+                "storage.modifier.__global__.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2398,7 +2401,7 @@
                 "storage.modifier.virtual.cs"
             ],
             "settings": {
-                "foreground": "#9FA91F",
+                "foreground": "#9FA91F"
             }
         },
         {
@@ -2407,10 +2410,10 @@
                 "storage.modifier.array.bracket.square.c",
                 "storage.modifier.array.bracket.square.objc",
                 "storage.modifier.array.bracket.square.objcpp",
-                "storage.modifier.array.bracket.square",
+                "storage.modifier.array.bracket.square"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2424,7 +2427,7 @@
                 "storage.modifier.async.cs"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2439,10 +2442,10 @@
                 "storage.modifier.specifier.extern.cpp",
                 "storage.modifier.specifier.parameter.cpp",
                 "storage.modifier.specifier.parameter.cuda-cpp",
-                "storage.modifier.specifier.parameter",
+                "storage.modifier.specifier.parameter"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2461,10 +2464,10 @@
                 "storage.modifier.specifier.functional.pre-parameters.__host__.cuda-cpp",
                 "storage.modifier.specifier.functional.pre-parameters.__device__.cuda-cpp",
                 "storage.modifier.specifier.functional.pre-parameters.constexpr.cpp",
-                "storage.modifier.specifier.functional.pre-parameters.inline.cpp",
+                "storage.modifier.specifier.functional.pre-parameters.inline.cpp"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2472,10 +2475,10 @@
             "scope": [
                 "storage.type.accessor.$1.cs",
                 "storage.type.accessor.get.cs",
-                "storage.type.accessor.set.cs",
+                "storage.type.accessor.set.cs"
             ],
             "settings": {
-                "foreground": "#6096ba",
+                "foreground": "#6096ba"
             }
         },
         {
@@ -2576,10 +2579,10 @@
                 "storage.type.union.declare.cuda-cpp",
                 "storage.type.union.parameter.cpp",
                 "storage.type.union.parameter.cuda-cpp",
-                "storage.type.user-defined.objcpp",
+                "storage.type.user-defined.objcpp"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2592,10 +2595,10 @@
                 "storage.type.primitive.dart",
                 "storage.type.primitive.groovy",
                 "storage.type.primitive.java",
-                "storage.type.primitive.objcpp",
+                "storage.type.primitive.objcpp"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2603,10 +2606,10 @@
             "scope": [
                 "storage.type.var.cs",
                 "storage.type.variable.perl",
-                "storage.type.variable.ruby",
+                "storage.type.variable.ruby"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2621,10 +2624,10 @@
                 "storage.type.built-in.primitive.cpp",
                 "storage.type.built-in.primitive.cuda-cpp",
                 "storage.type.built-in.primitive.objc",
-                "storage.type.built-in.primitive.objcpp",
+                "storage.type.built-in.primitive.objcpp"
             ],
             "settings": {
-                "foreground": "#18B7C8",
+                "foreground": "#18B7C8"
             }
         },
         {
@@ -2656,10 +2659,10 @@
                 "storage.type.class.swift",
                 "storage.type.class.ts",
                 "storage.type.class.tsx",
-                "storage.type.record.cs",
+                "storage.type.record.cs"
             ],
             "settings": {
-                "foreground": "#C678DD",
+                "foreground": "#C678DD"
             }
         },
         {
@@ -2679,10 +2682,10 @@
                 "storage.type.enum.parameter.cuda-cpp",
                 "storage.type.enum.php",
                 "storage.type.enum.ts",
-                "storage.type.enum.tsx",
+                "storage.type.enum.tsx"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2709,10 +2712,10 @@
                 "storage.type.function.shell",
                 "storage.type.function.swift",
                 "storage.type.function.ts",
-                "storage.type.function.tsx",
+                "storage.type.function.tsx"
             ],
             "settings": {
-                "foreground": "#3e92cc",
+                "foreground": "#3e92cc"
             }
         },
         {
@@ -2723,10 +2726,10 @@
                 "storage.type.interface.js",
                 "storage.type.interface.php",
                 "storage.type.interface.ts",
-                "storage.type.interface.tsx",
+                "storage.type.interface.tsx"
             ],
             "settings": {
-                "foreground": "#C678DD",
+                "foreground": "#C678DD"
             }
         },
         {
@@ -2740,10 +2743,10 @@
                 "storage.type.modifier.access.control.protected.cpp",
                 "storage.type.modifier.access.control.public.cpp",
                 "storage.type.modifier.access.public.cpp",
-                "storage.type.modifier.access.objcpp",
+                "storage.type.modifier.access.objcpp"
             ],
             "settings": {
-                "foreground": "#dd78bf",
+                "foreground": "#dd78bf"
             }
         },
         {
@@ -2754,10 +2757,10 @@
                 "storage.type.modifier.final.cpp",
                 "storage.type.modifier.final.cuda-cpp",
                 "storage.type.modifier.virtual.cpp",
-                "storage.type.modifier.virtual.cuda-cpp",
+                "storage.type.modifier.virtual.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#9FA91F",
+                "foreground": "#9FA91F"
             }
         },
         {
@@ -2776,10 +2779,10 @@
                 "storage.type.namespace.js",
                 "storage.type.namespace.objcpp",
                 "storage.type.namespace.ts",
-                "storage.type.namespace.tsx",
+                "storage.type.namespace.tsx"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2792,10 +2795,10 @@
                 "storage.type.struct.parameter.cpp",
                 "storage.type.struct.parameter.cuda-cpp",
                 "storage.type.structure.shaderlab",
-                "storage.type.structured.hlsl",
+                "storage.type.structured.hlsl"
             ],
             "settings": {
-                "foreground": "#28A6AD",
+                "foreground": "#28A6AD"
             }
         },
         {
@@ -2814,10 +2817,10 @@
                 "storage.type.template.argument.class.cpp",
                 "storage.type.template.cpp",
                 "storage.type.template.cuda-cpp",
-                "storage.type.template.objcpp",
+                "storage.type.template.objcpp"
             ],
             "settings": {
-                "foreground": "#c678dd",
+                "foreground": "#c678dd"
             }
         },
         {
@@ -2870,10 +2873,10 @@
                 "constant.language.symbol.ruby",
                 "constant.language.value.yaml",
                 "constant.language.yaml.yaml",
-                "constant.language",
+                "constant.language"
             ],
             "settings": {
-                "foreground": "#e574bc",
+                "foreground": "#e574bc"
             }
         },
         {
@@ -2891,7 +2894,7 @@
                 "constant.character.entity.numeric.hexadecimal.html",
                 "constant.character.entity.tsx",
                 "constant.character.entity.xml",
-                "constant.character.entity",
+                "constant.character.entity"
             ],
             "settings": {
                 "foreground": "#3DC89B",
@@ -2981,10 +2984,10 @@
                 "constant.character.escape.unicode.swift",
                 "constant.character.escape.yaml",
                 "constant.character.escaped.dockerfile",
-                "constant.character.escape",
+                "constant.character.escape"
             ],
             "settings": {
-                "foreground": "#2CCCD8",
+                "foreground": "#2CCCD8"
             }
         },
         {
@@ -3001,10 +3004,10 @@
                 "constant.character.string.escape.fsharp",
                 "constant.character.unicode.regexp",
                 "constant.character",
-                "constant",
+                "constant"
             ],
             "settings": {
-                "foreground": "#e574bc",
+                "foreground": "#e574bc"
             }
         },
         {
@@ -3022,10 +3025,10 @@
                 "constant.name.attribute.tag.pug",
                 "constant.sha.git-rebase",
                 "constant.string.documentation.powershell",
-                "constant.variable.groovy",
+                "constant.variable.groovy"
             ],
             "settings": {
-                "foreground": "#e574bc",
+                "foreground": "#e574bc"
             }
         },
         {
@@ -3035,10 +3038,10 @@
                 "constant.language.import-export-all.js.jsx",
                 "constant.language.import-export-all.js",
                 "constant.language.import-export-all.ts",
-                "constant.language.import-export-all.tsx",
+                "constant.language.import-export-all.tsx"
             ],
             "settings": {
-                "foreground": "#e574bc",
+                "foreground": "#e574bc"
             }
         },
         {
@@ -3068,10 +3071,10 @@
                 "constant.language.false.shell",
                 "constant.language.true.c",
                 "constant.language.true.cpp",
-                "constant.language.true.shell",
+                "constant.language.true.shell"
             ],
             "settings": {
-                "foreground": "#e574bc",
+                "foreground": "#e574bc"
             }
         },
         {
@@ -3097,10 +3100,10 @@
                 "constant.language.undefined.js.jsx",
                 "constant.language.undefined.js",
                 "constant.language.undefined.ts",
-                "constant.language.undefined.tsx",
+                "constant.language.undefined.tsx"
             ],
             "settings": {
-                "foreground": "#e574bc",
+                "foreground": "#e574bc"
             }
         },
         {
@@ -3274,10 +3277,10 @@
                 "constant.numeric.timestamp.yaml",
                 "constant.numeric.version.shell",
                 "constant.numeric.yaml-version.yaml",
-                "constant.numeric",
+                "constant.numeric"
             ],
             "settings": {
-                "foreground": "#66a36b",
+                "foreground": "#66a36b"
             }
         },
         {
@@ -3328,10 +3331,10 @@
                 "constant.other.variable.mac-classic.c",
                 "constant.other.variable.mac-classic.objc",
                 "constant.other.variable.mac-classic.objcpp",
-                "constant.other.set.regexp",
+                "constant.other.set.regexp"
             ],
             "settings": {
-                "foreground": "#2BB8A4",
+                "foreground": "#2BB8A4"
             }
         },
         {
@@ -3342,10 +3345,10 @@
                 "constant.other.placeholder.makefile",
                 "constant.other.placeholder.objc",
                 "constant.other.placeholder.objcpp",
-                "constant.other.placeholder",
+                "constant.other.placeholder"
             ],
             "settings": {
-                "foreground": "#0496ff",
+                "foreground": "#0496ff"
             }
         },
         {
@@ -3368,10 +3371,10 @@
                 "variable.scss",
                 "variable.snake-case.cpp",
                 "variable.upper-case.cpp",
-                "variable",
+                "variable"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3392,6 +3395,7 @@
                 "variable.language.arguments.ts",
                 "variable.language.arguments.tsx",
                 "variable.language.associatedtype.swift",
+                "variable.language.base.cs",
                 "variable.language.capture.json.comments.snippets",
                 "variable.language.closure-parameter.swift",
                 "variable.language.coffee",
@@ -3430,10 +3434,10 @@
                 "variable.language.swift",
                 "variable.language.tag-name.regexp",
                 "variable.language.tag.regexp",
-                "variable.language.wildcard.java",
+                "variable.language.wildcard.java"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3449,10 +3453,10 @@
                 "variable.language.this.objcpp",
                 "variable.language.this.php",
                 "variable.language.this.ts",
-                "variable.language.this.tsx",
+                "variable.language.this.tsx"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3464,10 +3468,10 @@
                 "variable.object.property.js.jsx",
                 "variable.object.property.js",
                 "variable.object.property.ts",
-                "variable.object.property.tsx",
+                "variable.object.property.tsx"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3509,6 +3513,7 @@
                 "variable.other.global.php",
                 "variable.other.global.safer.php",
                 "variable.other.global.cpp",
+                "variable.other.global.c",
                 "variable.other.go",
                 "variable.other.group-name.regexp",
                 "variable.other.identifier.perl.6",
@@ -3544,6 +3549,7 @@
                 "variable.other.property.coffee",
                 "variable.other.property.cpp",
                 "variable.other.property.cuda-cpp",
+                "variable.other.property.c",
                 "variable.other.property.go",
                 "variable.other.property.js.jsx",
                 "variable.other.property.js",
@@ -3576,10 +3582,10 @@
                 "variable.other.unknown.$5.cpp",
                 "variable.other.unknown.$8.cpp",
                 "variable.other.value.cs",
-                "variable.other.local.cpp",
+                "variable.other.local.cpp"
             ],
             "settings": {
-                "foreground": "#c4ae09",
+                "foreground": "#c4ae09"
             }
         },
         {
@@ -3608,10 +3614,10 @@
                 "variable.other.object.objcpp",
                 "variable.other.object.ts",
                 "variable.other.object.tsx",
-                "variable.other.object",
+                "variable.other.object"
             ],
             "settings": {
-                "foreground": "#2196b6",
+                "foreground": "#2196b6"
             }
         },
         {
@@ -3625,10 +3631,10 @@
                 "variable.other.object.property.js.jsx",
                 "variable.other.object.property.js",
                 "variable.other.object.property.ts",
-                "variable.other.object.property.tsx",
+                "variable.other.object.property.tsx"
             ],
             "settings": {
-                "foreground": "#8077D1",
+                "foreground": "#8077D1"
             }
         },
         {
@@ -3654,10 +3660,10 @@
                 "variable.other.constant.ruby",
                 "variable.other.constant.ts",
                 "variable.other.constant.tsx ",
-                "variable.other.constant.tsx",
+                "variable.other.constant.tsx"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3689,10 +3695,10 @@
                 "variable.other.readwrite.static.mac-classic.objc",
                 "variable.other.readwrite.static.mac-classic.objcpp",
                 "variable.other.readwrite.ts",
-                "variable.other.readwrite.tsx",
+                "variable.other.readwrite.tsx"
             ],
             "settings": {
-                "foreground": "#b69121",
+                "foreground": "#b69121"
             }
         },
         {
@@ -3745,10 +3751,10 @@
                 "variable.parameter.tsx",
                 "variable.parameter.url.css",
                 "variable.parameter.url.scss",
-                "variable.parameter",
+                "variable.parameter"
             ],
             "settings": {
-                "foreground": "#667FCC",
+                "foreground": "#667FCC"
             }
         },
         {
@@ -3762,10 +3768,10 @@
                 "variable.parameter.codeblock.kconfig",
                 "variable.parameter.codeblock.py",
                 "variable.parameter.codeblock.ruby",
-                "variable.parameter.codeblock.yaml",
+                "variable.parameter.codeblock.yaml"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3787,10 +3793,10 @@
                 "variable.parameter.function.perl",
                 "variable.parameter.function.readwrite.instance.coffee",
                 "variable.parameter.function.ruby",
-                "variable.parameter.function.swift",
+                "variable.parameter.function.swift"
             ],
             "settings": {
-                "foreground": "#B783BE",
+                "foreground": "#B783BE"
             }
         },
         {
@@ -3798,10 +3804,10 @@
             "scope": [
                 "entity.name",
                 "entity.other",
-                "entity.section",
+                "entity.section"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -3810,7 +3816,7 @@
                 "entity.section.reg"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -3893,10 +3899,10 @@
                 "entity.name.function.target.makefile",
                 "entity.name.function.ts",
                 "entity.name.function.tsx",
-                "entity.name.function",
+                "entity.name.function"
             ],
             "settings": {
-                "foreground": "#75a3ff",
+                "foreground": "#75a3ff"
             }
         },
         {
@@ -3910,10 +3916,10 @@
                 "entity.name.label.js.jsx",
                 "entity.name.label.js",
                 "entity.name.label.ts",
-                "entity.name.label.tsx",
+                "entity.name.label.tsx"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -3927,10 +3933,10 @@
                 "entity.name.namespace.objcpp",
                 "entity.name.namespace.rust",
                 "entity.name.namespace.scope-resolution.objcpp",
-                "entity.name.namespace.wildcard.less",
+                "entity.name.namespace.wildcard.less"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -3938,10 +3944,10 @@
             "scope": [
                 "entity.name.type.namespace.cs",
                 "entity.name.type.namespace.fsharp",
-                "entity.name.type.namespace.php",
+                "entity.name.type.namespace.php"
             ],
             "settings": {
-                "foreground": "#778da9",
+                "foreground": "#778da9"
             }
         },
         {
@@ -3959,10 +3965,10 @@
                 "entity.name.operator.type.pointer.cpp",
                 "entity.name.operator.type.pointer.cuda-cpp",
                 "entity.name.operator.type.reference.cpp",
-                "entity.name.operator.type.reference.cuda-cpp",
+                "entity.name.operator.type.reference.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -3986,10 +3992,10 @@
                 "entity.other.attribute-name.pragma.preprocessor.cpp",
                 "entity.other.attribute-name.pragma.preprocessor.cuda-cpp",
                 "entity.other.attribute-name.pragma.preprocessor.objc",
-                "entity.other.attribute-name.pragma.preprocessor.objcpp",
+                "entity.other.attribute-name.pragma.preprocessor.objcpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4024,10 +4030,10 @@
                 "entity.name.scope-resolution.template.definition.cpp",
                 "entity.name.scope-resolution.template.definition.cuda-cpp",
                 "entity.name.scope-resolution.type.cpp",
-                "entity.name.scope-resolution.type.cuda-cpp",
+                "entity.name.scope-resolution.type.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4078,10 +4084,10 @@
                 "entity.name.tag.xml.html",
                 "entity.name.tag.xml",
                 "entity.name.tag.yaml",
-                "entity.name.tag",
+                "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#6d9bc3",
+                "foreground": "#6d9bc3"
             }
         },
         {
@@ -4090,10 +4096,10 @@
                 "entity.name.tag.css",
                 "entity.name.tag.custom.css",
                 "entity.name.tag.custom.less",
-                "entity.name.tag.custom.scss",
+                "entity.name.tag.custom.scss"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4107,30 +4113,30 @@
                 "entity.name.type.cuda-cpp",
                 "entity.name.type.declaration.rust",
                 "entity.name.type.entry-key.bibtex",
-                "entity.name.type",
+                "entity.name.type"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
             "name": "entity name type constructor",
             "scope": [
                 "entity.name.type.constructor.cpp",
-                "entity.name.type.constructor.cuda-cpp",
+                "entity.name.type.constructor.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
             "name": "entity name type destructor",
             "scope": [
                 "entity.name.type.destructor.cpp",
-                "entity.name.type.destructor.cuda-cpp",
+                "entity.name.type.destructor.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4138,10 +4144,10 @@
             "scope": [
                 "entity.name.type.comparable.go",
                 "entity.name.type.delegate.cs",
-                "entity.name.type.entry-key.bibtex",
+                "entity.name.type.entry-key.bibtex"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4163,10 +4169,10 @@
                 "entity.name.type.class.python",
                 "entity.name.type.class.ruby",
                 "entity.name.type.class.ts",
-                "entity.name.type.class.tsx",
+                "entity.name.type.class.tsx"
             ],
             "settings": {
-                "foreground": "#43aa8b",
+                "foreground": "#43aa8b"
             }
         },
         {
@@ -4178,10 +4184,10 @@
                 "entity.name.type.alias.js.jsx",
                 "entity.name.type.alias.js",
                 "entity.name.type.alias.ts",
-                "entity.name.type.alias.tsx",
+                "entity.name.type.alias.tsx"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4198,10 +4204,10 @@
                 "entity.name.type.enum.php",
                 "entity.name.type.enum.rust",
                 "entity.name.type.enum.ts",
-                "entity.name.type.enum.tsx",
+                "entity.name.type.enum.tsx"
             ],
             "settings": {
-                "foreground": "#43aa8b",
+                "foreground": "#43aa8b"
             }
         },
         {
@@ -4212,10 +4218,10 @@
                 "entity.name.type.interface.js",
                 "entity.name.type.interface.php",
                 "entity.name.type.interface.ts",
-                "entity.name.type.interface.tsx",
+                "entity.name.type.interface.tsx"
             ],
             "settings": {
-                "foreground": "#43aa8b",
+                "foreground": "#43aa8b"
             }
         },
         {
@@ -4225,24 +4231,24 @@
                 "entity.name.type.struct.cuda-cpp",
                 "entity.name.type.struct.parameter.cpp",
                 "entity.name.type.struct.parameter.cuda-cpp",
-                "entity.name.type.struct.rust",
+                "entity.name.type.struct.rust"
             ],
             "settings": {
-                "foreground": "#43AA8B",
+                "foreground": "#43AA8B"
             }
         },
         {
             "name": "entity name variable enum-member (CSharp)",
             "scope": "entity.name.variable.enum-member.cs",
             "settings": {
-                "foreground": "#8077d1",
+                "foreground": "#8077d1"
             }
         },
         {
             "name": "entity name variable event (CSharp)",
             "scope": "entity.name.variable.event.cs",
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4250,27 +4256,27 @@
             "scope": [
                 "entity.name.variable.field.cs",
                 "entity.name.variable.lua",
-                "entity.name.variable.preprocessor.symbol.cs",
+                "entity.name.variable.preprocessor.symbol.cs"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
             "name": "entity name variable parameter",
             "scope": [
                 "entity.name.variable.parameter.cs",
-                "entity.name.variable.parameter.php",
+                "entity.name.variable.parameter.php"
             ],
             "settings": {
-                "foreground": "#b69121",
+                "foreground": "#b69121"
             }
         },
         {
             "name": "entity name variable property (CSharp)",
             "scope": "entity.name.variable.property.cs",
             "settings": {
-                "foreground": "#7797a0",
+                "foreground": "#7797a0"
             }
         },
         {
@@ -4279,10 +4285,10 @@
                 "entity.name.variable.local.cs",
                 "entity.name.variable.local.cs",
                 "entity.name.variable.range-variable.cs",
-                "entity.name.variable.tuple-element.cs",
+                "entity.name.variable.tuple-element.cs"
             ],
             "settings": {
-                "foreground": "#b2b2a8",
+                "foreground": "#b2b2a8"
             }
         },
         {
@@ -4292,10 +4298,10 @@
                 "entity.other.attribute-name.namespace.js.jsx",
                 "entity.other.attribute-name.namespace.js",
                 "entity.other.attribute-name.namespace.tsx",
-                "entity.other.attribute-name.namespace.xml",
+                "entity.other.attribute-name.namespace.xml"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4346,10 +4352,10 @@
                 "entity.other.attribute.$0.cuda-cpp",
                 "entity.other.attribute.lua",
                 "entity.other.attribute.enable_if.cpp",
-                "entity.other.attribute.device.cpp",
+                "entity.other.attribute.device.cpp"
             ],
             "settings": {
-                "foreground": "#0B9EC2",
+                "foreground": "#0B9EC2"
             }
         },
         {
@@ -4392,10 +4398,10 @@
                 "entity.other.keyframe-offset.percentage.css",
                 "entity.other.namespace-prefix.css",
                 "entity.scope.name.objcpp",
-                "entity.scope.objcpp",
+                "entity.scope.objcpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4451,10 +4457,10 @@
                 "entity.name.type.union.cpp",
                 "entity.name.type.union.cuda-cpp",
                 "entity.name.type.union.parameter.cpp",
-                "entity.name.type.union.parameter.cuda-cpp",
+                "entity.name.type.union.parameter.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d",
+                "foreground": "#84a59d"
             }
         },
         {
@@ -4464,10 +4470,10 @@
                 "support.attribute.php",
                 "support.keyword.repetitions.less",
                 "support.namespace.r",
-                "support.unicode-range.less",
+                "support.unicode-range.less"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -4503,10 +4509,10 @@
                 "support.class.surface.shaderlab",
                 "support.class.swift",
                 "support.class.ts",
-                "support.class.tsx",
+                "support.class.tsx"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -4515,10 +4521,10 @@
                 "support.class.component.js.jsx",
                 "support.class.component.js",
                 "support.class.component.ts",
-                "support.class.component.tsx",
+                "support.class.component.tsx"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -4599,10 +4605,10 @@
                 "support.constant.tsx",
                 "support.constant.unicode-range.prefix.less",
                 "support.constant.variable.powershell",
-                "support.constant.vendored.property-value.css",
+                "support.constant.vendored.property-value.css"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -4629,10 +4635,10 @@
                 "support.constant.property-value.list-style-type.css",
                 "support.constant.property-value.shaderlab",
                 "support.constant.property-value.stenciloperation.shaderlab",
-                "support.constant.property-value.texturecombiners.shaderlab",
+                "support.constant.property-value.texturecombiners.shaderlab"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -4911,10 +4917,10 @@
                 "support.function.xml.php",
                 "support.function.xmlrpc.php",
                 "support.function.xmlwriter.php",
-                "support.function.zlib.php",
+                "support.function.zlib.php"
             ],
             "settings": {
-                "foreground": "#238da0",
+                "foreground": "#238da0"
             }
         },
         {
@@ -4931,10 +4937,10 @@
                 "support.other.php",
                 "support.other.protocol.objc",
                 "support.other.protocol.objcpp",
-                "support.other.variable.less",
+                "support.other.variable.less"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -5018,10 +5024,10 @@
                 "support.type.texture.legacy.hlsl",
                 "support.type.vb.asp",
                 "support.type.vendored.property-name.css",
-                "support.type.vendored.property-name.media.css",
+                "support.type.vendored.property-name.media.css"
             ],
             "settings": {
-                "foreground": "#9566a3",
+                "foreground": "#9566a3"
             }
         },
         {
@@ -5035,10 +5041,10 @@
                 "support.type.property-name.less",
                 "support.type.property-name.media.css",
                 "support.type.property-name.media.less",
-                "support.type.propertyname.shaderlab",
+                "support.type.propertyname.shaderlab"
             ],
             "settings": {
-                "foreground": "#488FD9",
+                "foreground": "#488FD9"
             }
         },
         {
@@ -5109,10 +5115,10 @@
                 "support.variable.swift",
                 "support.variable.time.shaderlab",
                 "support.variable.transformations.shaderlab",
-                "support.variable.various.shaderlab",
+                "support.variable.various.shaderlab"
             ],
             "settings": {
-                "foreground": "#349F9F",
+                "foreground": "#349F9F"
             }
         },
         {
@@ -5126,10 +5132,10 @@
                 "string.definition.begin.ruby",
                 "string.comment.buffered.block.pug",
                 "tring.name",
-                "tring.name.regdata.reg",
+                "tring.name.regdata.reg"
             ],
             "settings": {
-                "foreground": "#C2B287",
+                "foreground": "#C2B287"
             }
         },
         {
@@ -5155,10 +5161,10 @@
                 "string.interpolated.sql",
                 "string.interpolated.triple.double.dart",
                 "string.interpolated.triple.single.dart",
-                "string.interpolated",
+                "string.interpolated"
             ],
             "settings": {
-                "foreground": "#C2B287",
+                "foreground": "#C2B287"
             }
         },
         {
@@ -5167,10 +5173,10 @@
                 "string.json.comments.snippets",
                 "string.json.comments",
                 "string.json.lines ",
-                "string.json",
+                "string.json"
             ],
             "settings": {
-                "foreground": "#C2B287",
+                "foreground": "#C2B287"
             }
         },
         {
@@ -5179,7 +5185,7 @@
                 "string.other.link.description.markdown",
                 "string.other.link.description.title.markdown",
                 "string.other.link.title.markdown",
-                "string.other.quoted.brackets.sql",
+                "string.other.quoted.brackets.sql"
             ],
             "settings": {
                 "foreground": "#C2B287",
@@ -5453,10 +5459,10 @@
                 "string.unquoted.single.c",
                 "string.unquoted.single.objc",
                 "string.unquoted.single.objcpp",
-                "string.unquoted",
+                "string.unquoted"
             ],
             "settings": {
-                "foreground": "#ada48b",
+                "foreground": "#ada48b"
             }
         },
         {
@@ -5472,10 +5478,10 @@
             "scope": [
                 "ellipses.c",
                 "emphasis",
-                "strong",
+                "strong"
             ],
             "settings": {
-                "foreground": "#0FF0FF",
+                "foreground": "#0FF0FF"
             }
         },
         {
@@ -5653,7 +5659,7 @@
                 "comment.typehint.variable.notation.python",
                 "comment.unbuffered.block.pug",
                 "documentation.injection.js.jsx",
-                "documentation.injection.ts",
+                "documentation.injection.ts"
             ],
             "settings": {
                 "foreground": "#6c757d",
@@ -5752,20 +5758,20 @@
                 "punctuation.definition.comment.ts",
                 "punctuation.definition.comment.tsx",
                 "punctuation.definition.comment.xml",
-                "punctuation.definition.comment.yaml",
+                "punctuation.definition.comment.yaml"
             ],
             "settings": {
-                "foreground": "#6c757d",
+                "foreground": "#6c757d"
             }
         },
         {
             "name": "punctuation comment",
             "scope": [
                 "punctuation.comment.begin.regexp",
-                "punctuation.comment.end.regexp",
+                "punctuation.comment.end.regexp"
             ],
             "settings": {
-                "foreground": "#0FF",
+                "foreground": "#0FF"
             }
         },
         {
@@ -5979,10 +5985,10 @@
                 "punctuation.definition.table.markdown",
                 "punctuation.definition.to-file.diff",
                 "punctuation.definition.verb.latex",
-                "punctuation.definition.wildcard.scss",
+                "punctuation.definition.wildcard.scss"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -5995,10 +6001,10 @@
                 "punctuation.definition.template-expression.end.js.jsx",
                 "punctuation.definition.template-expression.end.js",
                 "punctuation.definition.template-expression.end.ts",
-                "punctuation.definition.template-expression.end.tsx",
+                "punctuation.definition.template-expression.end.tsx"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6009,10 +6015,10 @@
                 "punctuation.definition.textit.begin.latex",
                 "punctuation.definition.textit.end.latex",
                 "punctuation.definition.texttt.begin.latex",
-                "punctuation.definition.texttt.end.latex",
+                "punctuation.definition.texttt.end.latex"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6021,10 +6027,10 @@
                 "punctuation.definition.storage.modifier.objc",
                 "punctuation.definition.storage.modifier.objcpp",
                 "punctuation.definition.storage.type.objc",
-                "punctuation.definition.storage.type.objcpp",
+                "punctuation.definition.storage.type.objcpp"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6064,10 +6070,10 @@
                 "punctuation.definition.enum.end.bracket.curly.php",
                 "punctuation.definition.equals.reg",
                 "punctuation.definition.class.begin.bracket.curly.php",
-                "punctuation.definition.class.end.bracket.curly.php",
+                "punctuation.definition.class.end.bracket.curly.php"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6084,10 +6090,10 @@
                 "punctuation.definition.variable.php",
                 "punctuation.definition.variable.powershell",
                 "punctuation.definition.variable.ruby",
-                "punctuation.definition.variable.shell",
+                "punctuation.definition.variable.shell"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6100,10 +6106,10 @@
                 "punctuation.decorator.js.jsx",
                 "punctuation.decorator.js",
                 "punctuation.decorator.ts",
-                "punctuation.decorator.tsx",
+                "punctuation.decorator.tsx"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6221,10 +6227,10 @@
                 "punctuation.definition.separator.groovy",
                 "punctuation.definition.seperator.groovy",
                 "punctuation.definition.seperator.key-value.groovy",
-                "punctuation.definition.seperator.parameter.groovy",
+                "punctuation.definition.seperator.parameter.groovy"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6240,10 +6246,10 @@
                 "punctuation.definition.constant.markdown",
                 "punctuation.definition.constant.math.tex",
                 "punctuation.definition.constant.ruby",
-                "punctuation.definition.constant.xml",
+                "punctuation.definition.constant.xml"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6261,7 +6267,7 @@
                 "punctuation.definition.entity.other.inherited-class.objcpp",
                 "punctuation.definition.entity.swift",
                 "punctuation.definition.entity.tsx",
-                "punctuation.definition.entity.xml",
+                "punctuation.definition.entity.xml"
             ],
             "settings": {
                 "foreground": "#3DC89B",
@@ -6277,10 +6283,10 @@
                 "punctuation.definition.function.pointer.dereference.cuda-cpp",
                 "punctuation.definition.function.return-type.cpp",
                 "punctuation.definition.function.return-type.cuda-cpp",
-                "punctuation.definition.function.tex",
+                "punctuation.definition.function.tex"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6294,10 +6300,10 @@
                 "punctuation.definition.group.no-capture.regexp",
                 "punctuation.definition.group.regexp",
                 "punctuation.definition.group.ruby",
-                "punctuation.definition.group.shell",
+                "punctuation.definition.group.shell"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6307,10 +6313,10 @@
                 "punctuation.definition.interpolation.begin.cs",
                 "punctuation.definition.interpolation.end.bracket.curly.scss",
                 "punctuation.definition.interpolation.end.cs",
-                "punctuation.definition.interpolation.rust",
+                "punctuation.definition.interpolation.rust"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6365,10 +6371,10 @@
                 "punctuation.definition.parameters.objcpp",
                 "punctuation.definition.parameters.perl",
                 "punctuation.definition.parameters.ruby",
-                "punctuation.definition.parameters.varargs.java",
+                "punctuation.definition.parameters.varargs.java"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6503,10 +6509,10 @@
                 "punctuation.definition.string.template.end.js.jsx",
                 "punctuation.definition.string.template.end.js",
                 "punctuation.definition.string.template.end.ts",
-                "punctuation.definition.string.template.end.tsx",
+                "punctuation.definition.string.template.end.tsx"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6536,10 +6542,10 @@
                 "punctuation.definition.tag.primary.yaml",
                 "punctuation.definition.tag.private.yaml",
                 "punctuation.definition.tag.secondary.yaml",
-                "punctuation.definition.tag.xml",
+                "punctuation.definition.tag.xml"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6564,10 +6570,10 @@
                 "punctuation.definition.typeparameters.end.js.jsx",
                 "punctuation.definition.typeparameters.end.js",
                 "punctuation.definition.typeparameters.end.ts",
-                "punctuation.definition.typeparameters.end.tsx",
+                "punctuation.definition.typeparameters.end.tsx"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6590,10 +6596,10 @@
                 "punctuation.parenthesis.named.end.regexp",
                 "punctuation.parenthesis.non-capturing.begin.regexp",
                 "punctuation.parenthesis.non-capturing.end.regexp",
-                "punctuation.parenthesis.open.cs",
+                "punctuation.parenthesis.open.cs"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6686,10 +6692,10 @@
                 "punctuation.section.tuple.end.swift",
                 "punctuation.section.vector.begin.clojure",
                 "punctuation.section.vector.end.clojure",
-                "punctuation.section.vector.end.trailing.clojure",
+                "punctuation.section.vector.end.trailing.clojure"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6774,10 +6780,10 @@
                 "punctuation.section.array.begin.ruby",
                 "punctuation.section.array.end.php",
                 "punctuation.section.array.end.ruby",
-                "punctuation.section.array.shell",
+                "punctuation.section.array.shell"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6786,10 +6792,10 @@
                 "punctuation.section.attribute.begin.cpp",
                 "punctuation.section.attribute.begin.cuda-cpp",
                 "punctuation.section.attribute.end.cpp",
-                "punctuation.section.attribute.end.cuda-cpp",
+                "punctuation.section.attribute.end.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6877,10 +6883,10 @@
                 "punctuation.section.brackets.double.begin.r",
                 "punctuation.section.brackets.double.end.r",
                 "punctuation.section.brackets.single.begin.r",
-                "punctuation.section.brackets.single.end.r",
+                "punctuation.section.brackets.single.end.r"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6909,10 +6915,10 @@
                 "punctuation.section.embedded.end.xml",
                 "punctuation.section.embedded.groovy",
                 "punctuation.section.embedded.substatement.begin.powershell",
-                "punctuation.section.embedded.substatement.end.powershell",
+                "punctuation.section.embedded.substatement.end.powershell"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6928,10 +6934,10 @@
                 "punctuation.section.function.end.swift",
                 "punctuation.section.function.lambda.begin.python",
                 "punctuation.section.function.ruby",
-                "punctuation.section.function.scss",
+                "punctuation.section.function.scss"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -6964,10 +6970,10 @@
                 "punctuation.section.parameters.end.bracket.round.special.member.destructor.cpp",
                 "punctuation.section.parameters.end.bracket.round.special.member.destructor.cuda-cpp",
                 "punctuation.section.parameters.end.bracket.round.special.operator-overload.cpp",
-                "punctuation.section.parameters.end.bracket.round.special.operator-overload.cuda-cpp",
+                "punctuation.section.parameters.end.bracket.round.special.operator-overload.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7017,10 +7023,10 @@
                 "punctuation.section.parens.end.bracket.round.initialization.objc",
                 "punctuation.section.parens.end.bracket.round.initialization.objcpp",
                 "punctuation.section.parens.end.bracket.round.objc",
-                "punctuation.section.parens.end.bracket.round.objcpp",
+                "punctuation.section.parens.end.bracket.round.objcpp"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7040,10 +7046,10 @@
                 "punctuation.section.scope.end.swift",
                 "punctuation.section.scope.groovy",
                 "punctuation.section.scope.perl",
-                "punctuation.section.scope.ruby",
+                "punctuation.section.scope.ruby"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7273,10 +7279,10 @@
                 "punctuation.separator.table.markdown",
                 "punctuation.separator.types.java",
                 "punctuation.separator.variable.ruby",
-                "punctuation.separator",
+                "punctuation.separator"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7307,10 +7313,10 @@
                 "punctuation.terminator.statement.swift",
                 "punctuation.terminator.statement.ts",
                 "punctuation.terminator.statement.tsx",
-                "punctuation.terminator.apply.tailwind",
+                "punctuation.terminator.apply.tailwind"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7323,10 +7329,10 @@
                 "punctuation.support.type.property-name.end.json.comments.snippets",
                 "punctuation.support.type.property-name.end.json.comments",
                 "punctuation.support.type.property-name.end.json.lines",
-                "punctuation.support.type.property-name.end.json",
+                "punctuation.support.type.property-name.end.json"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7341,10 +7347,10 @@
                 "punctuation.vararg-ellipses.template.definition.cuda-cpp",
                 "punctuation.vararg-ellipses.variable.parameter.preprocessor.c",
                 "punctuation.vararg-ellipses.variable.parameter.preprocessor.cpp",
-                "punctuation.vararg-ellipses.variable.parameter.preprocessor.cuda-cpp",
+                "punctuation.vararg-ellipses.variable.parameter.preprocessor.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#03b5aa",
+                "foreground": "#03b5aa"
             }
         },
         {
@@ -7387,10 +7393,10 @@
                 "punctuation.whitespace.support.function.leading.objcpp",
                 "punctuation.whitespace.support.function.leading",
                 "punctuation.whitespace.trailing.do.swift",
-                "punctuation.whitespace.trailing.repeat.swift",
+                "punctuation.whitespace.trailing.repeat.swift"
             ],
             "settings": {
-                "foreground": "#979dac",
+                "foreground": "#979dac"
             }
         },
         {
@@ -7402,10 +7408,10 @@
                 "custom.punctuation.separator.choice.json.comments.snippets",
                 "custom.punctuation.separator.colon.json.comments.snippets",
                 "custom.variable.other.normal.named.json.comments.snippets",
-                "custom.variable.other.normal.numeric.json.comments.snippets",
+                "custom.variable.other.normal.numeric.json.comments.snippets"
             ],
             "settings": {
-                "foreground": "#93799a",
+                "foreground": "#93799a"
             }
         },
         {
@@ -7415,10 +7421,10 @@
                 "meta.argument-type.objcpp",
                 "meta.argument.shell",
                 "meta.arguments.attribute.swift",
-                "meta.arguments.coffee",
+                "meta.arguments.coffee"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7435,10 +7441,10 @@
                 "meta.array.literal.js",
                 "meta.array.literal.ts",
                 "meta.array.literal.tsx",
-                "meta.array.php",
+                "meta.array.php"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7447,10 +7453,10 @@
                 "meta.arrow.js.jsx",
                 "meta.arrow.js",
                 "meta.arrow.ts",
-                "meta.arrow.tsx",
+                "meta.arrow.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7459,10 +7465,10 @@
                 "meta.assertion.look-ahead.regexp",
                 "meta.assertion.look-behind.regexp",
                 "meta.assertion.negative-look-ahead.regexp",
-                "meta.assertion.negative-look-behind.regexp",
+                "meta.assertion.negative-look-behind.regexp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7522,10 +7528,10 @@
                 "meta.at-rule.use.scss",
                 "meta.at-rule.viewport.css",
                 "meta.at-rule.warn.scss",
-                "meta.at-rule.while.scss",
+                "meta.at-rule.while.scss"
             ],
             "settings": {
-                "foreground": "#D3BF55",
+                "foreground": "#D3BF55"
             }
         },
         {
@@ -7547,10 +7553,10 @@
                 "meta.attribute.shaderlab",
                 "meta.attribute.style.html",
                 "meta.attribute.swift",
-                "meta.attribute.unrecognized.$1.html",
+                "meta.attribute.unrecognized.$1.html"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7587,10 +7593,10 @@
                 "meta.block.ts",
                 "meta.block.tsx",
                 "meta.block.union.cpp",
-                "meta.block.union.cuda-cpp",
+                "meta.block.union.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7620,10 +7626,10 @@
                 "meta.body.switch.objc",
                 "meta.body.switch.objcpp",
                 "meta.body.union.cpp",
-                "meta.body.union.cuda-cpp",
+                "meta.body.union.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7639,10 +7645,10 @@
                 "meta.brace.square.js.jsx",
                 "meta.brace.square.js",
                 "meta.brace.square.ts",
-                "meta.brace.square.tsx",
+                "meta.brace.square.tsx"
             ],
             "settings": {
-                "foreground": "#B2B6C1",
+                "foreground": "#B2B6C1"
             }
         },
         {
@@ -7656,10 +7662,10 @@
                 "meta.bracket.square.array.cpp",
                 "meta.bracket.square.array.cuda-cpp",
                 "meta.bracketed.objc",
-                "meta.bracketed.objcpp",
+                "meta.bracketed.objcpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7681,10 +7687,10 @@
                 "meta.class.python",
                 "meta.class.ruby",
                 "meta.class.ts",
-                "meta.class.tsx",
+                "meta.class.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7700,10 +7706,10 @@
                 "meta.conditional.switch.cpp",
                 "meta.conditional.switch.cuda-cpp",
                 "meta.conditional.switch.objc",
-                "meta.conditional.switch.objcpp",
+                "meta.conditional.switch.objcpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7722,10 +7728,10 @@
                 "meta.declaration.type.alias.cpp",
                 "meta.declaration.type.alias.cuda-cpp",
                 "meta.declaration.type.alias.value.unknown.cpp",
-                "meta.declaration.type.alias.value.unknown.cuda-cpp",
+                "meta.declaration.type.alias.value.unknown.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7734,10 +7740,10 @@
                 "meta.decorator.js.jsx",
                 "meta.decorator.js",
                 "meta.decorator.ts",
-                "meta.decorator.tsx",
+                "meta.decorator.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7785,10 +7791,10 @@
                 "meta.definition.variable.map.scss",
                 "meta.definition.variable.name.groovy",
                 "meta.definition.variable.ts",
-                "meta.definition.variable.tsx",
+                "meta.definition.variable.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7802,10 +7808,10 @@
                 "meta.diff.only-in",
                 "meta.diff.range.context",
                 "meta.diff.range.normal",
-                "meta.diff.range.unified",
+                "meta.diff.range.unified"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7820,10 +7826,10 @@
                 "meta.element.other.svg.$2.html",
                 "meta.element.structure.$2.html",
                 "meta.element.structure.math.$2.html",
-                "meta.element.structure.svg.$2.html",
+                "meta.element.structure.svg.$2.html"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7865,10 +7871,10 @@
                 "meta.embedded.pod.perl",
                 "meta.embedded.sql",
                 "meta.embedded.substatement.powershell",
-                "meta.embedded.xml",
+                "meta.embedded.xml"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7883,10 +7889,10 @@
                 "meta.enum.definition.cuda-cpp",
                 "meta.enum.java",
                 "meta.enum.php",
-                "meta.enum.value.groovy",
+                "meta.enum.value.groovy"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7896,10 +7902,10 @@
                 "meta.encoding.cpp",
                 "meta.encoding.cuda-cpp",
                 "meta.encoding.objcpp",
-                "meta.encoding",
+                "meta.encoding"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7928,10 +7934,10 @@
                 "meta.import.rust",
                 "meta.import.swift",
                 "meta.import.ts",
-                "meta.import.tsx",
+                "meta.import.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -7943,10 +7949,10 @@
                 "meta.expression.clojure",
                 "meta.expression.explicit.cshtml",
                 "meta.expression.implicit.cshtml",
-                "meta.expression.set.batchfile",
+                "meta.expression.set.batchfile"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8070,10 +8076,10 @@
                 "meta.function.url.css",
                 "meta.function.variable.css",
                 "meta.function.verb.latex",
-                "meta.function.verbatim.latex",
+                "meta.function.verbatim.latex"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8103,10 +8109,10 @@
                 "meta.head.switch.objc",
                 "meta.head.switch.objcpp",
                 "meta.head.union.cpp",
-                "meta.head.union.cuda-cpp",
+                "meta.head.union.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8132,10 +8138,10 @@
                 "meta.insertion.variable.bracket.json.comments.snippets",
                 "meta.insertion.variable.json.comments.snippets",
                 "meta.insertion.variable.simple.json.comments.snippets",
-                "meta.insertion.variable.transform.json.comments.snippets",
+                "meta.insertion.variable.transform.json.comments.snippets"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8157,10 +8163,10 @@
                 "meta.method.paramerised-type.groovy",
                 "meta.method.parameter.groovy",
                 "meta.method.parameters.groovy",
-                "meta.method.return-type.java",
+                "meta.method.return-type.java"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8189,10 +8195,10 @@
                 "meta.objectliteral.js.jsx",
                 "meta.objectliteral.js",
                 "meta.objectliteral.ts",
-                "meta.objectliteral.tsx",
+                "meta.objectliteral.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8218,10 +8224,10 @@
                 "meta.paramter.array-binding-pattern.js.jsx",
                 "meta.paramter.array-binding-pattern.js",
                 "meta.paramter.array-binding-pattern.ts",
-                "meta.paramter.array-binding-pattern.tsx",
+                "meta.paramter.array-binding-pattern.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8237,10 +8243,10 @@
                 "meta.parens.objc",
                 "meta.parens.objcpp",
                 "meta.parens.preprocessor.conditional.cpp",
-                "meta.parens.preprocessor.conditional.cuda-cpp",
+                "meta.parens.preprocessor.conditional.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8281,10 +8287,10 @@
                 "meta.preprocessor.script.dart",
                 "meta.preprocessor.sourcelocation.swift",
                 "meta.preprocessor.undef.cpp",
-                "meta.preprocessor.undef.cuda-cpp",
+                "meta.preprocessor.undef.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8302,10 +8308,10 @@
                 "meta.property-list.font-feature.css",
                 "meta.property-list.less",
                 "meta.property-list.media-query.scss",
-                "meta.property-list.scss",
+                "meta.property-list.scss"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8315,10 +8321,10 @@
                 "meta.property-name.less",
                 "meta.property-name.media-query.scss",
                 "meta.property-name.scss",
-                "meta.property-name",
+                "meta.property-name"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8330,10 +8336,10 @@
                 "meta.property-with-attributes.objc",
                 "meta.property-with-attributes.objcpp",
                 "meta.property.objc",
-                "meta.property.objcpp",
+                "meta.property.objcpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8348,10 +8354,10 @@
                 "meta.return.type.js.jsx",
                 "meta.return.type.js",
                 "meta.return.type.ts",
-                "meta.return.type.tsx",
+                "meta.return.type.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8375,10 +8381,10 @@
                 "meta.scope.subject.git-commit",
                 "meta.scope.subshell",
                 "meta.scope.target.makefile",
-                "meta.scope.while-loop.shell",
+                "meta.scope.while-loop.shell"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8401,10 +8407,10 @@
                 "meta.statement.switch.razor",
                 "meta.statement.try.razor",
                 "meta.statement.using.razor",
-                "meta.statement.while.razor",
+                "meta.statement.while.razor"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8416,10 +8422,10 @@
                 "meta.structure.razor.csharp.codeblock.switch",
                 "meta.structure.razor.csharp.codeblock",
                 "meta.structure.razor.directive.codeblock",
-                "meta.structure.razor.directive.markblock",
+                "meta.structure.razor.directive.markblock"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8436,10 +8442,10 @@
                 "meta.structure.dictionary.value.json.comments.snippets",
                 "meta.structure.dictionary.value.json.comments",
                 "meta.structure.dictionary.value.json.lines",
-                "meta.structure.dictionary.value.json",
+                "meta.structure.dictionary.value.json"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8531,10 +8537,10 @@
                 "meta.tag.without-attributes.js",
                 "meta.tag.without-attributes.tsx",
                 "meta.tag.xml.template",
-                "meta.tag.xml",
+                "meta.tag.xml"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8564,10 +8570,10 @@
                 "meta.tail.switch.objc",
                 "meta.tail.switch.objcpp",
                 "meta.tail.union.cpp",
-                "meta.tail.union.cuda-cpp",
+                "meta.tail.union.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8587,10 +8593,10 @@
                 "meta.template.expression.ts",
                 "meta.template.expression.tsx",
                 "meta.template.operator.comma.objcpp",
-                "meta.template.operator.ellipsis.objcpp",
+                "meta.template.operator.ellipsis.objcpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8609,10 +8615,10 @@
                 "meta.toc-list.file-name.diff",
                 "meta.toc-list.line-number.diff",
                 "meta.toc-list.pragma-mark.objc",
-                "meta.toc-list.pragma-mark.objcpp",
+                "meta.toc-list.pragma-mark.objcpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8658,10 +8664,10 @@
                 "meta.type.tuple.js.jsx",
                 "meta.type.tuple.js",
                 "meta.type.tuple.ts",
-                "meta.type.tuple.tsx",
+                "meta.type.tuple.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8670,10 +8676,10 @@
                 "meta.1.0.yaml",
                 "meta.1.1.yaml",
                 "meta.1.2.yaml",
-                "meta.1.3.yaml",
+                "meta.1.3.yaml"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8947,10 +8953,10 @@
                 "meta.variable.substitution.batchfile",
                 "meta.variable.substring.batchfile",
                 "meta.vector.clojure",
-                "meta.while.shell",
+                "meta.while.shell"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8960,10 +8966,10 @@
                 "meta.selector.scss",
                 "meta.selector.less",
                 "meta.selector.objc",
-                "meta.selector.objcpp",
+                "meta.selector.objcpp"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8972,10 +8978,10 @@
                 "meta.delimiter.decimal.period.js.jsx",
                 "meta.delimiter.decimal.period.js",
                 "meta.delimiter.decimal.period.ts",
-                "meta.delimiter.decimal.period.tsx",
+                "meta.delimiter.decimal.period.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF",
+                "foreground": "#8687BF"
             }
         },
         {
@@ -8992,10 +8998,10 @@
                 "heading.6.markdown",
                 "markdown.math.block",
                 "markdown.math.codeblock",
-                "markdown.math.inline",
+                "markdown.math.inline"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9048,10 +9054,10 @@
                 "markup.underline.link.latex",
                 "markup.underline.link.markdown",
                 "markup.underline.link.php",
-                "markup.underline.link",
+                "markup.underline.link"
             ],
             "settings": {
-                "foreground": "#778da9",
+                "foreground": "#778da9"
             }
         },
         {
@@ -9082,10 +9088,10 @@
                 "text.tex",
                 "text.variable",
                 "text.xml.xsl",
-                "text.xml",
+                "text.xml"
             ],
             "settings": {
-                "foreground": "#007e5d",
+                "foreground": "#007e5d"
             }
         },
         {
@@ -9098,10 +9104,10 @@
                 "log.exceptiontype",
                 "log.info",
                 "log.string",
-                "log.warning",
+                "log.warning"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9126,10 +9132,10 @@
                 "case-clause.expr.tsx",
                 "cexpr.fsharp",
                 "char.fsharp",
-                "du_declaration.fsharp",
+                "du_declaration.fsharp"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9137,20 +9143,20 @@
             "scope": [
                 "fast-capture.comment.line.double-slash.fsharp",
                 "fast-capture.comment.line.mul-operator.fsharp",
-                "line.separator.math.tex",
+                "line.separator.math.tex"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
             "name": "razor test balanced",
             "scope": [
                 "razor.test.balanced.brackets",
-                "razor.test.balanced.parenthesis",
+                "razor.test.balanced.parenthesis"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9160,10 +9166,10 @@
                 "embed.js.julia",
                 "embed.python.julia",
                 "embed.R.julia",
-                "embed.sql.julia",
+                "embed.sql.julia"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9171,10 +9177,10 @@
             "scope": [
                 "name.generic.filter.pug",
                 "namespace.alias.fsharp",
-                "namespace.open.fsharp",
+                "namespace.open.fsharp"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9183,10 +9189,10 @@
                 "new.expr.js.jsx",
                 "new.expr.js",
                 "new.expr.ts",
-                "new.expr.tsx",
+                "new.expr.tsx"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9203,20 +9209,20 @@
                 "switch-statement.expr.js.jsx",
                 "switch-statement.expr.js",
                 "switch-statement.expr.ts",
-                "switch-statement.expr.tsx",
+                "switch-statement.expr.tsx"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
             "name": "tag pug",
             "scope": [
                 "tag.case.control.flow.pug",
-                "tag.inline.pug",
+                "tag.inline.pug"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9224,7 +9230,7 @@
             "scope": [
                 "invalid.character.escape.powershell",
                 "invalid.field.go",
-                "invalid.string.newline",
+                "invalid.string.newline"
             ],
             "settings": {
                 "foreground": "#9B5FC8",
@@ -9385,7 +9391,7 @@
                 "invalid.illegal.wrong-access-type.phpdoc.php",
                 "invalid.illegal.you-forgot-semicolon.objcpp",
                 "invalid.illegal",
-                "invalid.illegal",
+                "invalid.illegal"
             ],
             "settings": {
                 "foreground": "#9B5FC8",
@@ -9395,10 +9401,10 @@
         {
             "name": "invalid illegal uncategorized tag html (razor)",
             "scope": [
-                "invalid.illegal.unrecognized-tag.html",
+                "invalid.illegal.unrecognized-tag.html"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9410,10 +9416,10 @@
                 "invalid.illegal.bad-angle-bracket.html",
                 "invalid.illegal.bad-comments-or-CDATA.html",
                 "invalid.illegal.bad-comments-or-CDATA.xml",
-                "invalid.illegal.bad-identifier.css",
+                "invalid.illegal.bad-identifier.css"
             ],
             "settings": {
-                "foreground": "#9B5FC8",
+                "foreground": "#9B5FC8"
             }
         },
         {
@@ -9504,12 +9510,12 @@
                 "invalid.deprecated.semicolon.python",
                 "invalid.deprecated.tba.support.constant.c",
                 "invalid.deprecated.tba.support.function.c",
-                "invalid.deprecated.tba.support.variable.c",
+                "invalid.deprecated.tba.support.variable.c"
             ],
             "settings": {
                 "foreground": "#9B5FC8",
                 "fontStyle": "italic bold"
             }
-        },
-    ],
+        }
+    ]
 }

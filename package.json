@@ -50,5 +50,8 @@
   "scripts": {
     "prepack": "vsce package",
     "publish": "vsce publish"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.6.0"
   }
 }
