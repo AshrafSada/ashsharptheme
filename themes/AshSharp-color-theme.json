@@ -504,10 +504,10 @@
                 "source.c.platform",
                 "source.c",
                 "source.clojure",
+                "source.cmake",
                 "source.coffee.embedded.source",
                 "source.coffee",
                 "source.coffeescript.filter.pug",
-                "source.cmake",
                 "source.cpp.embedded.latex",
                 "source.cpp.embedded.macro",
                 "source.cpp",
@@ -559,6 +559,7 @@
                 "source.php",
                 "source.postscript",
                 "source.powershell",
+                "source.proto",
                 "source.python",
                 "source.r",
                 "source.regexp.python",
@@ -582,7 +583,7 @@
                 "source.yaml"
             ],
             "settings": {
-                "foreground": "#c1bfc0"
+                "foreground": "#a7a1a4"
             }
         },
         {
@@ -591,6 +592,7 @@
                 "keyword.cmake",
                 "keyword.control",
                 "keyword.operator",
+                "keyword.other.proto",
                 "keyword.other",
                 "keyword"
             ],
@@ -2553,6 +2555,7 @@
                 "storage.type.property.js",
                 "storage.type.property.ts",
                 "storage.type.property.tsx",
+                "storage.type.proto",
                 "storage.type.r",
                 "storage.type.return-type.lambda.cpp",
                 "storage.type.return-type.lambda.cuda-cpp",
@@ -2582,7 +2585,7 @@
                 "storage.type.user-defined.objcpp"
             ],
             "settings": {
-                "foreground": "#c678dd"
+                "foreground": "#a54dc0"
             }
         },
         {
@@ -2598,7 +2601,7 @@
                 "storage.type.primitive.objcpp"
             ],
             "settings": {
-                "foreground": "#c678dd"
+                "foreground": "#b86acf"
             }
         },
         {
@@ -2609,7 +2612,7 @@
                 "storage.type.variable.ruby"
             ],
             "settings": {
-                "foreground": "#c678dd"
+                "foreground": "#a957c2"
             }
         },
         {
@@ -3266,6 +3269,7 @@
                 "constant.numeric.preprocessor.c",
                 "constant.numeric.preprocessor.objc",
                 "constant.numeric.preprocessor.objcpp",
+                "constant.numeric.proto",
                 "constant.numeric.python",
                 "constant.numeric.ratio.clojure",
                 "constant.numeric.ruby",
@@ -3510,10 +3514,10 @@
                 "variable.other.enummember.tsx",
                 "variable.other.for.cpp",
                 "variable.other.for.shell",
+                "variable.other.global.c",
+                "variable.other.global.cpp",
                 "variable.other.global.php",
                 "variable.other.global.safer.php",
-                "variable.other.global.cpp",
-                "variable.other.global.c",
                 "variable.other.go",
                 "variable.other.group-name.regexp",
                 "variable.other.identifier.perl.6",
@@ -3525,6 +3529,7 @@
                 "variable.other.latex3.latex",
                 "variable.other.link.underline.jsdoc",
                 "variable.other.link.underline.sassdoc",
+                "variable.other.local.cpp",
                 "variable.other.loop.shell",
                 "variable.other.lua",
                 "variable.other.macro.argument.cpp",
@@ -3546,16 +3551,17 @@
                 "variable.other.pod.perl",
                 "variable.other.predefined.perl",
                 "variable.other.predefined.program-name.perl",
+                "variable.other.property.c",
                 "variable.other.property.coffee",
                 "variable.other.property.cpp",
                 "variable.other.property.cuda-cpp",
-                "variable.other.property.c",
                 "variable.other.property.go",
                 "variable.other.property.js.jsx",
                 "variable.other.property.js",
                 "variable.other.property.php",
                 "variable.other.property.ts",
                 "variable.other.property.tsx",
+                "variable.other.proto",
                 "variable.other.pug.each-var",
                 "variable.other.razor.directive.sectionName",
                 "variable.other.regexp.last-paren-match.perl",
@@ -3581,8 +3587,7 @@
                 "variable.other.unknown.$49.cpp",
                 "variable.other.unknown.$5.cpp",
                 "variable.other.unknown.$8.cpp",
-                "variable.other.value.cs",
-                "variable.other.local.cpp"
+                "variable.other.value.cs"
             ],
             "settings": {
                 "foreground": "#c4ae09"
@@ -4084,10 +4089,11 @@
                 "entity.name.tag.xml.html",
                 "entity.name.tag.xml",
                 "entity.name.tag.yaml",
+                "entity.name.tag.svelte",
                 "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#6d9bc3"
+                "foreground": "#B1587F"
             }
         },
         {
@@ -4342,6 +4348,7 @@
                 "entity.other.attribute-name.pseudo-element.less",
                 "entity.other.attribute-name.scss",
                 "entity.other.attribute-name.shell",
+                "entity.other.attribute-name.svelte",
                 "entity.other.attribute-name.tag.pug",
                 "entity.other.attribute-name.tsx",
                 "entity.other.attribute-name.xml",
@@ -4350,9 +4357,9 @@
                 "entity.other.attribute-value",
                 "entity.other.attribute.$0.cpp",
                 "entity.other.attribute.$0.cuda-cpp",
-                "entity.other.attribute.lua",
+                "entity.other.attribute.device.cpp",
                 "entity.other.attribute.enable_if.cpp",
-                "entity.other.attribute.device.cpp"
+                "entity.other.attribute.lua"
             ],
             "settings": {
                 "foreground": "#0B9EC2"
@@ -4363,6 +4370,7 @@
             "scope": [
                 "entity.global.clojure",
                 "entity.name.class.lua",
+                "entity.name.class.message.proto",
                 "entity.name.command.shell",
                 "entity.name.constant.counter-name.less",
                 "entity.name.constant.less",
@@ -4521,10 +4529,12 @@
                 "support.class.component.js.jsx",
                 "support.class.component.js",
                 "support.class.component.ts",
-                "support.class.component.tsx"
+                "support.class.component.tsx",
+                "support.class.component.svelte"
             ],
             "settings": {
-                "foreground": "#349F9F"
+                "foreground": "#2E8F8F",
+                "fontStyle": "bold"
             }
         },
         {
@@ -4935,6 +4945,7 @@
                 "support.other.namespace.php",
                 "support.other.parenthesis.regexp",
                 "support.other.php",
+                "support.other.proto",
                 "support.other.protocol.objc",
                 "support.other.protocol.objcpp",
                 "support.other.variable.less"
@@ -5207,7 +5218,6 @@
                 "string.quoted.docstring.raw.single.python",
                 "string.quoted.docstring.single.python",
                 "string.quoted.double.asp",
-                "string.quoted.double.editorconfig",
                 "string.quoted.double.attribute-value.scss",
                 "string.quoted.double.batchfile",
                 "string.quoted.double.block.raw.swift",
@@ -5222,6 +5232,7 @@
                 "string.quoted.double.dart",
                 "string.quoted.double.dockerfile",
                 "string.quoted.double.doctype.identifiers-and-DTDs.html",
+                "string.quoted.double.editorconfig",
                 "string.quoted.double.fsharp",
                 "string.quoted.double.go",
                 "string.quoted.double.groovy",
@@ -5256,6 +5267,7 @@
                 "string.quoted.double.perl",
                 "string.quoted.double.php",
                 "string.quoted.double.powershell",
+                "string.quoted.double.proto",
                 "string.quoted.double.r",
                 "string.quoted.double.raw.$2",
                 "string.quoted.double.raw.cpp",
@@ -5428,13 +5440,13 @@
                 "string.template.js",
                 "string.template.ts",
                 "string.template.tsx",
-                "string.unquoted.cmake",
                 "string.unquoted.argument.shell",
                 "string.unquoted.attribute-value.css",
                 "string.unquoted.attribute-value.scss",
                 "string.unquoted.batchfile",
                 "string.unquoted.cdata.cs",
                 "string.unquoted.cdata.xml",
+                "string.unquoted.cmake",
                 "string.unquoted.cpp",
                 "string.unquoted.cuda-cpp",
                 "string.unquoted.directive-name.yaml",
