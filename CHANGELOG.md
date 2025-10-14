@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.2.3 | 2025-10-14
+
+### Updated
+
+- Updated html entity color
+- Updated variabl object property color
+
 ## 0.2.2 | 2025-10-05
 
 ### Added or Updated
