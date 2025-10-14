@@ -2900,7 +2900,7 @@
                 "constant.character.entity"
             ],
             "settings": {
-                "foreground": "#3DC89B",
+                "foreground": "#E8AD62",
                 "fontStyle": "italic"
             }
         },
@@ -3475,7 +3475,8 @@
                 "variable.object.property.tsx"
             ],
             "settings": {
-                "foreground": "#B783BE"
+                "foreground": "#838f9e",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -3664,11 +3665,10 @@
                 "variable.other.constant.property.tsx",
                 "variable.other.constant.ruby",
                 "variable.other.constant.ts",
-                "variable.other.constant.tsx ",
-                "variable.other.constant.tsx"
+                "variable.other.constant.tsx "
             ],
             "settings": {
-                "foreground": "#B783BE"
+                "foreground": "#2685bd"
             }
         },
         {
@@ -3907,7 +3907,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#75a3ff"
+                "foreground": "#6e9bf5"
             }
         },
         {
@@ -6282,7 +6282,7 @@
                 "punctuation.definition.entity.xml"
             ],
             "settings": {
-                "foreground": "#3DC89B",
+                "foreground": "#E8AD62",
                 "fontStyle": "italic"
             }
         },
