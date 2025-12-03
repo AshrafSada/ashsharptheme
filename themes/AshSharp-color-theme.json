@@ -129,6 +129,7 @@
         "editor.foldBackground": "#12081655",
         "editor.foldPlaceholderForeground": "#C0C0C0",
         "editor.foreground": "#C0C0C0",
+        "editorHoverWidget.highlightForeground": "#2aaaff",
         "editor.hoverHighlightBackground": "#9a4c924D",
         "editor.inactiveSelectionBackground": "#2E283600",
         "editor.inlineValuesBackground": "#726a6a",
@@ -162,7 +163,7 @@
         "editorActionList.foreground": "#C0C0C0",
         "editorBracketMatch.background": "#2b3c50",
         "editorBracketMatch.border": "#120816",
-        "editorCodeLens.foreground": "#12081600",
+        "editorCodeLens.foreground": "#94989b",
         "editorCommentsWidget.rangeActiveBackground": "#9a4c924D",
         "editorCursor.background": "#120816",
         "editorCursor.foreground": "#f3f3f3",
@@ -337,7 +338,7 @@
         "panelTitle.inactiveForeground": "#C0C0C0",
         "panelTitleBadge.background": "#9a4c92",
         "panelTitleBadge.foreground": "#FDFDFD",
-        "peekView.border": "#9a4c924D",
+        "peekView.border": "#9a4c929d",
         "peekViewEditor.background": "#1D0028FF",
         "peekViewEditor.matchHighlightBackground": "#120816",
         "peekViewEditor.matchHighlightBorder": "#120816",
@@ -492,7 +493,7 @@
         "widget.border": "#322D48A1",
         "widget.shadow": "#221A2C",
         "window.activeBorder": "#9a4c924D",
-        "window.inactiveBorder": "#120816"
+        "window.inactiveBorder": "#921453"
     },
     "tokenColors": [
         {

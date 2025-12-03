@@ -18,3 +18,4 @@
 - Updated UI colors
 - Updated syntax colors
 - Added support for proto gRPC
+- Updated color for code lens
