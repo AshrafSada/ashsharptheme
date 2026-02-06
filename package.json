@@ -2,7 +2,7 @@
   "name": "ash-sharp-vs-theme",
   "displayName": "Ash Sharp Theme",
   "description": "Visual Studio Code theme designed to enhance code syntax of various supported programming languages.",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "license": "Apache-2.0",
   "icon": "icon.png",
   "author": {
@@ -12,7 +12,7 @@
   },
   "publisher": "AshrafSada",
   "engines": {
-    "vscode": "^1.104.3"
+    "vscode": "^1.109.0"
   },
   "categories": [
     "Themes",
@@ -52,6 +52,6 @@
     "publish": "vsce publish"
   },
   "dependencies": {
-    "@vscode/vsce": "^3.6.0"
+    "@vscode/vsce": "^3.7.1"
   }
 }
