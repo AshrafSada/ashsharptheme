@@ -1505,10 +1505,11 @@
                 "keyword.operator.assignment.shell",
                 "keyword.operator.assignment.swift",
                 "keyword.operator.assignment.ts",
-                "keyword.operator.assignment.tsx"
+                "keyword.operator.assignment.tsx",
+                "keyword.operator.assignment.dotenv"
             ],
             "settings": {
-                "foreground": "#bfc0c0"
+                "foreground": "#b2b3b3"
             }
         },
         {
@@ -9529,6 +9530,26 @@
             "settings": {
                 "foreground": "#9B5FC8",
                 "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "DotEnv Environment property value",
+            "scope": [
+                "property.value.dotenv"
+            ],
+            "settings": {
+                "foreground": "#689492",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "DotEnv Environment variable key",
+            "scope": [
+                "variable.key.dotenv"
+            ],
+            "settings": {
+                "foreground": "#1394b4",
+                "fontStyle": "bold"
             }
         }
     ]
