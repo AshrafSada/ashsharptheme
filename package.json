@@ -7,10 +7,10 @@
   "icon": "icon.png",
   "author": {
     "email": "ashraf.sada@outlook.com",
-    "name": "Ashraf Sada",
+    "name": "Ashraf-Sada",
     "url": "https://github.com/AshrafSada/"
   },
-  "publisher": "Ashraf Sada",
+  "publisher": "AshrafSada",
   "engines": {
     "vscode": "^1.105.0"
   },
