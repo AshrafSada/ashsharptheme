@@ -3533,7 +3533,6 @@
                 "variable.other.latex3.latex",
                 "variable.other.link.underline.jsdoc",
                 "variable.other.link.underline.sassdoc",
-                "variable.other.local.cpp",
                 "variable.other.loop.shell",
                 "variable.other.lua",
                 "variable.other.macro.argument.cpp",
@@ -3547,14 +3546,6 @@
                 "variable.other.metavariable.name.rust",
                 "variable.other.metavariable.specifier.rust",
                 "variable.other.normal.json.comments.snippets",
-                "variable.other.normal.shell",
-                "variable.other.objc",
-                "variable.other.objcpp",
-                "variable.other.perl",
-                "variable.other.php",
-                "variable.other.pod.perl",
-                "variable.other.predefined.perl",
-                "variable.other.predefined.program-name.perl",
                 "variable.other.property.c",
                 "variable.other.property.coffee",
                 "variable.other.property.cpp",
@@ -3600,6 +3591,10 @@
         {
             "name": "variable other object instance",
             "scope": [
+                "variable.other.local.cpp",
+                "variable.other.normal.shell",
+                "variable.other.objc",
+                "variable.other.objcpp",
                 "variable.other.object.access.$4.cpp",
                 "variable.other.object.access.$5.cpp",
                 "variable.other.object.access.$6.cpp",
@@ -3623,7 +3618,12 @@
                 "variable.other.object.objcpp",
                 "variable.other.object.ts",
                 "variable.other.object.tsx",
-                "variable.other.object"
+                "variable.other.object",
+                "variable.other.perl",
+                "variable.other.php",
+                "variable.other.pod.perl",
+                "variable.other.predefined.perl",
+                "variable.other.predefined.program-name.perl"
             ],
             "settings": {
                 "foreground": "#2196b6"
@@ -4125,7 +4125,8 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#84a59d"
+                "foreground": "#809892",
+                "fontStyle": "bold"
             }
         },
         {
@@ -4135,7 +4136,7 @@
                 "entity.name.type.constructor.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d"
+                "foreground": "#679d90"
             }
         },
         {
@@ -4145,7 +4146,7 @@
                 "entity.name.type.destructor.cuda-cpp"
             ],
             "settings": {
-                "foreground": "#84a59d"
+                "foreground": "#64ae9c"
             }
         },
         {
@@ -4156,7 +4157,7 @@
                 "entity.name.type.entry-key.bibtex"
             ],
             "settings": {
-                "foreground": "#84a59d"
+                "foreground": "#7abaaa"
             }
         },
         {

@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.2.7 | 2026-05-26
+
+### Updated
+
+- CPP entity color outlined
+- Updated VS Code compatibilty version
+
 ## 0.2.3 | 2025-10-14
 
 ### Updated
