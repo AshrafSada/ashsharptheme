@@ -1,28 +1,10 @@
 # Change Log
 
-## 0.2.7 | 2026-05-26
-
-### Updated
-
-- CPP entity color outlined
-- Updated VS Code compatibilty version
-
-## 0.2.3 | 2025-10-14
-
-### Updated
-
-- Updated html entity color
-- Updated variabl object property color
-
-## 0.2.2 | 2025-10-05
+## 0.2.8 | 2026-05-30
 
 ### Added or Updated
 
-- Updated release of Ash Sharp Theme
-- Complete rewrite of the theme
-- Added support for all vs code supported programming languages
-- Added support for all vs code supported file types based on TextMate grammars
-- Updated UI colors
-- Updated syntax colors
-- Added support for proto gRPC
-- Updated color for code lens
+- Rust namespace color
+- Rust keyword color
+- CPP entity color outlined
+- Updated VS Code compatibilty version
