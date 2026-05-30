@@ -1466,7 +1466,7 @@
                 "keyword.operator.arithmetic.colon.reg"
             ],
             "settings": {
-                "foreground": "#3b91f4"
+                "foreground": "#1CB5DE"
             }
         },
         {
@@ -1995,7 +1995,7 @@
                 "keyword.other.var.cs"
             ],
             "settings": {
-                "foreground": "#80b384"
+                "foreground": "#AE5E75"
             }
         },
         {
@@ -3910,7 +3910,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#6e9bf5"
+                "foreground": "#3982CE"
             }
         },
         {
@@ -3927,7 +3927,7 @@
                 "entity.name.label.tsx"
             ],
             "settings": {
-                "foreground": "#84a59d"
+                "foreground": "#09A568"
             }
         },
         {
@@ -3944,7 +3944,7 @@
                 "entity.name.namespace.wildcard.less"
             ],
             "settings": {
-                "foreground": "#84a59d"
+                "foreground": "#999D7A"
             }
         },
         {
@@ -7953,7 +7953,7 @@
                 "meta.import.tsx"
             ],
             "settings": {
-                "foreground": "#8687BF"
+                "foreground": "#959BB4"
             }
         },
         {
